@@ -1,0 +1,20 @@
+[INFO] [1775520089.906276292] [exp3_slam_mapping]: Experiment 3 — SLAM Mapping starting ...
+[DataLogger] Writing to /home/jetson/formica_experiments/data/exp3_slam_20260407_000130.csv
+[INFO] [1775520093.965254653] [exp3_slam_mapping]: EXP3_FORCE_CMDVEL_AUTONOMY=1 detected; using /cmd_vel autonomy mode.
+[INFO] [1775520093.970989614] [exp3_slam_mapping]: 
+--- Trial 1/10 ---
+[INFO] [1775520093.973043298] [exp3_slam_mapping]: Reset robot to (0,0) and reset map if required, then press ENTER in this terminal to start trial.
+[INFO] [1775520095.975222051] [exp3_slam_mapping]:   Mapping … coverage 0.0% (target 100.0%), elapsed 0s / 900s
+[INFO] [1775520114.067871875] [exp3_slam_mapping]:   Mapping … coverage 0.0% (target 100.0%), elapsed 18s / 900s
+[INFO] [1775520132.148336914] [exp3_slam_mapping]:   Mapping … coverage 0.0% (target 100.0%), elapsed 36s / 900s
+[INFO] [1775520150.269640698] [exp3_slam_mapping]:   Mapping … coverage 0.0% (target 100.0%), elapsed 54s / 900s
+[INFO] [1775520168.345762950] [exp3_slam_mapping]:   Mapping … coverage 0.0% (target 100.0%), elapsed 72s / 900s
+[INFO] [1775520186.383133576] [exp3_slam_mapping]:   Mapping … coverage 0.0% (target 100.0%), elapsed 90s / 900s
+[INFO] [1775520204.477716320] [exp3_slam_mapping]:   Mapping … coverage 0.0% (target 100.0%), elapsed 109s / 900s
+[INFO] [1775520222.614925128] [exp3_slam_mapping]:   Mapping … coverage 0.0% (target 100.0%), elapsed 127s / 900s
+[INFO] [1775520240.681400990] [exp3_slam_mapping]:   Mapping … coverage 0.0% (target 100.0%), elapsed 145s / 900s
+[INFO] [1775520258.791630259] [exp3_slam_mapping]:   Mapping … coverage 0.0% (target 100.0%), elapsed 163s / 900s
+[INFO] [1775520276.954541264] [exp3_slam_mapping]:   Mapping … coverage 0.0% (target 100.0%), elapsed 181s / 900s
+[INFO] [1775520295.068452252] [exp3_slam_mapping]:   Mapping … coverage 0.0% (target 100.0%), elapsed 199s / 900s
+[INFO] [1775520313.100971668] [exp3_slam_mapping]:   Mapping … coverage 0.0% (target 100.0%), elapsed 217s / 900s
+[INFO] [1775520331.211061056] [exp3_slam_mapping]:   Mapping … coverage 0.0% (target 100.0%), elapsed 235s / 900s
