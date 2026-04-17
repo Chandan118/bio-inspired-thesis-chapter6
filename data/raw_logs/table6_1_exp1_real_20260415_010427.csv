@@ -1,0 +1,7 @@
+metric,value,unit,target,pass_fail,notes
+LiDAR_RMSE,,m,<= 0.02,DATA_MISSING,Robot not placed at wall; all 4 distances returned 0.728 m (L3 run). Re-run with robot correctly positioned.
+IMU_Drift,0.014119,deg/min,<= 0.5,PASS,"bias_rad_s=-4.11e-06, 1000 samples, run 20260409_075758"
+Odom_Mean_Error,5.602,%,<= 2.0,FAIL,"20 trials combined, wheel circumference needs recalibration"
+Odom_SD,0.1929,%,report only,N/A,pooled SD of all 20 odom trials
+RGBD_Reprojection,,px,<= 0.5,DATA_MISSING,Azure Kinect camera not connected. Re-run ros2 run camera_calibration with /rgb/image_raw active.
+TCRT5000_SNR,,dB,>= 6.0,DATA_MISSING,LED strip not powered on; sensor returned 0. Power on 620nm LED strip and re-run Task 6.
