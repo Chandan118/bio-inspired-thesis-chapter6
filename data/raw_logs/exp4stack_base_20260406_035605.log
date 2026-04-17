@@ -1,0 +1,22 @@
+[INFO] [1775418972.596887020] [arduino_base_controller]: Connected to Arduino on /dev/ttyCH341USB0
+[INFO] [1775418972.621518371] [arduino_base_controller]: Arduino Base Controller started.
+[INFO] [1775418987.561176717] [arduino_base_controller]: RAW SERIAL FROM ARDUINO: "s,52,124,0,181"
+[INFO] [1775418988.634617896] [arduino_base_controller]: RAW SERIAL FROM ARDUINO: "s,52,124,0,180"
+[INFO] [1775418988.736811724] [arduino_base_controller]: RAW SERIAL FROM ARDUINO: "s,52,123,0,180"
+[INFO] [1775418988.831552586] [arduino_base_controller]: RAW SERIAL FROM ARDUINO: "s,52,124,0,180"
+[INFO] [1775419025.242795154] [arduino_base_controller]: RAW SERIAL FROM ARDUINO: "s,53,124,0,181"
+[INFO] [1775419025.345415170] [arduino_base_controller]: RAW SERIAL FROM ARDUINO: "s,53,124,0,181"
+[INFO] [1775419025.447437573] [arduino_base_controller]: RAW SERIAL FROM ARDUINO: "s,53,124,0,181"
+[INFO] [1775419025.642199180] [arduino_base_controller]: RAW SERIAL FROM ARDUINO: "s,53,124,0,181"
+[INFO] [1775419025.741681018] [arduino_base_controller]: RAW SERIAL FROM ARDUINO: "s,53,124,0,180"
+[INFO] [1775419026.537588605] [arduino_base_controller]: RAW SERIAL FROM ARDUINO: "s,53,124,0,181"
+[WARN] [1775419096.852828719] [arduino_base_controller]: Parse error on line ",,2,,8s,54,125,0,400": could not convert string to float: ''
+[WARN] [1775419106.159438588] [arduino_base_controller]: Parse error on line "s,54,12,0,8s,54,124,0,400": could not convert string to float: '8\rs'
+[WARN] [1775419112.261643224] [arduino_base_controller]: Parse error on line ",,4011": could not convert string to float: ''
+[WARN] [1775419217.953609654] [arduino_base_controller]: Parse error on line "s,s,54,125,0,180": could not convert string to float: 's'
+[WARN] [1775419220.154042103] [arduino_base_controller]: Parse error on line "2,8s,54,125,0,400": could not convert string to float: '8\rs'
+[WARN] [1775419253.352792221] [arduino_base_controller]: Parse error on line "s,418s,54,124,0,400": could not convert string to float: '418\rs'
+[WARN] [1775419285.958501131] [arduino_base_controller]: Parse error on line "s,56,125,0,1s,56,125,0,180": could not convert string to float: '1s'
+[WARN] [1775419297.749500971] [arduino_base_controller]: Parse error on line "s,56s,56,125,0,400": could not convert string to float: '56s'
+[WARN] [1775419327.965090983] [arduino_base_controller]: Parse error on line "s,53,124,0,s,53,125,0,400": could not convert string to float: 's'
+[WARN] [1775419373.761264843] [arduino_base_controller]: Parse error on line "s,53,1s,53,125,0,180": could not convert string to float: '1s'
