@@ -1,0 +1,6 @@
+[WARN] [1775420115.045597354] []: Old-style arguments are deprecated; see --help for new-style arguments
+[INFO] [1775420115.343399046] [static_transform_publisher_ep09Rvcq1vzyuA9r]: Spinning until stopped - publishing transform
+translation: ('0.000000', '0.000000', '0.000000')
+rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+from 'base_footprint' to 'laser'
+[INFO] [1775420614.976556600] [rclcpp]: signal_handler(SIGINT/SIGTERM)
