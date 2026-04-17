@@ -1,0 +1,35 @@
+[INFO] [1775413918.369533897] [exp4_maze_navigation]: Experiment 4 — Maze Navigation starting ...
+[INFO] [1775413918.370612827] [exp4_maze_navigation]:   S=(0.0, 0.0)  T=(2.525, 3.035)  Euclidean=3.95 m  MaxPath=5.92 m
+[INFO] [1775413921.468822987] [exp4_maze_navigation]: 
+--- Trial 1/2 ---
+[INFO] [1775413921.470640266] [exp4_maze_navigation]: Return robot to S=(0.0, 0.0) and verify AMCL localisation. Auto-starting trial in 3 seconds ...
+[INFO] [1775413950.371129400] [exp4_maze_navigation]:   FAIL  Path=0.90 m  Time=25.9 s  Replans=1  Failure=nav2_status_6  Running efficiency=0.0 %
+[INFO] [1775413950.372999642] [exp4_maze_navigation]: 
+--- Trial 2/2 ---
+[INFO] [1775413950.374968317] [exp4_maze_navigation]: Return robot to S=(0.0, 0.0) and verify AMCL localisation. Auto-starting trial in 3 seconds ...
+[INFO] [1775413978.366399740] [exp4_maze_navigation]:   FAIL  Path=0.84 m  Time=25.0 s  Replans=0  Failure=nav2_status_6  Running efficiency=0.0 %
+[DataLogger] Writing to /home/jetson/formica_experiments/data/exp4_maze_20260405_183158.csv
+
+============================================================
+  Experiment 4 — Final Navigation Efficiency
+============================================================
+  Trials: 2  Successes: 0
+  Efficiency: 0.0 %  (target ≥ 89.0 %)  FAIL
+============================================================
+
+
+============================================================
+  EXPERIMENT SUMMARY — EXP 4 — Maze Navigation
+============================================================
+  Trial    Metric                         Value        Unit
+------------------------------------------------------------
+  1        path_length                    0.8974       m
+  1        time_to_target                 25.8954      s
+  1        replan_events                  1.0000       
+  2        path_length                    0.8423       m
+  2        time_to_target                 24.9857      s
+  2        replan_events                  0.0000       
+  0        Final efficiency               0.0000       %
+============================================================
+
+[DataLogger] Closed /home/jetson/formica_experiments/data/exp4_maze_20260405_183158.csv
