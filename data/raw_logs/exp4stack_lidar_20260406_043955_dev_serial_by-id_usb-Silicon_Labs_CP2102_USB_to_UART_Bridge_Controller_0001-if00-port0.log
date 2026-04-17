@@ -1,0 +1,14 @@
+nohup: ignoring input
+[INFO] [launch]: All log files can be found below /home/jetson/.ros/log/2026-04-06-04-40-06-255491-chandan-30052
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [rplidar_node-1]: process started with pid [30055]
+[rplidar_node-1] [INFO] [1775421606.396837711] [rplidar_node]: RPLidar running on ROS2 package rplidar_ros. RPLIDAR SDK Version:2.1.0
+[rplidar_node-1] [INFO] [1775421606.413258391] [rplidar_node]: RPLidar S/N: B18EECF0C3E09ED2A0EA98F322564110
+[rplidar_node-1] [INFO] [1775421606.413342168] [rplidar_node]: Firmware Ver: 1.29
+[rplidar_node-1] [INFO] [1775421606.413363929] [rplidar_node]: Hardware Rev: 7
+[rplidar_node-1] [INFO] [1775421606.414759954] [rplidar_node]: RPLidar health status : 0
+[rplidar_node-1] [INFO] [1775421606.414782450] [rplidar_node]: RPLidar health status : OK.
+[rplidar_node-1] [INFO] [1775421606.418566455] [rplidar_node]: Start
+[rplidar_node-1] [INFO] [1775421606.658449276] [rplidar_node]: current scan mode: Sensitivity, sample rate: 8 Khz, max_distance: 12.0 m, scan frequency:10.0 Hz, 
+[rplidar_node-1] [INFO] [1775421910.742899230] [rplidar_node]: Stop motor
+[INFO] [rplidar_node-1]: process has finished cleanly [pid 30055]
