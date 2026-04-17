@@ -1,0 +1,28 @@
+[INFO] [1775419752.039552159] [exp4_maze_navigation]: Experiment 4 — Maze Navigation starting ...
+[INFO] [1775419752.044284735] [exp4_maze_navigation]:   S=(0.0, 0.0)  T=(2.525, 3.035)  Euclidean=3.95 m  MaxPath=5.92 m
+[DataLogger] Writing to /home/jetson/formica_experiments/data/exp4_maze_20260405_200912.csv
+[INFO] [1775419755.150320806] [exp4_maze_navigation]: 
+--- Trial 1/1 ---
+[INFO] [1775419755.151744572] [exp4_maze_navigation]: Return robot to S=(0.0, 0.0) and verify AMCL localisation. Auto-starting trial in 3 seconds ...
+[INFO] [1775419938.165361778] [exp4_maze_navigation]:   FAIL  Path=2.60 m  Time=180.0 s  Replans=157  Failure=timeout  Running efficiency=0.0 %
+
+============================================================
+  Experiment 4 — Final Navigation Efficiency
+============================================================
+  Trials: 1  Successes: 0
+  Efficiency: 0.0 %  (target ≥ 89.0 %)  FAIL
+============================================================
+
+
+============================================================
+  EXPERIMENT SUMMARY — EXP 4 — Maze Navigation
+============================================================
+  Trial    Metric                         Value        Unit
+------------------------------------------------------------
+  1        path_length                    2.6028       m
+  1        time_to_target                 180.0094     s
+  1        replan_events                  157.0000     
+  0        Final efficiency               0.0000       %
+============================================================
+
+[DataLogger] Closed /home/jetson/formica_experiments/data/exp4_maze_20260405_200912.csv
