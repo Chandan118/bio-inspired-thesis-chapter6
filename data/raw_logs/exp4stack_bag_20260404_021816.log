@@ -1,0 +1,14 @@
+stdin is not a terminal device. Keyboard handling disabled.[INFO] [1775240355.631510576] [rosbag2_recorder]: Press SPACE for pausing/resuming
+[INFO] [1775240355.687545739] [rosbag2_storage]: Opened database '/home/jetson/exp1_logs/rosbag_exp4_20260404_021816/rosbag_exp4_20260404_021816_0.db3' for READ_WRITE.
+[INFO] [1775240355.716001346] [rosbag2_recorder]: Listening for topics...
+[INFO] [1775240355.723330228] [rosbag2_recorder]: Event publisher thread: Starting
+[INFO] [1775240355.771085290] [rosbag2_recorder]: Subscribed to topic '/scan'
+[INFO] [1775240355.810397465] [rosbag2_recorder]: Subscribed to topic '/odom'
+[INFO] [1775240355.835950325] [rosbag2_recorder]: Subscribed to topic '/cmd_vel'
+[INFO] [1775240355.837714168] [rosbag2_recorder]: Recording...
+[INFO] [1775240377.559139211] [rosbag2_recorder]: Subscribed to topic '/amcl_pose'
+[INFO] [1775240394.655722081] [rosbag2_recorder]: Subscribed to topic '/plan'
+[INFO] [1775240394.656057736] [rosbag2_recorder]: All requested topics are subscribed. Stopping discovery...
+[INFO] [1775240719.276095939] [rosbag2_cpp]: Writing remaining messages from cache to the bag. It may take a while
+[INFO] [1775240719.281684624] [rosbag2_recorder]: Event publisher thread: Exiting
+[INFO] [1775240719.282455679] [rosbag2_recorder]: Recording stopped
