@@ -1,0 +1,18 @@
+# Aliengo Gait Parameters - Bio-Inspired Thesis Chapter 6
+gait_cycle_period: 0.8
+duty_factor: 0.75
+step_height: 0.08
+step_length: 0.12
+joint_limits:
+  hip: {min: -180, max: 180}
+  thigh: {min: -120, max: 120}
+  calf: {min: -150, max: -5}
+gait_types:
+  walk: {duty_factor: 0.75, phase_offset: [0, 0.5, 0.5, 0]}
+  trot: {duty_factor: 0.5, phase_offset: [0, 0.5, 0.5, 0]}
+  pace: {duty_factor: 0.5, phase_offset: [0, 0, 0.5, 0.5]}
+  bound: {duty_factor: 0.4, phase_offset: [0, 0, 0.5, 0.5]}
+performance:
+  max_speed: 0.8
+  max_inclination: 30
+  energy_consumption: 150

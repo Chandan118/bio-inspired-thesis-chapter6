@@ -1,0 +1,11 @@
+trial_id,gait_type,speed_mps,energy_wh,distance_m,time_s,success,notes
+ALI-001,walk,0.3,12.5,10.0,33.3,1,Stable walking
+ALI-002,trot,0.5,18.2,10.0,20.0,1,Fast trot
+ALI-003,pace,0.45,16.8,10.0,22.2,1,Laterally coupled
+ALI-004,bound,0.6,22.5,10.0,16.7,1,Dynamic bounding
+ALI-005,walk,0.25,10.5,5.0,20.0,1,Low speed test
+ALI-006,trot,0.55,20.1,15.0,27.3,1,Extended trot
+ALI-007,walk,0.35,14.0,8.0,22.9,1,Medium speed
+ALI-008,trot,0.4,15.5,12.0,30.0,1,Controlled trot
+ALI-009,bound,0.65,25.0,10.0,15.4,0,Fall recovery
+ALI-010,pace,0.5,19.0,10.0,20.0,1,Efficient pace
