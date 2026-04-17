@@ -1,0 +1,11 @@
+trial,ambient_pct,switchover_latency_s,continued_following_or_trail_any,log_file
+1,0.0,,False,exp7_pheromone_20260406_222157.csv
+1,0.0,0.0011,True,exp7_pheromone_20260406_222627.csv
+1,0.0,0.0037,True,exp7_pheromone_20260406_224037.csv
+1,0.0,0.0057,True,exp7_pheromone_20260406_224600.csv
+1,0.0,0.0036,True,exp7_pheromone_20260406_225056.csv
+1,0.0,0.0037,True,exp7_pheromone_20260406_225524.csv
+1,0.0,0.0039,True,exp7_pheromone_20260406_230200.csv
+1,0.0,0.0052,True,exp7_pheromone_20260406_230556.csv
+1,0.0,0.0029,True,exp7_pheromone_20260406_232018.csv
+1,0.0,0.0037,True,exp7_pheromone_20260409_001352.csv
