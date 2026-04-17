@@ -1,0 +1,6 @@
+[ERROR] [1775694280.660831181] [arduino_base_controller]: Could not open any Arduino port (tried ['/dev/ttyCH341USB0']). Set param port:=/dev/tty... or env ARDUINO_PORT. Last error: None
+[INFO] [1775694280.717087040] [arduino_base_controller]: Arduino Base Controller started.
+[INFO] [1775694281.586761186] [arduino_base_controller]: >>> Received first cmd_vel! Movement integration active.
+[INFO] [1775694281.587733322] [arduino_base_controller]: >>> Received first cmd_vel! Movement integration active.
+[INFO] [1775694281.588772693] [arduino_base_controller]: >>> Received first cmd_vel! Movement integration active.
+[INFO] [1775694281.589459217] [arduino_base_controller]: >>> Received first cmd_vel! Movement integration active.
