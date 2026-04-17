@@ -1,0 +1,5 @@
+map_size_mb,peak_without_compression_gb,peak_with_compression_gb
+200,4.2,3.6
+400,6.1,4.9
+600,7.8,6.2
+800,9.4,6.8
