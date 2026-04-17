@@ -1,0 +1,2 @@
+jetson_only_success_mean,jetson_loihi_success_mean,success_delta_percent_loihi_vs_jetson_only,jetson_only_collision_mean,jetson_loihi_collision_mean,collision_delta_percent_loihi_vs_jetson_only,jetson_only_ttg_mean_sec,jetson_loihi_ttg_mean_sec,ttg_delta_percent_loihi_vs_jetson_only
+0.5,1.0,100.0,1.0,0.5,-50.0,271.0,242.0,-10.701107
