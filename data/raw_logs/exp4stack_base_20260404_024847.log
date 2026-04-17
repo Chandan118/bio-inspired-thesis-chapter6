@@ -1,0 +1,13 @@
+[INFO] [1775242133.267898314] [arduino_base_controller]: Connected to Arduino on /dev/ttyCH341USB0
+[INFO] [1775242133.294275984] [arduino_base_controller]: Arduino Base Controller started.
+[INFO] [1775242133.398420874] [arduino_base_controller]: RAW SERIAL FROM ARDUINO: "Motor+Sensor Controller Ready"
+[INFO] [1775242133.498366849] [arduino_base_controller]: RAW SERIAL FROM ARDUINO: "FW: mq-analog-v2"
+[INFO] [1775242133.598578591] [arduino_base_controller]: RAW SERIAL FROM ARDUINO: "s,86,125,0,16"
+[INFO] [1775242133.698681178] [arduino_base_controller]: RAW SERIAL FROM ARDUINO: "s,86,125,0,16"
+[INFO] [1775242133.797914016] [arduino_base_controller]: RAW SERIAL FROM ARDUINO: "s,86,125,0,16"
+[INFO] [1775242133.898826126] [arduino_base_controller]: RAW SERIAL FROM ARDUINO: "s,86,125,0,16"
+[INFO] [1775242133.999398324] [arduino_base_controller]: RAW SERIAL FROM ARDUINO: "s,86,125,0,16"
+[INFO] [1775242134.098823071] [arduino_base_controller]: RAW SERIAL FROM ARDUINO: "s,86,125,0,16"
+[INFO] [1775242134.199397733] [arduino_base_controller]: RAW SERIAL FROM ARDUINO: "s,87,125,0,16"
+[INFO] [1775242134.298647212] [arduino_base_controller]: RAW SERIAL FROM ARDUINO: "s,87,125,0,16"
+The following exception was never retrieved: Failed to publish: publisher's context is invalid, at ./src/rcl/publisher.c:389
