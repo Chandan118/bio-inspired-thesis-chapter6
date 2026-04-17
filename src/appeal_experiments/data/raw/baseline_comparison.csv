@@ -1,0 +1,5 @@
+trial_id,task_id,environment,mode,success,collision_count,time_to_goal_sec
+1,T01,indoor,jetson_only,1,0,62
+2,T01,indoor,jetson_loihi,1,0,54
+3,T02,outdoor,jetson_only,0,2,480
+4,T02,outdoor,jetson_loihi,1,1,430
