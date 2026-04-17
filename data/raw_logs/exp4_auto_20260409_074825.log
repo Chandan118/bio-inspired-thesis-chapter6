@@ -1,0 +1,42 @@
+[INFO] [1775692251.975416033] [exp4_maze_navigation]: Experiment 4 — Maze Navigation starting ...
+[INFO] [1775692251.976267674] [exp4_maze_navigation]:   S=(0.0, 0.0)  T=(2.525, 3.035)  Euclidean=3.95 m  MaxPath=5.92 m
+[DataLogger] Writing to /home/jetson/formica_experiments/data/exp4_maze_20260408_235051.csv
+[INFO] [1775692255.004662119] [exp4_maze_navigation]: 
+--- Trial 1/3 ---
+[INFO] [1775692255.005507744] [exp4_maze_navigation]: Return robot to S=(0.0, 0.0) and verify AMCL localisation. Auto-starting trial in 3 seconds ...
+[INFO] [1775692303.850151403] [exp4_maze_navigation]:   FAIL  Path=1.87 m  Time=45.8 s  Replans=1  Failure=nav2_status_6  Running efficiency=0.0 %
+[INFO] [1775692303.851953731] [exp4_maze_navigation]: 
+--- Trial 2/3 ---
+[INFO] [1775692303.853450800] [exp4_maze_navigation]: Return robot to S=(0.0, 0.0) and verify AMCL localisation. Auto-starting trial in 3 seconds ...
+[INFO] [1775692353.517099328] [exp4_maze_navigation]:   FAIL  Path=2.28 m  Time=46.7 s  Replans=1  Failure=nav2_status_6  Running efficiency=0.0 %
+[INFO] [1775692353.518291303] [exp4_maze_navigation]: 
+--- Trial 3/3 ---
+[INFO] [1775692353.519710133] [exp4_maze_navigation]: Return robot to S=(0.0, 0.0) and verify AMCL localisation. Auto-starting trial in 3 seconds ...
+[INFO] [1775692397.181431462] [exp4_maze_navigation]:   FAIL  Path=1.78 m  Time=40.7 s  Replans=3  Failure=nav2_status_6  Running efficiency=0.0 %
+
+============================================================
+  Experiment 4 — Final Navigation Efficiency
+============================================================
+  Trials: 3  Successes: 0
+  Efficiency: 0.0 %  (target ≥ 89.0 %)  FAIL
+============================================================
+
+
+============================================================
+  EXPERIMENT SUMMARY — EXP 4 — Maze Navigation
+============================================================
+  Trial    Metric                         Value        Unit
+------------------------------------------------------------
+  1        path_length                    1.8733       m
+  1        time_to_target                 45.8402      s
+  1        replan_events                  1.0000       
+  2        path_length                    2.2776       m
+  2        time_to_target                 46.6593      s
+  2        replan_events                  1.0000       
+  3        path_length                    1.7849       m
+  3        time_to_target                 40.6576      s
+  3        replan_events                  3.0000       
+  0        Final efficiency               0.0000       %
+============================================================
+
+[DataLogger] Closed /home/jetson/formica_experiments/data/exp4_maze_20260408_235051.csv
