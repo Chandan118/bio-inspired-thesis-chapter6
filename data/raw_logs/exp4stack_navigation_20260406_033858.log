@@ -1,0 +1,583 @@
+[INFO] [launch]: All log files can be found below /home/jetson/.ros/log/2026-04-06-03-40-00-967135-chandan-7005
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [controller_server-1]: process started with pid [7007]
+[INFO] [smoother_server-2]: process started with pid [7009]
+[INFO] [planner_server-3]: process started with pid [7011]
+[INFO] [behavior_server-4]: process started with pid [7013]
+[INFO] [bt_navigator-5]: process started with pid [7015]
+[INFO] [waypoint_follower-6]: process started with pid [7017]
+[INFO] [velocity_smoother-7]: process started with pid [7019]
+[INFO] [lifecycle_manager-8]: process started with pid [7049]
+[waypoint_follower-6] [INFO] [1775418001.576008427] [waypoint_follower]: 
+[waypoint_follower-6] 	waypoint_follower lifecycle node launched. 
+[waypoint_follower-6] 	Waiting on external lifecycle transitions to activate
+[waypoint_follower-6] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[waypoint_follower-6] [INFO] [1775418001.577181519] [waypoint_follower]: Creating
+[lifecycle_manager-8] [INFO] [1775418001.602246175] [lifecycle_manager_navigation]: Creating
+[lifecycle_manager-8] [INFO] [1775418001.670393624] [lifecycle_manager_navigation]: [34m[1mCreating and initializing lifecycle service clients[0m[0m
+[behavior_server-4] [INFO] [1775418001.741358554] [behavior_server]: 
+[behavior_server-4] 	behavior_server lifecycle node launched. 
+[behavior_server-4] 	Waiting on external lifecycle transitions to activate
+[behavior_server-4] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[smoother_server-2] [INFO] [1775418001.818371087] [smoother_server]: 
+[smoother_server-2] 	smoother_server lifecycle node launched. 
+[smoother_server-2] 	Waiting on external lifecycle transitions to activate
+[smoother_server-2] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[smoother_server-2] [INFO] [1775418001.882859068] [smoother_server]: Creating smoother server
+[bt_navigator-5] [INFO] [1775418001.889533713] [bt_navigator]: 
+[bt_navigator-5] 	bt_navigator lifecycle node launched. 
+[bt_navigator-5] 	Waiting on external lifecycle transitions to activate
+[bt_navigator-5] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[bt_navigator-5] [INFO] [1775418001.889881362] [bt_navigator]: Creating
+[planner_server-3] [INFO] [1775418002.088252361] [planner_server]: 
+[planner_server-3] 	planner_server lifecycle node launched. 
+[planner_server-3] 	Waiting on external lifecycle transitions to activate
+[planner_server-3] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[controller_server-1] [INFO] [1775418002.101539444] [controller_server]: 
+[controller_server-1] 	controller_server lifecycle node launched. 
+[controller_server-1] 	Waiting on external lifecycle transitions to activate
+[controller_server-1] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[planner_server-3] [INFO] [1775418002.132515574] [planner_server]: Creating
+[controller_server-1] [INFO] [1775418002.212175923] [controller_server]: Creating controller server
+[velocity_smoother-7] [INFO] [1775418002.248538215] [velocity_smoother]: 
+[velocity_smoother-7] 	velocity_smoother lifecycle node launched. 
+[velocity_smoother-7] 	Waiting on external lifecycle transitions to activate
+[velocity_smoother-7] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[planner_server-3] [INFO] [1775418002.757839931] [global_costmap.global_costmap]: 
+[planner_server-3] 	global_costmap lifecycle node launched. 
+[planner_server-3] 	Waiting on external lifecycle transitions to activate
+[planner_server-3] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[planner_server-3] [INFO] [1775418002.758922175] [global_costmap.global_costmap]: Creating Costmap
+[controller_server-1] [INFO] [1775418002.992594630] [local_costmap.local_costmap]: 
+[controller_server-1] 	local_costmap lifecycle node launched. 
+[controller_server-1] 	Waiting on external lifecycle transitions to activate
+[controller_server-1] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[controller_server-1] [INFO] [1775418002.993931978] [local_costmap.local_costmap]: Creating Costmap
+[lifecycle_manager-8] [INFO] [1775418003.046442065] [lifecycle_manager_navigation]: [34m[1mStarting managed nodes bringup...[0m[0m
+[lifecycle_manager-8] [INFO] [1775418003.046597938] [lifecycle_manager_navigation]: [34m[1mConfiguring controller_server[0m[0m
+[controller_server-1] [INFO] [1775418003.047475541] [controller_server]: Configuring controller interface
+[controller_server-1] [INFO] [1775418003.049134074] [controller_server]: getting goal checker plugins..
+[controller_server-1] [INFO] [1775418003.051052448] [controller_server]: Controller frequency set to 10.0000Hz
+[controller_server-1] [INFO] [1775418003.051202464] [local_costmap.local_costmap]: Configuring
+[controller_server-1] [INFO] [1775418003.073509671] [local_costmap.local_costmap]: Using plugin "obstacle_layer"
+[controller_server-1] [INFO] [1775418003.081155776] [local_costmap.local_costmap]: Subscribed to Topics: scan
+[controller_server-1] [INFO] [1775418003.092490244] [local_costmap.local_costmap]: Initialized plugin "obstacle_layer"
+[controller_server-1] [INFO] [1775418003.092581444] [local_costmap.local_costmap]: Using plugin "inflation_layer"
+[controller_server-1] [INFO] [1775418003.094418346] [local_costmap.local_costmap]: Initialized plugin "inflation_layer"
+[controller_server-1] [INFO] [1775418003.129118744] [controller_server]: Created progress_checker : progress_checker of type nav2_controller::SimpleProgressChecker
+[controller_server-1] [INFO] [1775418003.131418047] [controller_server]: Created goal checker : goal_checker of type nav2_controller::SimpleGoalChecker
+[controller_server-1] [INFO] [1775418003.132759172] [controller_server]: Controller Server has goal_checker  goal checkers available.
+[controller_server-1] [INFO] [1775418003.135912622] [controller_server]: Created controller : FollowPath of type dwb_core::DWBLocalPlanner
+[controller_server-1] [INFO] [1775418003.139896154] [controller_server]: Setting transform_tolerance to 0.200000
+[controller_server-1] [INFO] [1775418003.174988234] [controller_server]: Using critic "RotateToGoal" (dwb_critics::RotateToGoalCritic)
+[controller_server-1] [INFO] [1775418003.178730230] [controller_server]: Critic plugin initialized
+[controller_server-1] [INFO] [1775418003.179456504] [controller_server]: Using critic "Oscillation" (dwb_critics::OscillationCritic)
+[controller_server-1] [INFO] [1775418003.182254785] [controller_server]: Critic plugin initialized
+[controller_server-1] [INFO] [1775418003.183071172] [controller_server]: Using critic "BaseObstacle" (dwb_critics::BaseObstacleCritic)
+[controller_server-1] [INFO] [1775418003.184250120] [controller_server]: Critic plugin initialized
+[controller_server-1] [INFO] [1775418003.184837161] [controller_server]: Using critic "GoalAlign" (dwb_critics::GoalAlignCritic)
+[controller_server-1] [INFO] [1775418003.186605935] [controller_server]: Critic plugin initialized
+[controller_server-1] [INFO] [1775418003.187178289] [controller_server]: Using critic "PathAlign" (dwb_critics::PathAlignCritic)
+[controller_server-1] [INFO] [1775418003.188830102] [controller_server]: Critic plugin initialized
+[controller_server-1] [INFO] [1775418003.189404088] [controller_server]: Using critic "PathDist" (dwb_critics::PathDistCritic)
+[controller_server-1] [INFO] [1775418003.190508923] [controller_server]: Critic plugin initialized
+[controller_server-1] [INFO] [1775418003.191084413] [controller_server]: Using critic "GoalDist" (dwb_critics::GoalDistCritic)
+[controller_server-1] [INFO] [1775418003.192324929] [controller_server]: Critic plugin initialized
+[controller_server-1] [INFO] [1775418003.192390305] [controller_server]: Controller Server has FollowPath  controllers available.
+[lifecycle_manager-8] [INFO] [1775418003.224663048] [lifecycle_manager_navigation]: [34m[1mConfiguring smoother_server[0m[0m
+[smoother_server-2] [INFO] [1775418003.225421994] [smoother_server]: Configuring smoother server
+[smoother_server-2] [INFO] [1775418003.253301507] [smoother_server]: Created smoother : simple_smoother of type nav2_smoother::SimpleSmoother
+[smoother_server-2] [INFO] [1775418003.258603924] [smoother_server]: Smoother Server has simple_smoother  smoothers available.
+[lifecycle_manager-8] [INFO] [1775418003.288543923] [lifecycle_manager_navigation]: [34m[1mConfiguring planner_server[0m[0m
+[planner_server-3] [INFO] [1775418003.289138357] [planner_server]: Configuring
+[planner_server-3] [INFO] [1775418003.289265301] [global_costmap.global_costmap]: Configuring
+[planner_server-3] [INFO] [1775418003.309650934] [global_costmap.global_costmap]: Using plugin "static_layer"
+[planner_server-3] [INFO] [1775418003.322129406] [global_costmap.global_costmap]: Subscribing to the map topic (/map) with transient local durability
+[planner_server-3] [INFO] [1775418003.326964589] [global_costmap.global_costmap]: Initialized plugin "static_layer"
+[planner_server-3] [INFO] [1775418003.377325966] [planner_server]: Created global planner plugin GridBased of type nav2_navfn_planner/NavfnPlanner
+[planner_server-3] [INFO] [1775418003.377427726] [planner_server]: Configuring plugin GridBased of type NavfnPlanner
+[planner_server-3] [INFO] [1775418003.378626258] [planner_server]: Planner Server has GridBased  planners available.
+[planner_server-3] [INFO] [1775418003.392615806] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 185 X 172 at 0.050000 m/pix
+[lifecycle_manager-8] [INFO] [1775418003.424289155] [lifecycle_manager_navigation]: [34m[1mConfiguring behavior_server[0m[0m
+[behavior_server-4] [INFO] [1775418003.425329382] [behavior_server]: Configuring
+[behavior_server-4] [INFO] [1775418003.461558521] [behavior_server]: Creating behavior plugin spin of type nav2_behaviors/Spin
+[behavior_server-4] [INFO] [1775418003.463115870] [behavior_server]: Configuring spin
+[behavior_server-4] [INFO] [1775418003.501255384] [behavior_server]: Creating behavior plugin backup of type nav2_behaviors/BackUp
+[behavior_server-4] [INFO] [1775418003.503590079] [behavior_server]: Configuring backup
+[behavior_server-4] [INFO] [1775418003.522970877] [behavior_server]: Creating behavior plugin drive_on_heading of type nav2_behaviors/DriveOnHeading
+[behavior_server-4] [INFO] [1775418003.525110884] [behavior_server]: Configuring drive_on_heading
+[behavior_server-4] [INFO] [1775418003.544323553] [behavior_server]: Creating behavior plugin assisted_teleop of type nav2_behaviors/AssistedTeleop
+[behavior_server-4] [INFO] [1775418003.547834188] [behavior_server]: Configuring assisted_teleop
+[behavior_server-4] [INFO] [1775418003.571856312] [behavior_server]: Creating behavior plugin wait of type nav2_behaviors/Wait
+[behavior_server-4] [INFO] [1775418003.573809502] [behavior_server]: Configuring wait
+[lifecycle_manager-8] [INFO] [1775418003.592306713] [lifecycle_manager_navigation]: [34m[1mConfiguring bt_navigator[0m[0m
+[bt_navigator-5] [INFO] [1775418003.593166012] [bt_navigator]: Configuring
+[lifecycle_manager-8] [INFO] [1775418003.815643615] [lifecycle_manager_navigation]: [34m[1mConfiguring waypoint_follower[0m[0m
+[waypoint_follower-6] [INFO] [1775418003.816340738] [waypoint_follower]: Configuring
+[waypoint_follower-6] [INFO] [1775418003.875257181] [waypoint_follower]: Created waypoint_task_executor : wait_at_waypoint of type nav2_waypoint_follower::WaitAtWaypoint
+[waypoint_follower-6] [INFO] [1775418003.878319975] [waypoint_follower]: Waypoint pause duration is set to zero, disabling task executor plugin.
+[lifecycle_manager-8] [INFO] [1775418003.879341258] [lifecycle_manager_navigation]: [34m[1mConfiguring velocity_smoother[0m[0m
+[velocity_smoother-7] [INFO] [1775418003.880206861] [velocity_smoother]: Configuring velocity smoother
+[velocity_smoother-7] [WARN] [1775418003.990763916] [velocity_smoother.rclcpp]: failed to send response to /velocity_smoother/change_state (timeout): client will not receive response, at ./src/rmw_response.cpp:154, at ./src/rcl/service.c:314
+[bt_navigator-5] [INFO] [1775418044.125071749] [bt_navigator]: Activating
+[bt_navigator-5] [INFO] [1775418044.336917027] [bt_navigator]: Creating bond (bt_navigator) to lifecycle manager.
+[bt_navigator-5] [INFO] [1775418067.844582770] [bt_navigator]: Begin navigating from current location (0.00, -0.01) to (2.52, 3.04)
+[planner_server-3] [INFO] [1775418067.846073206] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418067.847257562] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418067.848063517] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418067.848966176] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418067.851847465] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418067.852348522] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418067.853154925] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418067.855533396] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418067.856019926] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418067.856755640] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418067.858773438] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418067.859253088] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418067.860305731] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418067.862301098] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418067.862707499] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418067.863634734] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418067.865386835] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418067.865834805] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418067.866572919] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[bt_navigator-5] [WARN] [1775418067.867770459] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-5] [WARN] [1775418067.867867227] [bt_navigator]: [navigate_to_pose] [ActionServer] Aborting handle.
+[bt_navigator-5] [ERROR] [1775418067.868355485] [bt_navigator]: Goal failed
+[bt_navigator-5] [INFO] [1775418070.884320978] [bt_navigator]: Begin navigating from current location (0.00, -0.01) to (2.52, 3.04)
+[planner_server-3] [INFO] [1775418070.885372054] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418070.888163934] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418070.888718496] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418070.889458723] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418070.892376908] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418070.892875501] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418070.893576464] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418070.895685686] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418070.896135640] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418070.896818618] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418070.898850208] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418070.899252321] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418070.900036100] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418070.902112907] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418070.902641740] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418070.903472623] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418070.905845046] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418070.906290072] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418070.907288667] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[bt_navigator-5] [WARN] [1775418070.908351838] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-5] [WARN] [1775418070.908433791] [bt_navigator]: [navigate_to_pose] [ActionServer] Aborting handle.
+[bt_navigator-5] [ERROR] [1775418070.908770688] [bt_navigator]: Goal failed
+[bt_navigator-5] [INFO] [1775418073.923803537] [bt_navigator]: Begin navigating from current location (0.00, -0.01) to (2.52, 3.04)
+[planner_server-3] [INFO] [1775418073.924843189] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418073.928575424] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418073.930179909] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418073.932024939] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418073.935296726] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418073.935807767] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418073.936810778] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418073.941788266] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418073.943193103] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418073.944863636] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418073.948471103] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418073.949378210] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418073.950448453] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418073.953410031] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418073.954757747] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418073.955876151] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418073.958887104] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418073.960079812] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418073.961464360] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[bt_navigator-5] [WARN] [1775418073.963048141] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-5] [WARN] [1775418073.963168718] [bt_navigator]: [navigate_to_pose] [ActionServer] Aborting handle.
+[bt_navigator-5] [ERROR] [1775418073.964227281] [bt_navigator]: Goal failed
+[bt_navigator-5] [INFO] [1775418076.978451743] [bt_navigator]: Begin navigating from current location (0.00, -0.01) to (2.52, 3.04)
+[planner_server-3] [INFO] [1775418076.979344834] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418076.982259916] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418076.982922702] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418076.983881713] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418076.986356536] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418076.987013883] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418076.988200478] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418076.990988711] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418076.991558889] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418076.992358475] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418076.995857398] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418076.996723993] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418076.997684348] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418076.999990883] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418077.000506789] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418077.001508488] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418077.003889616] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418077.004420241] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418077.005369300] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[bt_navigator-5] [WARN] [1775418077.006504664] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-5] [WARN] [1775418077.006601528] [bt_navigator]: [navigate_to_pose] [ActionServer] Aborting handle.
+[bt_navigator-5] [ERROR] [1775418077.007283195] [bt_navigator]: Goal failed
+[bt_navigator-5] [INFO] [1775418080.020705702] [bt_navigator]: Begin navigating from current location (0.00, -0.01) to (2.52, 3.04)
+[planner_server-3] [INFO] [1775418080.021677833] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418080.025041779] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418080.026189367] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418080.027109850] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418080.029779682] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418080.030319364] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418080.031300455] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418080.033749807] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418080.034280305] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418080.035110579] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418080.037498235] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418080.037994652] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418080.038963519] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418080.042002985] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418080.043136077] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418080.044324112] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418080.047323578] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418080.047819643] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418080.048760510] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[bt_navigator-5] [WARN] [1775418080.050070562] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-5] [WARN] [1775418080.050165603] [bt_navigator]: [navigate_to_pose] [ActionServer] Aborting handle.
+[bt_navigator-5] [ERROR] [1775418080.050557956] [bt_navigator]: Goal failed
+[bt_navigator-5] [INFO] [1775418083.063221580] [bt_navigator]: Begin navigating from current location (0.00, -0.01) to (2.52, 3.04)
+[planner_server-3] [INFO] [1775418083.064486256] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418083.067441561] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418083.068086716] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418083.068975550] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418083.071448614] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418083.072706058] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418083.073679981] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418083.076075349] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418083.076611990] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418083.077524601] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418083.079657568] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418083.080218690] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418083.081483462] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418083.083555084] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418083.084072590] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418083.084905745] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418083.087633753] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418083.088823133] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418083.090093761] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[bt_navigator-5] [WARN] [1775418083.091126052] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-5] [WARN] [1775418083.091222885] [bt_navigator]: [navigate_to_pose] [ActionServer] Aborting handle.
+[bt_navigator-5] [ERROR] [1775418083.091585894] [bt_navigator]: Goal failed
+[bt_navigator-5] [INFO] [1775418086.106151571] [bt_navigator]: Begin navigating from current location (0.00, -0.01) to (2.52, 3.04)
+[planner_server-3] [INFO] [1775418086.107099254] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418086.110348929] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418086.110996835] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418086.111919398] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418086.114789967] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418086.115340784] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418086.116240115] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418086.119243581] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418086.119853375] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418086.121085730] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418086.124371917] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418086.124942863] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418086.125771761] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418086.128903355] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418086.129731294] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418086.130795777] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418086.133847275] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418086.134504365] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418086.135777361] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[bt_navigator-5] [WARN] [1775418086.136752404] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-5] [WARN] [1775418086.136837748] [bt_navigator]: [navigate_to_pose] [ActionServer] Aborting handle.
+[bt_navigator-5] [ERROR] [1775418086.137162549] [bt_navigator]: Goal failed
+[bt_navigator-5] [INFO] [1775418089.149645276] [bt_navigator]: Begin navigating from current location (0.00, -0.01) to (2.52, 3.04)
+[planner_server-3] [INFO] [1775418089.150608735] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418089.153529064] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418089.154848876] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418089.155627055] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418089.158079574] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418089.158609176] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418089.160158109] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418089.162611781] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418089.163299367] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418089.164133321] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418089.167644085] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418089.168278103] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418089.169084217] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418089.173079238] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418089.174146569] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418089.175115756] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418089.178356118] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418089.178936312] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418089.180034268] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[bt_navigator-5] [WARN] [1775418089.181131967] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-5] [WARN] [1775418089.181225791] [bt_navigator]: [navigate_to_pose] [ActionServer] Aborting handle.
+[bt_navigator-5] [ERROR] [1775418089.181702081] [bt_navigator]: Goal failed
+[bt_navigator-5] [INFO] [1775418092.194500552] [bt_navigator]: Begin navigating from current location (0.00, -0.01) to (2.52, 3.04)
+[planner_server-3] [INFO] [1775418092.195425707] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418092.199147127] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418092.199782777] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418092.200801180] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418092.204276647] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418092.204814697] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418092.205695979] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418092.208768949] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418092.209308247] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418092.210112505] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418092.212991586] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418092.213559876] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418092.214358727] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418092.217136815] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418092.217673393] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418092.218798069] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418092.222910274] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418092.224241094] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418092.225665866] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[bt_navigator-5] [WARN] [1775418092.227026607] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-5] [WARN] [1775418092.227119695] [bt_navigator]: [navigate_to_pose] [ActionServer] Aborting handle.
+[bt_navigator-5] [ERROR] [1775418092.227592400] [bt_navigator]: Goal failed
+[bt_navigator-5] [INFO] [1775418095.240479095] [bt_navigator]: Begin navigating from current location (0.00, -0.01) to (2.52, 3.04)
+[planner_server-3] [INFO] [1775418095.241448474] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418095.244163683] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418095.244718341] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418095.245910600] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418095.248087439] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418095.248554321] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418095.249286323] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418095.251277017] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418095.251744731] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418095.252600734] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418095.256043080] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418095.256576362] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418095.257801774] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418095.262113852] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418095.262677533] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418095.263562272] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418095.266682314] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418095.267494829] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418095.268686768] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[bt_navigator-5] [WARN] [1775418095.269821556] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-5] [WARN] [1775418095.269923988] [bt_navigator]: [navigate_to_pose] [ActionServer] Aborting handle.
+[bt_navigator-5] [ERROR] [1775418095.270983832] [bt_navigator]: Goal failed
+[bt_navigator-5] [INFO] [1775418098.284440512] [bt_navigator]: Begin navigating from current location (0.00, -0.01) to (2.52, 3.04)
+[planner_server-3] [INFO] [1775418098.285396771] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418098.288538829] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418098.289253455] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418098.290093458] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418098.293047451] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418098.293623037] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418098.294440255] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418098.297335241] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418098.297884714] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418098.298718125] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418098.301752375] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418098.302302232] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418098.303138971] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418098.306219397] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418098.306784166] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418098.307661673] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418098.310916947] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418098.311431349] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418098.312425720] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[bt_navigator-5] [WARN] [1775418098.313591164] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-5] [WARN] [1775418098.313683740] [bt_navigator]: [navigate_to_pose] [ActionServer] Aborting handle.
+[bt_navigator-5] [ERROR] [1775418098.314044285] [bt_navigator]: Goal failed
+[bt_navigator-5] [INFO] [1775418101.326472226] [bt_navigator]: Begin navigating from current location (0.00, -0.01) to (2.52, 3.04)
+[planner_server-3] [INFO] [1775418101.327402373] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418101.331067825] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418101.331786355] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418101.332957174] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418101.336102208] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418101.336707874] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418101.337651173] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418101.340698351] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418101.341251537] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418101.342049235] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418101.345456926] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418101.346106368] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418101.346883874] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418101.350162573] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418101.350702542] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418101.351491633] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418101.355528606] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418101.356106496] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418101.357177859] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[bt_navigator-5] [WARN] [1775418101.358296934] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-5] [WARN] [1775418101.358394919] [bt_navigator]: [navigate_to_pose] [ActionServer] Aborting handle.
+[bt_navigator-5] [ERROR] [1775418101.358788936] [bt_navigator]: Goal failed
+[bt_navigator-5] [INFO] [1775418104.374739255] [bt_navigator]: Begin navigating from current location (0.00, -0.01) to (2.52, 3.04)
+[planner_server-3] [INFO] [1775418104.375717691] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418104.378923717] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418104.379544647] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418104.380410025] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418104.383308083] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418104.383819828] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418104.384684119] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418104.387581664] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418104.388184866] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418104.389044165] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418104.391847085] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418104.392469647] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418104.393380274] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418104.396487004] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418104.397046558] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418104.397895393] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418104.401057643] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418104.401668620] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418104.402504367] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[bt_navigator-5] [WARN] [1775418104.403605203] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-5] [WARN] [1775418104.403696627] [bt_navigator]: [navigate_to_pose] [ActionServer] Aborting handle.
+[bt_navigator-5] [ERROR] [1775418104.404361365] [bt_navigator]: Goal failed
+[bt_navigator-5] [INFO] [1775418107.418219070] [bt_navigator]: Begin navigating from current location (0.00, -0.01) to (2.52, 3.04)
+[planner_server-3] [INFO] [1775418107.419104960] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418107.424897171] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418107.425570005] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418107.426820377] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418107.431013606] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418107.431559176] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418107.432592587] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418107.435417908] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418107.436418295] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418107.437337690] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418107.440467684] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418107.441001349] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418107.441925704] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418107.445211091] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418107.445826229] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418107.447407002] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418107.451279654] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418107.452152937] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418107.453305452] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[bt_navigator-5] [WARN] [1775418107.454962354] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-5] [WARN] [1775418107.455078354] [bt_navigator]: [navigate_to_pose] [ActionServer] Aborting handle.
+[bt_navigator-5] [ERROR] [1775418107.456160565] [bt_navigator]: Goal failed
+[bt_navigator-5] [INFO] [1775418110.468271064] [bt_navigator]: Begin navigating from current location (0.00, -0.01) to (2.52, 3.04)
+[planner_server-3] [INFO] [1775418110.469333371] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418110.472712134] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418110.473569577] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418110.474447724] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418110.476843219] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418110.477366773] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418110.478108535] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418110.480192830] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418110.480639103] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418110.481375009] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418110.483364136] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418110.483798089] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418110.484577964] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418110.486879379] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418110.487358260] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418110.488223863] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418110.490456862] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418110.490902528] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418110.491675426] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[bt_navigator-5] [WARN] [1775418110.492693253] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-5] [WARN] [1775418110.492777573] [bt_navigator]: [navigate_to_pose] [ActionServer] Aborting handle.
+[bt_navigator-5] [ERROR] [1775418110.493265447] [bt_navigator]: Goal failed
+[bt_navigator-5] [INFO] [1775418113.506482477] [bt_navigator]: Begin navigating from current location (0.00, -0.01) to (2.52, 3.04)
+[planner_server-3] [INFO] [1775418113.507556880] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418113.510538522] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418113.511199132] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418113.512243295] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418113.514767271] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418113.515353001] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418113.516231884] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418113.518738836] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418113.519245109] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418113.520086072] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418113.522165246] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418113.522720256] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418113.524053572] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418113.526341452] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418113.526854765] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418113.527608784] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418113.529743734] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418113.530228440] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418113.531049627] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[bt_navigator-5] [WARN] [1775418113.532035326] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-5] [WARN] [1775418113.532120286] [bt_navigator]: [navigate_to_pose] [ActionServer] Aborting handle.
+[bt_navigator-5] [ERROR] [1775418113.532591551] [bt_navigator]: Goal failed
+[bt_navigator-5] [INFO] [1775418116.544784098] [bt_navigator]: Begin navigating from current location (0.00, -0.01) to (2.52, 3.04)
+[planner_server-3] [INFO] [1775418116.546405351] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418116.548974735] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418116.549579569] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418116.550464020] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418116.552503290] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418116.553030748] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418116.553790974] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418116.556076998] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418116.556587847] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418116.557372650] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418116.559157007] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418116.559864178] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418116.560699988] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418116.562691578] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418116.563157276] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418116.564034303] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418116.566022085] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418116.566523655] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418116.567652426] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[bt_navigator-5] [WARN] [1775418116.568677453] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-5] [WARN] [1775418116.568760942] [bt_navigator]: [navigate_to_pose] [ActionServer] Aborting handle.
+[bt_navigator-5] [ERROR] [1775418116.569093839] [bt_navigator]: Goal failed
+[bt_navigator-5] [INFO] [1775418119.582245332] [bt_navigator]: Begin navigating from current location (0.00, -0.01) to (2.52, 3.04)
+[planner_server-3] [INFO] [1775418119.583079607] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418119.585955040] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418119.586692002] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418119.587450469] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418119.591685682] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418119.592659189] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418119.593493240] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418119.596411073] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418119.596900450] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418119.597521572] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418119.600045484] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418119.600495406] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418119.601352208] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418119.603959577] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418119.604502266] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418119.605289853] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418119.607767621] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418119.608225158] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418119.608949192] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[bt_navigator-5] [WARN] [1775418119.609871659] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-5] [WARN] [1775418119.609946764] [bt_navigator]: [navigate_to_pose] [ActionServer] Aborting handle.
+[bt_navigator-5] [ERROR] [1775418119.610417805] [bt_navigator]: Goal failed
+[bt_navigator-5] [INFO] [1775418122.624709494] [bt_navigator]: Begin navigating from current location (0.00, -0.01) to (2.52, 3.04)
+[planner_server-3] [INFO] [1775418122.625685465] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418122.629173636] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418122.629996647] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418122.631701036] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418122.634869846] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418122.635401592] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418122.636252698] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418122.638509409] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418122.639023171] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418122.639866502] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418122.641981132] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418122.642469294] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418122.643174864] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418122.645061686] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418122.645570360] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418122.646440282] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418122.648654081] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418122.649262275] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418122.650134118] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[bt_navigator-5] [WARN] [1775418122.651195465] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-5] [WARN] [1775418122.651269994] [bt_navigator]: [navigate_to_pose] [ActionServer] Aborting handle.
+[bt_navigator-5] [ERROR] [1775418122.651581835] [bt_navigator]: Goal failed
+[bt_navigator-5] [INFO] [1775418125.665030129] [bt_navigator]: Begin navigating from current location (0.00, -0.01) to (2.52, 3.04)
+[planner_server-3] [INFO] [1775418125.666218612] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418125.668844381] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418125.669466239] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418125.670383714] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418125.673008138] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418125.673543948] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418125.674359214] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418125.676586965] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418125.677103511] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418125.677844633] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418125.679584255] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418125.680217825] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418125.681280196] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418125.683221706] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418125.683717548] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418125.684494542] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-1] [INFO] [1775418125.686528340] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1775418125.687125494] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1775418125.687902873] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[bt_navigator-5] [WARN] [1775418125.688927068] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-5] [WARN] [1775418125.689019868] [bt_navigator]: [navigate_to_pose] [ActionServer] Aborting handle.
+[bt_navigator-5] [ERROR] [1775418125.689644190] [bt_navigator]: Goal failed
