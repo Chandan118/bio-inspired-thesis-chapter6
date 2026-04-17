@@ -1,0 +1,171 @@
+[INFO] [launch]: All log files can be found below /home/jetson/.ros/log/2026-04-04-02-39-58-380672-chandan-23534
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [controller_server-1]: process started with pid [23536]
+[INFO] [smoother_server-2]: process started with pid [23538]
+[INFO] [planner_server-3]: process started with pid [23540]
+[INFO] [behavior_server-4]: process started with pid [23542]
+[INFO] [bt_navigator-5]: process started with pid [23544]
+[INFO] [waypoint_follower-6]: process started with pid [23546]
+[INFO] [velocity_smoother-7]: process started with pid [23572]
+[INFO] [lifecycle_manager-8]: process started with pid [23584]
+[smoother_server-2] [INFO] [1775241599.124728533] [smoother_server]: 
+[smoother_server-2] 	smoother_server lifecycle node launched. 
+[smoother_server-2] 	Waiting on external lifecycle transitions to activate
+[smoother_server-2] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[controller_server-1] [INFO] [1775241599.159758168] [controller_server]: 
+[controller_server-1] 	controller_server lifecycle node launched. 
+[controller_server-1] 	Waiting on external lifecycle transitions to activate
+[controller_server-1] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[smoother_server-2] [INFO] [1775241599.172686159] [smoother_server]: Creating smoother server
+[lifecycle_manager-8] [INFO] [1775241599.287167474] [lifecycle_manager_navigation]: Creating
+[controller_server-1] [INFO] [1775241599.378378058] [controller_server]: Creating controller server
+[lifecycle_manager-8] [INFO] [1775241599.384212805] [lifecycle_manager_navigation]: [34m[1mCreating and initializing lifecycle service clients[0m[0m
+[bt_navigator-5] [INFO] [1775241599.438089148] [bt_navigator]: 
+[bt_navigator-5] 	bt_navigator lifecycle node launched. 
+[waypoint_follower-6] [INFO] [1775241599.459450420] [waypoint_follower]: 
+[waypoint_follower-6] 	waypoint_follower lifecycle node launched. 
+[waypoint_follower-6] 	Waiting on external lifecycle transitions to activate
+[waypoint_follower-6] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[bt_navigator-5] 	Waiting on external lifecycle transitions to activate
+[bt_navigator-5] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[waypoint_follower-6] [INFO] [1775241599.473738544] [waypoint_follower]: Creating
+[bt_navigator-5] [INFO] [1775241599.488460471] [bt_navigator]: Creating
+[planner_server-3] [INFO] [1775241599.500964419] [planner_server]: 
+[planner_server-3] 	planner_server lifecycle node launched. 
+[planner_server-3] 	Waiting on external lifecycle transitions to activate
+[planner_server-3] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[planner_server-3] [INFO] [1775241599.551401056] [planner_server]: Creating
+[behavior_server-4] [INFO] [1775241599.965709218] [behavior_server]: 
+[controller_server-1] [INFO] [1775241599.965348120] [local_costmap.local_costmap]: 
+[controller_server-1] 	local_costmap lifecycle node launched. 
+[controller_server-1] 	Waiting on external lifecycle transitions to activate
+[controller_server-1] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[behavior_server-4] 	behavior_server lifecycle node launched. 
+[behavior_server-4] 	Waiting on external lifecycle transitions to activate
+[behavior_server-4] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[controller_server-1] [INFO] [1775241600.001044429] [local_costmap.local_costmap]: Creating Costmap
+[velocity_smoother-7] [INFO] [1775241600.001430807] [velocity_smoother]: 
+[velocity_smoother-7] 	velocity_smoother lifecycle node launched. 
+[velocity_smoother-7] 	Waiting on external lifecycle transitions to activate
+[velocity_smoother-7] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[planner_server-3] [INFO] [1775241601.069321190] [global_costmap.global_costmap]: 
+[planner_server-3] 	global_costmap lifecycle node launched. 
+[planner_server-3] 	Waiting on external lifecycle transitions to activate
+[planner_server-3] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[planner_server-3] [INFO] [1775241601.081374246] [global_costmap.global_costmap]: Creating Costmap
+[lifecycle_manager-8] [INFO] [1775241601.412608578] [lifecycle_manager_navigation]: Waiting for service controller_server/get_state...
+[lifecycle_manager-8] [INFO] [1775241602.995706959] [lifecycle_manager_navigation]: [34m[1mStarting managed nodes bringup...[0m[0m
+[lifecycle_manager-8] [INFO] [1775241602.996030775] [lifecycle_manager_navigation]: [34m[1mConfiguring controller_server[0m[0m
+[controller_server-1] [INFO] [1775241602.996800492] [controller_server]: Configuring controller interface
+[controller_server-1] [INFO] [1775241602.998300116] [controller_server]: getting goal checker plugins..
+[controller_server-1] [INFO] [1775241602.999490771] [controller_server]: Controller frequency set to 10.0000Hz
+[controller_server-1] [INFO] [1775241602.999601398] [local_costmap.local_costmap]: Configuring
+[controller_server-1] [INFO] [1775241603.028594072] [local_costmap.local_costmap]: Using plugin "obstacle_layer"
+[controller_server-1] [INFO] [1775241603.039119471] [local_costmap.local_costmap]: Subscribed to Topics: scan
+[controller_server-1] [INFO] [1775241603.058974174] [local_costmap.local_costmap]: Initialized plugin "obstacle_layer"
+[controller_server-1] [INFO] [1775241603.059084033] [local_costmap.local_costmap]: Using plugin "inflation_layer"
+[controller_server-1] [INFO] [1775241603.064679733] [local_costmap.local_costmap]: Initialized plugin "inflation_layer"
+[controller_server-1] [INFO] [1775241603.103653887] [controller_server]: Created progress_checker : progress_checker of type nav2_controller::SimpleProgressChecker
+[controller_server-1] [INFO] [1775241603.106248996] [controller_server]: Created goal checker : goal_checker of type nav2_controller::SimpleGoalChecker
+[controller_server-1] [INFO] [1775241603.107089627] [controller_server]: Controller Server has goal_checker  goal checkers available.
+[controller_server-1] [INFO] [1775241603.110887007] [controller_server]: Created controller : FollowPath of type dwb_core::DWBLocalPlanner
+[controller_server-1] [INFO] [1775241603.115577884] [controller_server]: Setting transform_tolerance to 0.200000
+[controller_server-1] [INFO] [1775241603.155206263] [controller_server]: Using critic "RotateToGoal" (dwb_critics::RotateToGoalCritic)
+[controller_server-1] [INFO] [1775241603.157830205] [controller_server]: Critic plugin initialized
+[controller_server-1] [INFO] [1775241603.158418253] [controller_server]: Using critic "Oscillation" (dwb_critics::OscillationCritic)
+[controller_server-1] [INFO] [1775241603.162776064] [controller_server]: Critic plugin initialized
+[controller_server-1] [INFO] [1775241603.163645495] [controller_server]: Using critic "BaseObstacle" (dwb_critics::BaseObstacleCritic)
+[controller_server-1] [INFO] [1775241603.165137407] [controller_server]: Critic plugin initialized
+[controller_server-1] [INFO] [1775241603.166008918] [controller_server]: Using critic "GoalAlign" (dwb_critics::GoalAlignCritic)
+[controller_server-1] [INFO] [1775241603.168256370] [controller_server]: Critic plugin initialized
+[controller_server-1] [INFO] [1775241603.169147625] [controller_server]: Using critic "PathAlign" (dwb_critics::PathAlignCritic)
+[controller_server-1] [INFO] [1775241603.171375620] [controller_server]: Critic plugin initialized
+[controller_server-1] [INFO] [1775241603.172103384] [controller_server]: Using critic "PathDist" (dwb_critics::PathDistCritic)
+[controller_server-1] [INFO] [1775241603.173444155] [controller_server]: Critic plugin initialized
+[controller_server-1] [INFO] [1775241603.174146638] [controller_server]: Using critic "GoalDist" (dwb_critics::GoalDistCritic)
+[controller_server-1] [INFO] [1775241603.175509874] [controller_server]: Critic plugin initialized
+[controller_server-1] [INFO] [1775241603.175657462] [controller_server]: Controller Server has FollowPath  controllers available.
+[lifecycle_manager-8] [INFO] [1775241603.207315390] [lifecycle_manager_navigation]: [34m[1mConfiguring smoother_server[0m[0m
+[smoother_server-2] [INFO] [1775241603.207974575] [smoother_server]: Configuring smoother server
+[smoother_server-2] [INFO] [1775241603.244708574] [smoother_server]: Created smoother : simple_smoother of type nav2_smoother::SimpleSmoother
+[smoother_server-2] [INFO] [1775241603.247330468] [smoother_server]: Smoother Server has simple_smoother  smoothers available.
+[lifecycle_manager-8] [INFO] [1775241603.287926393] [lifecycle_manager_navigation]: [34m[1mConfiguring planner_server[0m[0m
+[planner_server-3] [INFO] [1775241603.288513481] [planner_server]: Configuring
+[planner_server-3] [INFO] [1775241603.288631116] [global_costmap.global_costmap]: Configuring
+[planner_server-3] [INFO] [1775241603.313802152] [global_costmap.global_costmap]: Using plugin "static_layer"
+[planner_server-3] [INFO] [1775241603.324946863] [global_costmap.global_costmap]: Subscribing to the map topic (/map) with transient local durability
+[planner_server-3] [INFO] [1775241603.330783466] [global_costmap.global_costmap]: Initialized plugin "static_layer"
+[planner_server-3] [INFO] [1775241603.330887501] [global_costmap.global_costmap]: Using plugin "obstacle_layer"
+[planner_server-3] [INFO] [1775241603.336463873] [global_costmap.global_costmap]: Subscribed to Topics: scan
+[planner_server-3] [INFO] [1775241603.356940832] [global_costmap.global_costmap]: Initialized plugin "obstacle_layer"
+[planner_server-3] [INFO] [1775241603.357050243] [global_costmap.global_costmap]: Using plugin "inflation_layer"
+[planner_server-3] [INFO] [1775241603.362771067] [global_costmap.global_costmap]: Initialized plugin "inflation_layer"
+[planner_server-3] [INFO] [1775241603.408812993] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 185 X 172 at 0.050000 m/pix
+[planner_server-3] [INFO] [1775241603.410544463] [planner_server]: Created global planner plugin GridBased of type nav2_navfn_planner/NavfnPlanner
+[planner_server-3] [INFO] [1775241603.411159455] [planner_server]: Configuring plugin GridBased of type NavfnPlanner
+[planner_server-3] [INFO] [1775241603.413947401] [planner_server]: Planner Server has GridBased  planners available.
+[lifecycle_manager-8] [INFO] [1775241603.460750979] [lifecycle_manager_navigation]: [34m[1mConfiguring behavior_server[0m[0m
+[behavior_server-4] [INFO] [1775241603.461442293] [behavior_server]: Configuring
+[behavior_server-4] [INFO] [1775241603.509456591] [behavior_server]: Creating behavior plugin spin of type nav2_behaviors/Spin
+[behavior_server-4] [INFO] [1775241603.511071930] [behavior_server]: Configuring spin
+[behavior_server-4] [INFO] [1775241603.548794147] [behavior_server]: Creating behavior plugin backup of type nav2_behaviors/BackUp
+[behavior_server-4] [INFO] [1775241603.550333068] [behavior_server]: Configuring backup
+[behavior_server-4] [INFO] [1775241603.586492075] [behavior_server]: Creating behavior plugin drive_on_heading of type nav2_behaviors/DriveOnHeading
+[behavior_server-4] [INFO] [1775241603.589361496] [behavior_server]: Configuring drive_on_heading
+[behavior_server-4] [INFO] [1775241603.614431985] [behavior_server]: Creating behavior plugin assisted_teleop of type nav2_behaviors/AssistedTeleop
+[behavior_server-4] [INFO] [1775241603.618814021] [behavior_server]: Configuring assisted_teleop
+[behavior_server-4] [INFO] [1775241603.646618279] [behavior_server]: Creating behavior plugin wait of type nav2_behaviors/Wait
+[behavior_server-4] [INFO] [1775241603.648448791] [behavior_server]: Configuring wait
+[lifecycle_manager-8] [INFO] [1775241603.668050720] [lifecycle_manager_navigation]: [34m[1mConfiguring bt_navigator[0m[0m
+[bt_navigator-5] [INFO] [1775241603.668748306] [bt_navigator]: Configuring
+[lifecycle_manager-8] [INFO] [1775241603.917635614] [lifecycle_manager_navigation]: [34m[1mConfiguring waypoint_follower[0m[0m
+[waypoint_follower-6] [INFO] [1775241603.918274703] [waypoint_follower]: Configuring
+[waypoint_follower-6] [INFO] [1775241603.989322764] [waypoint_follower]: Created waypoint_task_executor : wait_at_waypoint of type nav2_waypoint_follower::WaitAtWaypoint
+[waypoint_follower-6] [INFO] [1775241603.991387587] [waypoint_follower]: Waypoint pause duration is set to zero, disabling task executor plugin.
+[lifecycle_manager-8] [INFO] [1775241603.993120177] [lifecycle_manager_navigation]: [34m[1mConfiguring velocity_smoother[0m[0m
+[velocity_smoother-7] [INFO] [1775241603.993851685] [velocity_smoother]: Configuring velocity smoother
+[lifecycle_manager-8] [INFO] [1775241604.015068152] [lifecycle_manager_navigation]: [34m[1mActivating controller_server[0m[0m
+[controller_server-1] [INFO] [1775241604.015673992] [controller_server]: Activating
+[controller_server-1] [INFO] [1775241604.015777034] [local_costmap.local_costmap]: Activating
+[controller_server-1] [INFO] [1775241604.015811211] [local_costmap.local_costmap]: Checking transform
+[controller_server-1] [INFO] [1775241604.016036593] [local_costmap.local_costmap]: start
+[controller_server-1] [INFO] [1775241604.268307253] [controller_server]: Creating bond (controller_server) to lifecycle manager.
+[lifecycle_manager-8] [INFO] [1775241604.386190220] [lifecycle_manager_navigation]: Server controller_server connected with bond.
+[lifecycle_manager-8] [INFO] [1775241604.386352720] [lifecycle_manager_navigation]: [34m[1mActivating smoother_server[0m[0m
+[smoother_server-2] [INFO] [1775241604.387512495] [smoother_server]: Activating
+[smoother_server-2] [INFO] [1775241604.387647346] [smoother_server]: Creating bond (smoother_server) to lifecycle manager.
+[lifecycle_manager-8] [INFO] [1775241604.448348348] [lifecycle_manager_navigation]: Server smoother_server connected with bond.
+[lifecycle_manager-8] [INFO] [1775241604.448498272] [lifecycle_manager_navigation]: [34m[1mActivating planner_server[0m[0m
+[planner_server-3] [INFO] [1775241604.449595581] [planner_server]: Activating
+[planner_server-3] [INFO] [1775241604.449771266] [global_costmap.global_costmap]: Activating
+[planner_server-3] [INFO] [1775241604.449829380] [global_costmap.global_costmap]: Checking transform
+[planner_server-3] [INFO] [1775241604.450118827] [global_costmap.global_costmap]: start
+[planner_server-3] [INFO] [1775241605.453631105] [planner_server]: Activating plugin GridBased of type NavfnPlanner
+[planner_server-3] [INFO] [1775241605.462167715] [planner_server]: Creating bond (planner_server) to lifecycle manager.
+[lifecycle_manager-8] [INFO] [1775241605.600931395] [lifecycle_manager_navigation]: Server planner_server connected with bond.
+[lifecycle_manager-8] [INFO] [1775241605.601101095] [lifecycle_manager_navigation]: [34m[1mActivating behavior_server[0m[0m
+[behavior_server-4] [INFO] [1775241605.602220709] [behavior_server]: Activating
+[behavior_server-4] [INFO] [1775241605.602343368] [behavior_server]: Activating spin
+[behavior_server-4] [INFO] [1775241605.602406378] [behavior_server]: Activating backup
+[behavior_server-4] [INFO] [1775241605.602448107] [behavior_server]: Activating drive_on_heading
+[behavior_server-4] [INFO] [1775241605.602477164] [behavior_server]: Activating assisted_teleop
+[behavior_server-4] [INFO] [1775241605.602505965] [behavior_server]: Activating wait
+[behavior_server-4] [INFO] [1775241605.602665937] [behavior_server]: Creating bond (behavior_server) to lifecycle manager.
+[lifecycle_manager-8] [INFO] [1775241605.695699284] [lifecycle_manager_navigation]: Server behavior_server connected with bond.
+[lifecycle_manager-8] [INFO] [1775241605.695860696] [lifecycle_manager_navigation]: [34m[1mActivating bt_navigator[0m[0m
+[bt_navigator-5] [INFO] [1775241605.699243026] [bt_navigator]: Activating
+[bt_navigator-5] [INFO] [1775241606.258655488] [bt_navigator]: Creating bond (bt_navigator) to lifecycle manager.
+[lifecycle_manager-8] [INFO] [1775241606.386989962] [lifecycle_manager_navigation]: Server bt_navigator connected with bond.
+[lifecycle_manager-8] [INFO] [1775241606.387254001] [lifecycle_manager_navigation]: [34m[1mActivating waypoint_follower[0m[0m
+[waypoint_follower-6] [INFO] [1775241606.388564275] [waypoint_follower]: Activating
+[waypoint_follower-6] [INFO] [1775241606.388705143] [waypoint_follower]: Creating bond (waypoint_follower) to lifecycle manager.
+[lifecycle_manager-8] [INFO] [1775241606.531703365] [lifecycle_manager_navigation]: Server waypoint_follower connected with bond.
+[lifecycle_manager-8] [INFO] [1775241606.531852393] [lifecycle_manager_navigation]: [34m[1mActivating velocity_smoother[0m[0m
+[velocity_smoother-7] [INFO] [1775241606.534334187] [velocity_smoother]: Activating
+[velocity_smoother-7] [INFO] [1775241606.534907066] [velocity_smoother]: Creating bond (velocity_smoother) to lifecycle manager.
+[lifecycle_manager-8] [INFO] [1775241606.684707037] [lifecycle_manager_navigation]: Server velocity_smoother connected with bond.
+[lifecycle_manager-8] [INFO] [1775241606.686364425] [lifecycle_manager_navigation]: [34m[1mManaged nodes are active[0m[0m
+[lifecycle_manager-8] [INFO] [1775241606.686417578] [lifecycle_manager_navigation]: [34m[1mCreating bond timer...[0m[0m
+[bt_navigator-5] [WARN] [1775241624.695760428] [bt_navigator.rclcpp]: failed to send response to /bt_navigator/get_state (timeout): client will not receive response, at ./src/rmw_response.cpp:154, at ./src/rcl/service.c:314
+[bt_navigator-5] [WARN] [1775241631.613970427] [rcl_lifecycle]: No transition matching activate found for current state active
+[bt_navigator-5] [WARN] [1775241631.714169571] [bt_navigator.rclcpp]: failed to send response to /bt_navigator/change_state (timeout): client will not receive response, at ./src/rmw_response.cpp:154, at ./src/rcl/service.c:314
