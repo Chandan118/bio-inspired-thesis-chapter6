@@ -1,0 +1,70 @@
+[INFO] [1775084504.257617025] [exp3_slam_mapping]: Experiment 3 — SLAM Mapping starting ...
+[INFO] [1775084508.386838023] [exp3_slam_mapping]: EXP3_FORCE_CMDVEL_AUTONOMY=1 detected; using /cmd_vel autonomy mode.
+[INFO] [1775084508.417042095] [exp3_slam_mapping]: 
+--- Trial 1/10 ---
+[INFO] [1775084508.418504703] [exp3_slam_mapping]: Reset robot to (0,0) and reset map if required, then press ENTER in this terminal to start trial.
+[WARN] [1775084752.106871855] [exp3_slam_mapping]:   Coverage timeout at 0.0% (target 95.0%). Continuing trial.
+[INFO] [1775084752.108894927] [exp3_slam_mapping]:   Navigating to landmark 0: (1.00, 0.00) ...
+[WARN] [1775084842.211800003] [exp3_slam_mapping]:   Navigation FAILED to landmark 0.
+[INFO] [1775084842.213615715] [exp3_slam_mapping]:   Navigating to landmark 1: (1.00, 2.00) ...
+[WARN] [1775084932.276685015] [exp3_slam_mapping]:   Navigation FAILED to landmark 1.
+[INFO] [1775084932.278245747] [exp3_slam_mapping]:   Navigating to landmark 2: (0.00, 2.00) ...
+[WARN] [1775085022.354443239] [exp3_slam_mapping]:   Navigation FAILED to landmark 2.
+[INFO] [1775085022.355904739] [exp3_slam_mapping]:   Navigating to landmark 3: (2.00, 2.00) ...
+[WARN] [1775085112.366016865] [exp3_slam_mapping]:   Navigation FAILED to landmark 3.
+[INFO] [1775085112.367754053] [exp3_slam_mapping]: 
+--- Trial 2/10 ---
+[INFO] [1775085112.368435827] [exp3_slam_mapping]: Reset robot to (0,0) and reset map if required, then press ENTER in this terminal to start trial.
+[WARN] [1775085205.117696027] [exp3_slam_mapping]:   /scan temporarily lost; pausing movement until LiDAR recovers.
+[WARN] [1775085357.843319299] [exp3_slam_mapping]:   Coverage timeout at 0.0% (target 95.0%). Continuing trial.
+[INFO] [1775085357.844830116] [exp3_slam_mapping]:   Navigating to landmark 0: (1.00, 0.00) ...
+[INFO] [1775085383.245531548] [exp3_slam_mapping]:   GT=(1.000,0.000)  Est=(0.823,-0.001)  Error=0.1772 m  Coverage=0.0 %
+[INFO] [1775085383.246976348] [exp3_slam_mapping]:   Navigating to landmark 1: (1.00, 2.00) ...
+[INFO] [1775085430.396890761] [exp3_slam_mapping]:   GT=(1.000,2.000)  Est=(1.003,1.825)  Error=0.1746 m  Coverage=0.0 %
+[INFO] [1775085430.398393322] [exp3_slam_mapping]:   Navigating to landmark 2: (0.00, 2.00) ...
+[WARN] [1775085520.439077538] [exp3_slam_mapping]:   Navigation FAILED to landmark 2.
+[INFO] [1775085520.441459064] [exp3_slam_mapping]:   Navigating to landmark 3: (2.00, 2.00) ...
+[WARN] [1775085610.492491376] [exp3_slam_mapping]:   Navigation FAILED to landmark 3.
+[INFO] [1775085610.493258562] [exp3_slam_mapping]:   Trial 2 RMSE = 0.1759 m
+[INFO] [1775085610.543352765] [exp3_slam_mapping]: 
+--- Trial 3/10 ---
+[INFO] [1775085610.544803230] [exp3_slam_mapping]: Reset robot to (0,0) and reset map if required, then press ENTER in this terminal to start trial.
+[WARN] [1775085853.793765062] [exp3_slam_mapping]:   Coverage timeout at 0.0% (target 95.0%). Continuing trial.
+[INFO] [1775085853.795435469] [exp3_slam_mapping]:   Navigating to landmark 0: (1.00, 0.00) ...
+[WARN] [1775085943.843019949] [exp3_slam_mapping]:   Navigation FAILED to landmark 0.
+[INFO] [1775085943.844560913] [exp3_slam_mapping]:   Navigating to landmark 1: (1.00, 2.00) ...
+[INFO] [1775085944.395624632] [exp3_slam_mapping]:   GT=(1.000,2.000)  Est=(0.848,2.025)  Error=0.1538 m  Coverage=0.0 %
+[INFO] [1775085944.397041050] [exp3_slam_mapping]:   Navigating to landmark 2: (0.00, 2.00) ...
+[WARN] [1775086034.424211547] [exp3_slam_mapping]:   Navigation FAILED to landmark 2.
+[INFO] [1775086034.426049799] [exp3_slam_mapping]:   Navigating to landmark 3: (2.00, 2.00) ...
+[WARN] [1775086124.427802575] [exp3_slam_mapping]:   Navigation FAILED to landmark 3.
+[INFO] [1775086124.428745349] [exp3_slam_mapping]:   Trial 3 RMSE = 0.1538 m
+[INFO] [1775086124.430706482] [exp3_slam_mapping]: 
+--- Trial 4/10 ---
+[INFO] [1775086124.431426723] [exp3_slam_mapping]: Reset robot to (0,0) and reset map if required, then press ENTER in this terminal to start trial.
+[WARN] [1775086367.921851732] [exp3_slam_mapping]:   Coverage timeout at 0.0% (target 95.0%). Continuing trial.
+[INFO] [1775086367.950718365] [exp3_slam_mapping]:   Navigating to landmark 0: (1.00, 0.00) ...
+[WARN] [1775086457.994556445] [exp3_slam_mapping]:   Navigation FAILED to landmark 0.
+[INFO] [1775086457.996376488] [exp3_slam_mapping]:   Navigating to landmark 1: (1.00, 2.00) ...
+[INFO] [1775086458.553949792] [exp3_slam_mapping]:   GT=(1.000,2.000)  Est=(0.848,2.025)  Error=0.1538 m  Coverage=0.0 %
+[INFO] [1775086458.554660881] [exp3_slam_mapping]:   Navigating to landmark 2: (0.00, 2.00) ...
+[WARN] [1775086548.592898536] [exp3_slam_mapping]:   Navigation FAILED to landmark 2.
+[INFO] [1775086548.594478446] [exp3_slam_mapping]:   Navigating to landmark 3: (2.00, 2.00) ...
+[WARN] [1775086638.597245545] [exp3_slam_mapping]:   Navigation FAILED to landmark 3.
+[INFO] [1775086638.598830511] [exp3_slam_mapping]:   Trial 4 RMSE = 0.1538 m
+[INFO] [1775086638.601673843] [exp3_slam_mapping]: 
+--- Trial 5/10 ---
+[INFO] [1775086638.602931473] [exp3_slam_mapping]: Reset robot to (0,0) and reset map if required, then press ENTER in this terminal to start trial.
+[WARN] [1775086881.742171886] [exp3_slam_mapping]:   Coverage timeout at 0.0% (target 95.0%). Continuing trial.
+[INFO] [1775086881.744038267] [exp3_slam_mapping]:   Navigating to landmark 0: (1.00, 0.00) ...
+[WARN] [1775086971.764444025] [exp3_slam_mapping]:   Navigation FAILED to landmark 0.
+[INFO] [1775086971.766216868] [exp3_slam_mapping]:   Navigating to landmark 1: (1.00, 2.00) ...
+[INFO] [1775086972.298320596] [exp3_slam_mapping]:   GT=(1.000,2.000)  Est=(0.848,2.025)  Error=0.1538 m  Coverage=0.0 %
+[INFO] [1775086972.299013476] [exp3_slam_mapping]:   Navigating to landmark 2: (0.00, 2.00) ...
+[WARN] [1775087062.308424521] [exp3_slam_mapping]:   Navigation FAILED to landmark 2.
+[INFO] [1775087062.309945614] [exp3_slam_mapping]:   Navigating to landmark 3: (2.00, 2.00) ...
+[WARN] [1775087152.311502434] [exp3_slam_mapping]:   Navigation FAILED to landmark 3.
+[INFO] [1775087152.312275348] [exp3_slam_mapping]:   Trial 5 RMSE = 0.1538 m
+[INFO] [1775087152.317211212] [exp3_slam_mapping]: 
+--- Trial 6/10 ---
+[INFO] [1775087152.320086513] [exp3_slam_mapping]: Reset robot to (0,0) and reset map if required, then press ENTER in this terminal to start trial.
