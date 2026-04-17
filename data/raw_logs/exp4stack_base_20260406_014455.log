@@ -1,0 +1,12 @@
+[INFO] [1775411101.438562975] [arduino_base_controller]: Connected to Arduino on /dev/ttyCH341USB0
+[INFO] [1775411101.478083887] [arduino_base_controller]: Arduino Base Controller started.
+[INFO] [1775411112.782431817] [arduino_base_controller]: RAW SERIAL FROM ARDUINO: "s,131,181,0,107"
+[INFO] [1775411119.183750013] [arduino_base_controller]: RAW SERIAL FROM ARDUINO: "s,130,180,0,107"
+[INFO] [1775411121.190993104] [arduino_base_controller]: RAW SERIAL FROM ARDUINO: "s,130,181,0,107"
+[INFO] [1775411121.590524374] [arduino_base_controller]: RAW SERIAL FROM ARDUINO: "s,130,181,0,107"
+[INFO] [1775411121.700408267] [arduino_base_controller]: RAW SERIAL FROM ARDUINO: "s,130,182,0,107"
+[INFO] [1775411125.781742903] [arduino_base_controller]: RAW SERIAL FROM ARDUINO: "s,132,181,0,107"
+[INFO] [1775411126.581923141] [arduino_base_controller]: RAW SERIAL FROM ARDUINO: "s,131,181,0,107"
+[INFO] [1775411144.083074836] [arduino_base_controller]: RAW SERIAL FROM ARDUINO: "s,131,181,0,107"
+[INFO] [1775411145.081374500] [arduino_base_controller]: RAW SERIAL FROM ARDUINO: "s,132,182,0,107"
+[INFO] [1775411145.222282074] [arduino_base_controller]: RAW SERIAL FROM ARDUINO: "s,132,183,0,107"
