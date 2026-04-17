@@ -1,0 +1,135 @@
+[INFO] [launch]: All log files can be found below /home/jetson/.ros/log/2026-04-02-06-56-29-662130-chandan-43861
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [controller_server-1]: process started with pid [43895]
+[INFO] [smoother_server-2]: process started with pid [43897]
+[INFO] [planner_server-3]: process started with pid [43899]
+[INFO] [behavior_server-4]: process started with pid [43901]
+[INFO] [bt_navigator-5]: process started with pid [43903]
+[INFO] [waypoint_follower-6]: process started with pid [43905]
+[INFO] [velocity_smoother-7]: process started with pid [43907]
+[INFO] [lifecycle_manager-8]: process started with pid [43909]
+[lifecycle_manager-8] [INFO] [1775084190.521652840] [lifecycle_manager_navigation]: Creating
+[lifecycle_manager-8] [INFO] [1775084190.617747506] [lifecycle_manager_navigation]: [34m[1mCreating and initializing lifecycle service clients[0m[0m
+[controller_server-1] [INFO] [1775084190.738611206] [controller_server]: 
+[controller_server-1] 	controller_server lifecycle node launched. 
+[controller_server-1] 	Waiting on external lifecycle transitions to activate
+[controller_server-1] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[controller_server-1] [INFO] [1775084190.769431562] [controller_server]: Creating controller server
+[planner_server-3] [INFO] [1775084190.827172854] [planner_server]: 
+[planner_server-3] 	planner_server lifecycle node launched. 
+[planner_server-3] 	Waiting on external lifecycle transitions to activate
+[planner_server-3] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[planner_server-3] [INFO] [1775084190.852793567] [planner_server]: Creating
+[behavior_server-4] [INFO] [1775084190.855224285] [behavior_server]: 
+[behavior_server-4] 	behavior_server lifecycle node launched. 
+[behavior_server-4] 	Waiting on external lifecycle transitions to activate
+[behavior_server-4] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[smoother_server-2] [INFO] [1775084190.934556374] [smoother_server]: 
+[smoother_server-2] 	smoother_server lifecycle node launched. 
+[smoother_server-2] 	Waiting on external lifecycle transitions to activate
+[smoother_server-2] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[smoother_server-2] [INFO] [1775084190.939095250] [smoother_server]: Creating smoother server
+[velocity_smoother-7] [INFO] [1775084191.007337429] [velocity_smoother]: 
+[velocity_smoother-7] 	velocity_smoother lifecycle node launched. 
+[velocity_smoother-7] 	Waiting on external lifecycle transitions to activate
+[velocity_smoother-7] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[waypoint_follower-6] [INFO] [1775084191.056397195] [waypoint_follower]: 
+[waypoint_follower-6] 	waypoint_follower lifecycle node launched. 
+[waypoint_follower-6] 	Waiting on external lifecycle transitions to activate
+[waypoint_follower-6] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[waypoint_follower-6] [INFO] [1775084191.066765986] [waypoint_follower]: Creating
+[controller_server-1] [INFO] [1775084191.143284065] [local_costmap.local_costmap]: 
+[controller_server-1] 	local_costmap lifecycle node launched. 
+[controller_server-1] 	Waiting on external lifecycle transitions to activate
+[controller_server-1] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[controller_server-1] [INFO] [1775084191.147429118] [local_costmap.local_costmap]: Creating Costmap
+[bt_navigator-5] [INFO] [1775084191.640945371] [bt_navigator]: 
+[bt_navigator-5] 	bt_navigator lifecycle node launched. 
+[bt_navigator-5] 	Waiting on external lifecycle transitions to activate
+[bt_navigator-5] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[bt_navigator-5] [INFO] [1775084191.641272603] [bt_navigator]: Creating
+[planner_server-3] [INFO] [1775084191.931556645] [global_costmap.global_costmap]: 
+[planner_server-3] 	global_costmap lifecycle node launched. 
+[planner_server-3] 	Waiting on external lifecycle transitions to activate
+[planner_server-3] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[planner_server-3] [INFO] [1775084191.932690212] [global_costmap.global_costmap]: Creating Costmap
+[lifecycle_manager-8] [INFO] [1775084192.677441006] [lifecycle_manager_navigation]: Waiting for service controller_server/get_state...
+[lifecycle_manager-8] [INFO] [1775084194.066748016] [lifecycle_manager_navigation]: [34m[1mStarting managed nodes bringup...[0m[0m
+[lifecycle_manager-8] [INFO] [1775084194.067778479] [lifecycle_manager_navigation]: [34m[1mConfiguring controller_server[0m[0m
+[controller_server-1] [INFO] [1775084194.071739404] [controller_server]: Configuring controller interface
+[controller_server-1] [INFO] [1775084194.072304492] [controller_server]: getting goal checker plugins..
+[controller_server-1] [INFO] [1775084194.072549644] [controller_server]: Controller frequency set to 20.0000Hz
+[controller_server-1] [INFO] [1775084194.072635340] [local_costmap.local_costmap]: Configuring
+[controller_server-1] [INFO] [1775084194.162767533] [local_costmap.local_costmap]: Using plugin "voxel_layer"
+[controller_server-1] [INFO] [1775084194.188542395] [local_costmap.local_costmap]: Subscribed to Topics: scan
+[controller_server-1] [INFO] [1775084194.272034368] [local_costmap.local_costmap]: Initialized plugin "voxel_layer"
+[controller_server-1] [INFO] [1775084194.272135136] [local_costmap.local_costmap]: Using plugin "inflation_layer"
+[controller_server-1] [INFO] [1775084194.279221307] [local_costmap.local_costmap]: Initialized plugin "inflation_layer"
+[controller_server-1] [INFO] [1775084194.462900443] [controller_server]: Created progress_checker : progress_checker of type nav2_controller::SimpleProgressChecker
+[controller_server-1] [INFO] [1775084194.468655991] [controller_server]: Created goal checker : general_goal_checker of type nav2_controller::SimpleGoalChecker
+[controller_server-1] [INFO] [1775084194.471762036] [controller_server]: Controller Server has general_goal_checker  goal checkers available.
+[controller_server-1] [INFO] [1775084194.479655023] [controller_server]: Created controller : FollowPath of type dwb_core::DWBLocalPlanner
+[controller_server-1] [INFO] [1775084194.520522834] [controller_server]: Setting transform_tolerance to 0.200000
+[controller_server-1] [INFO] [1775084194.620203276] [controller_server]: Using critic "RotateToGoal" (dwb_critics::RotateToGoalCritic)
+[controller_server-1] [INFO] [1775084194.623373162] [controller_server]: Critic plugin initialized
+[controller_server-1] [INFO] [1775084194.625046793] [controller_server]: Using critic "Oscillation" (dwb_critics::OscillationCritic)
+[controller_server-1] [INFO] [1775084194.628324007] [controller_server]: Critic plugin initialized
+[controller_server-1] [INFO] [1775084194.629970950] [controller_server]: Using critic "BaseObstacle" (dwb_critics::BaseObstacleCritic)
+[controller_server-1] [INFO] [1775084194.631351653] [controller_server]: Critic plugin initialized
+[controller_server-1] [INFO] [1775084194.632457188] [controller_server]: Using critic "GoalAlign" (dwb_critics::GoalAlignCritic)
+[controller_server-1] [INFO] [1775084194.634369283] [controller_server]: Critic plugin initialized
+[controller_server-1] [INFO] [1775084194.635466882] [controller_server]: Using critic "PathAlign" (dwb_critics::PathAlignCritic)
+[controller_server-1] [INFO] [1775084194.637452000] [controller_server]: Critic plugin initialized
+[controller_server-1] [INFO] [1775084194.639056927] [controller_server]: Using critic "PathDist" (dwb_critics::PathDistCritic)
+[controller_server-1] [INFO] [1775084194.640779998] [controller_server]: Critic plugin initialized
+[controller_server-1] [INFO] [1775084194.641535966] [controller_server]: Using critic "GoalDist" (dwb_critics::GoalDistCritic)
+[controller_server-1] [INFO] [1775084194.642832989] [controller_server]: Critic plugin initialized
+[controller_server-1] [INFO] [1775084194.643170108] [controller_server]: Controller Server has FollowPath  controllers available.
+[lifecycle_manager-8] [INFO] [1775084194.707006448] [lifecycle_manager_navigation]: [34m[1mConfiguring smoother_server[0m[0m
+[smoother_server-2] [INFO] [1775084194.707829007] [smoother_server]: Configuring smoother server
+[lifecycle_manager-8] [INFO] [1775084194.711244365] [lifecycle_manager_navigation]: [34m[1mConfiguring planner_server[0m[0m
+[planner_server-3] [INFO] [1775084194.712017900] [planner_server]: Configuring
+[planner_server-3] [INFO] [1775084194.712130188] [global_costmap.global_costmap]: Configuring
+[lifecycle_manager-8] [INFO] [1775084194.721259430] [lifecycle_manager_navigation]: [34m[1mConfiguring behavior_server[0m[0m
+[behavior_server-4] [INFO] [1775084194.723707236] [behavior_server]: Configuring
+[lifecycle_manager-8] [INFO] [1775084194.727376545] [lifecycle_manager_navigation]: [34m[1mConfiguring bt_navigator[0m[0m
+[bt_navigator-5] [INFO] [1775084194.728926112] [bt_navigator]: Configuring
+[lifecycle_manager-8] [INFO] [1775084194.734641980] [lifecycle_manager_navigation]: [34m[1mConfiguring waypoint_follower[0m[0m
+[lifecycle_manager-8] [INFO] [1775084194.745534549] [lifecycle_manager_navigation]: [34m[1mConfiguring velocity_smoother[0m[0m
+[waypoint_follower-6] [INFO] [1775084194.735869916] [waypoint_follower]: Configuring
+[velocity_smoother-7] [INFO] [1775084194.746770868] [velocity_smoother]: Configuring velocity smoother
+[lifecycle_manager-8] [INFO] [1775084194.761789993] [lifecycle_manager_navigation]: [34m[1mActivating controller_server[0m[0m
+[controller_server-1] [INFO] [1775084194.763026185] [controller_server]: Activating
+[controller_server-1] [INFO] [1775084194.763128424] [local_costmap.local_costmap]: Activating
+[controller_server-1] [INFO] [1775084194.763159944] [local_costmap.local_costmap]: Checking transform
+[controller_server-1] [INFO] [1775084194.763216648] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[planner_server-3] [INFO] [1775084194.813407301] [global_costmap.global_costmap]: Using plugin "static_layer"
+[smoother_server-2] [INFO] [1775084194.827834555] [smoother_server]: Created smoother : simple_smoother of type nav2_smoother::SimpleSmoother
+[smoother_server-2] [INFO] [1775084194.831220249] [smoother_server]: Smoother Server has simple_smoother  smoothers available.
+[behavior_server-4] [INFO] [1775084194.847978669] [behavior_server]: Creating behavior plugin spin of type nav2_behaviors/Spin
+[behavior_server-4] [INFO] [1775084194.852409322] [behavior_server]: Configuring spin
+[planner_server-3] [INFO] [1775084194.860581988] [global_costmap.global_costmap]: Subscribing to the map topic (/map) with transient local durability
+[planner_server-3] [INFO] [1775084194.890874735] [global_costmap.global_costmap]: Initialized plugin "static_layer"
+[planner_server-3] [INFO] [1775084194.890981903] [global_costmap.global_costmap]: Using plugin "obstacle_layer"
+[planner_server-3] [INFO] [1775084194.923742360] [global_costmap.global_costmap]: Subscribed to Topics: scan
+[behavior_server-4] [INFO] [1775084194.941083180] [behavior_server]: Creating behavior plugin backup of type nav2_behaviors/BackUp
+[behavior_server-4] [INFO] [1775084194.945848073] [behavior_server]: Configuring backup
+[behavior_server-4] [INFO] [1775084194.975737428] [behavior_server]: Creating behavior plugin drive_on_heading of type nav2_behaviors/DriveOnHeading
+[behavior_server-4] [INFO] [1775084194.977550450] [behavior_server]: Configuring drive_on_heading
+[behavior_server-4] [INFO] [1775084194.994192391] [behavior_server]: Creating behavior plugin assisted_teleop of type nav2_behaviors/AssistedTeleop
+[behavior_server-4] [INFO] [1775084194.998437540] [behavior_server]: Configuring assisted_teleop
+[behavior_server-4] [INFO] [1775084195.019906229] [behavior_server]: Creating behavior plugin wait of type nav2_behaviors/Wait
+[behavior_server-4] [INFO] [1775084195.021535092] [behavior_server]: Configuring wait
+[waypoint_follower-6] [INFO] [1775084195.069167573] [waypoint_follower]: Created waypoint_task_executor : wait_at_waypoint of type nav2_waypoint_follower::WaitAtWaypoint
+[planner_server-3] [INFO] [1775084195.098549986] [global_costmap.global_costmap]: Initialized plugin "obstacle_layer"
+[planner_server-3] [INFO] [1775084195.098683586] [global_costmap.global_costmap]: Using plugin "inflation_layer"
+[planner_server-3] [INFO] [1775084195.110497722] [global_costmap.global_costmap]: Initialized plugin "inflation_layer"
+[planner_server-3] [INFO] [1775084195.188233736] [planner_server]: Created global planner plugin GridBased of type nav2_navfn_planner/NavfnPlanner
+[planner_server-3] [INFO] [1775084195.188343720] [planner_server]: Configuring plugin GridBased of type NavfnPlanner
+[planner_server-3] [INFO] [1775084195.194661380] [planner_server]: Planner Server has GridBased  planners available.
+[controller_server-1] [INFO] [1775084195.263294487] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[controller_server-1] [INFO] [1775084195.763276242] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[controller_server-1] [INFO] [1775084196.263277145] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[controller_server-1] [INFO] [1775084196.763277196] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[controller_server-1] [INFO] [1775084197.263283564] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[controller_server-1] [INFO] [1775084197.763282008] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
