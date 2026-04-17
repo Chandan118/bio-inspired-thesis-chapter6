@@ -1,0 +1,95 @@
+[INFO] [launch]: All log files can be found below /home/jetson/.ros/log/2026-04-07-07-56-51-889631-chandan-60400
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [controller_server-1]: process started with pid [60545]
+[INFO] [smoother_server-2]: process started with pid [60547]
+[INFO] [planner_server-3]: process started with pid [60549]
+[INFO] [behavior_server-4]: process started with pid [60551]
+[INFO] [bt_navigator-5]: process started with pid [60553]
+[INFO] [waypoint_follower-6]: process started with pid [60555]
+[INFO] [velocity_smoother-7]: process started with pid [60559]
+[INFO] [lifecycle_manager-8]: process started with pid [60561]
+[lifecycle_manager-8] [INFO] [1775519816.910695040] [lifecycle_manager_navigation]: Creating
+[lifecycle_manager-8] [INFO] [1775519817.164452712] [lifecycle_manager_navigation]: [34m[1mCreating and initializing lifecycle service clients[0m[0m
+[bt_navigator-5] [INFO] [1775519817.831225373] [bt_navigator]: 
+[bt_navigator-5] 	bt_navigator lifecycle node launched. 
+[bt_navigator-5] 	Waiting on external lifecycle transitions to activate
+[bt_navigator-5] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[bt_navigator-5] [INFO] [1775519817.834807513] [bt_navigator]: Creating
+[waypoint_follower-6] [INFO] [1775519818.888957222] [waypoint_follower]: 
+[waypoint_follower-6] 	waypoint_follower lifecycle node launched. 
+[waypoint_follower-6] 	Waiting on external lifecycle transitions to activate
+[waypoint_follower-6] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[waypoint_follower-6] [INFO] [1775519818.890720884] [waypoint_follower]: Creating
+[velocity_smoother-7] [INFO] [1775519819.024696238] [velocity_smoother]: 
+[velocity_smoother-7] 	velocity_smoother lifecycle node launched. 
+[velocity_smoother-7] 	Waiting on external lifecycle transitions to activate
+[velocity_smoother-7] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[behavior_server-4] [INFO] [1775519819.385406903] [behavior_server]: 
+[behavior_server-4] 	behavior_server lifecycle node launched. 
+[behavior_server-4] 	Waiting on external lifecycle transitions to activate
+[behavior_server-4] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[controller_server-1] [INFO] [1775519819.470688427] [controller_server]: 
+[controller_server-1] 	controller_server lifecycle node launched. 
+[controller_server-1] 	Waiting on external lifecycle transitions to activate
+[controller_server-1] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[smoother_server-2] [INFO] [1775519819.492945800] [smoother_server]: 
+[smoother_server-2] 	smoother_server lifecycle node launched. 
+[smoother_server-2] 	Waiting on external lifecycle transitions to activate
+[smoother_server-2] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[smoother_server-2] [INFO] [1775519819.496969072] [smoother_server]: Creating smoother server
+[lifecycle_manager-8] [INFO] [1775519819.720574862] [lifecycle_manager_navigation]: Waiting for service controller_server/get_state...
+[controller_server-1] [INFO] [1775519819.793046488] [controller_server]: Creating controller server
+[planner_server-3] [INFO] [1775519820.601960694] [planner_server]: 
+[planner_server-3] 	planner_server lifecycle node launched. 
+[planner_server-3] 	Waiting on external lifecycle transitions to activate
+[planner_server-3] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[planner_server-3] [INFO] [1775519820.605086727] [planner_server]: Creating
+[lifecycle_manager-8] [INFO] [1775519821.720936515] [lifecycle_manager_navigation]: Waiting for service controller_server/get_state...
+[planner_server-3] [INFO] [1775519822.892014314] [global_costmap.global_costmap]: 
+[planner_server-3] 	global_costmap lifecycle node launched. 
+[planner_server-3] 	Waiting on external lifecycle transitions to activate
+[planner_server-3] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[planner_server-3] [INFO] [1775519822.898474065] [global_costmap.global_costmap]: Creating Costmap
+[lifecycle_manager-8] [INFO] [1775519823.721334065] [lifecycle_manager_navigation]: Waiting for service controller_server/get_state...
+[controller_server-1] [INFO] [1775519824.132978070] [local_costmap.local_costmap]: 
+[controller_server-1] 	local_costmap lifecycle node launched. 
+[controller_server-1] 	Waiting on external lifecycle transitions to activate
+[controller_server-1] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[controller_server-1] [INFO] [1775519824.167054180] [local_costmap.local_costmap]: Creating Costmap
+[lifecycle_manager-8] [INFO] [1775519825.722044928] [lifecycle_manager_navigation]: Waiting for service controller_server/get_state...
+[lifecycle_manager-8] [INFO] [1775519828.259060241] [lifecycle_manager_navigation]: [34m[1mStarting managed nodes bringup...[0m[0m
+[lifecycle_manager-8] [INFO] [1775519828.263533604] [lifecycle_manager_navigation]: [34m[1mConfiguring controller_server[0m[0m
+[controller_server-1] [INFO] [1775519828.283704684] [controller_server]: Configuring controller interface
+[controller_server-1] [INFO] [1775519828.284268826] [controller_server]: getting goal checker plugins..
+[controller_server-1] [INFO] [1775519828.284427486] [controller_server]: Controller frequency set to 20.0000Hz
+[controller_server-1] [INFO] [1775519828.284507104] [local_costmap.local_costmap]: Configuring
+[lifecycle_manager-8] [ERROR] [1775519828.309694376] [lifecycle_manager_navigation]: Failed to change state for node: controller_server
+[lifecycle_manager-8] [ERROR] [1775519828.313835923] [lifecycle_manager_navigation]: Failed to bring up all requested nodes. Aborting bringup.
+[controller_server-1] [INFO] [1775519828.401186139] [local_costmap.local_costmap]: Using plugin "voxel_layer"
+[controller_server-1] [INFO] [1775519828.475747002] [local_costmap.local_costmap]: Subscribed to Topics: scan
+[controller_server-1] [INFO] [1775519828.689628058] [local_costmap.local_costmap]: Initialized plugin "voxel_layer"
+[controller_server-1] [INFO] [1775519828.689932002] [local_costmap.local_costmap]: Using plugin "inflation_layer"
+[controller_server-1] [INFO] [1775519828.708816712] [local_costmap.local_costmap]: Initialized plugin "inflation_layer"
+[controller_server-1] [INFO] [1775519829.136804846] [controller_server]: Created progress_checker : progress_checker of type nav2_controller::SimpleProgressChecker
+[controller_server-1] [INFO] [1775519829.138427768] [controller_server]: Created goal checker : general_goal_checker of type nav2_controller::SimpleGoalChecker
+[controller_server-1] [INFO] [1775519829.139326895] [controller_server]: Controller Server has general_goal_checker  goal checkers available.
+[controller_server-1] [INFO] [1775519829.175614101] [controller_server]: Created controller : FollowPath of type dwb_core::DWBLocalPlanner
+[controller_server-1] [INFO] [1775519829.189198258] [controller_server]: Setting transform_tolerance to 0.200000
+[controller_server-1] [INFO] [1775519829.540984143] [controller_server]: Using critic "RotateToGoal" (dwb_critics::RotateToGoalCritic)
+[controller_server-1] [INFO] [1775519829.577448441] [controller_server]: Critic plugin initialized
+[controller_server-1] [INFO] [1775519829.579769781] [controller_server]: Using critic "Oscillation" (dwb_critics::OscillationCritic)
+[controller_server-1] [INFO] [1775519829.605513995] [controller_server]: Critic plugin initialized
+[controller_server-1] [INFO] [1775519829.620957369] [controller_server]: Using critic "BaseObstacle" (dwb_critics::BaseObstacleCritic)
+[controller_server-1] [INFO] [1775519829.628336567] [controller_server]: Critic plugin initialized
+[controller_server-1] [INFO] [1775519829.633224244] [controller_server]: Using critic "GoalAlign" (dwb_critics::GoalAlignCritic)
+[controller_server-1] [INFO] [1775519829.664778592] [controller_server]: Critic plugin initialized
+[controller_server-1] [INFO] [1775519829.670805147] [controller_server]: Using critic "PathAlign" (dwb_critics::PathAlignCritic)
+[controller_server-1] [INFO] [1775519829.686749334] [controller_server]: Critic plugin initialized
+[controller_server-1] [INFO] [1775519829.689357273] [controller_server]: Using critic "PathDist" (dwb_critics::PathDistCritic)
+[controller_server-1] [INFO] [1775519829.703640360] [controller_server]: Critic plugin initialized
+[controller_server-1] [INFO] [1775519829.708664874] [controller_server]: Using critic "GoalDist" (dwb_critics::GoalDistCritic)
+[controller_server-1] [INFO] [1775519829.730046928] [controller_server]: Critic plugin initialized
+[controller_server-1] [INFO] [1775519829.730177139] [controller_server]: Controller Server has FollowPath  controllers available.
+[controller_server-1] [WARN] [1775520081.555881140] [rcl_lifecycle]: No transition matching 1 found for current state inactive
+[controller_server-1] [WARN] [1775520081.555958454] [rcl_lifecycle]: No transition matching 1 found for current state inactive
+[controller_server-1] [ERROR] [1775520081.555978966] [controller_server]: Unable to start transition 1 from current state inactive: Transition is not registered., at ./src/rcl_lifecycle.c:355
