@@ -1,0 +1,2 @@
+[INFO] [1775693164.156717134] [ina219_power_monitor]: Power monitor started (bus=1, addr=0x40)
+[INFO] [1775693164.159038673] [ina219_power_monitor]: Using sysfs power source: /sys/bus/i2c/devices/1-0040/hwmon/hwmon1
