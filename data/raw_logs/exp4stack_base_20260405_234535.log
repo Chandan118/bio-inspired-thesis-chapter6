@@ -1,0 +1,12 @@
+[INFO] [1775403941.815046540] [arduino_base_controller]: Connected to Arduino on /dev/ttyCH341USB0
+[INFO] [1775403941.866082805] [arduino_base_controller]: Arduino Base Controller started.
+[INFO] [1775403941.969130142] [arduino_base_controller]: RAW SERIAL FROM ARDUINO: "Motor+Sensor Controller Ready"
+[INFO] [1775403942.069317765] [arduino_base_controller]: RAW SERIAL FROM ARDUINO: "FW: mq-analog-v2"
+[INFO] [1775403942.169376360] [arduino_base_controller]: RAW SERIAL FROM ARDUINO: "s,79,99,0,71"
+[INFO] [1775403942.268225809] [arduino_base_controller]: RAW SERIAL FROM ARDUINO: "s,78,98,0,71"
+[INFO] [1775403942.369431822] [arduino_base_controller]: RAW SERIAL FROM ARDUINO: "s,79,98,0,71"
+[INFO] [1775403942.470149503] [arduino_base_controller]: RAW SERIAL FROM ARDUINO: "s,80,99,0,81"
+[INFO] [1775403942.569646294] [arduino_base_controller]: RAW SERIAL FROM ARDUINO: "s,79,99,0,81"
+[INFO] [1775403942.669550646] [arduino_base_controller]: RAW SERIAL FROM ARDUINO: "s,78,98,0,81"
+[INFO] [1775403942.769423477] [arduino_base_controller]: RAW SERIAL FROM ARDUINO: "s,79,100,0,81"
+[INFO] [1775403942.869247380] [arduino_base_controller]: RAW SERIAL FROM ARDUINO: "s,79,99,0,81"
