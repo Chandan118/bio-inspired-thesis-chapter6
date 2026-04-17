@@ -1,0 +1,10 @@
+[INFO] [1776187935.877106912] [exp3_slam_mapping]: Experiment 3 — SLAM Mapping starting ...
+Traceback (most recent call last):
+  File "/home/jetson/ros2_ws/install/formica_experiments/lib/formica_experiments/exp3_slam", line 33, in <module>
+    sys.exit(load_entry_point('formica-experiments==1.0.0', 'console_scripts', 'exp3_slam')())
+  File "/home/jetson/ros2_ws/build/formica_experiments/formica_experiments/exp3_slam_mapping.py", line 460, in main
+    node = SlamMappingNode()
+  File "/home/jetson/ros2_ws/build/formica_experiments/formica_experiments/exp3_slam_mapping.py", line 112, in __init__
+    PoseWithCovarianceStamped, '/amcl_pose', self._pose_cb, 10,
+AttributeError: 'SlamMappingNode' object has no attribute '_pose_cb'
+[ros2run]: Process exited with failure 1
