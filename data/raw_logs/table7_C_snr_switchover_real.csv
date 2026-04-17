@@ -1,0 +1,2 @@
+trial,ambient_pct,switchover_latency_s,continued_following_or_trail_any
+1,DATA_MISSING,DATA_MISSING,DATA_MISSING,Exp7 was not completed. TCRT5000 returned 0 (LED strip off); MQ-135 gas_sensor topic not active (/gas_sensor seen=False). Re-run with LED strip powered and MQ-135 Arduino firmware uploaded.
