@@ -1,0 +1,211 @@
+[INFO] [1775513586.780170323] [exp2_power_profiling]: Exp2: mission 21600.0s, cycle 17.0s (TRANSIT 10.2s, DECISION 5.1s, STANDBY 1.7s)
+[INFO] [1775513586.780964355] [exp2_power_profiling]: Waiting for /power_monitor (10 Hz) …
+[INFO] [1775513586.782833737] [exp2_power_profiling]: First /power_monitor received — mission clock started.
+[INFO] [1775513587.008357610] [exp2_power_profiling]: TRANSIT: camera/gas/CNN processes stopped (best-effort).
+[INFO] [1775513597.209405750] [exp2_power_profiling]: DECISION: launched exp6_cnn (Kinect /rgb expected).
+[INFO] [1775513602.206188192] [exp2_power_profiling]: STANDBY: CNN stopped; IMU/line sensors only (motion off).
+[INFO] [1775513604.028646576] [exp2_power_profiling]: TRANSIT: camera/gas/CNN processes stopped (best-effort).
+[INFO] [1775513614.206533420] [exp2_power_profiling]: DECISION: launched exp6_cnn (Kinect /rgb expected).
+[INFO] [1775513619.215252298] [exp2_power_profiling]: STANDBY: CNN stopped; IMU/line sensors only (motion off).
+[INFO] [1775513621.013153436] [exp2_power_profiling]: TRANSIT: camera/gas/CNN processes stopped (best-effort).
+[INFO] [1775513631.268821416] [exp2_power_profiling]: DECISION: launched exp6_cnn (Kinect /rgb expected).
+[INFO] [1775513636.127544237] [exp2_power_profiling]: STANDBY: CNN stopped; IMU/line sensors only (motion off).
+[INFO] [1775513638.031447099] [exp2_power_profiling]: TRANSIT: camera/gas/CNN processes stopped (best-effort).
+[INFO] [1775513648.223038349] [exp2_power_profiling]: DECISION: launched exp6_cnn (Kinect /rgb expected).
+[INFO] [1775513653.135706411] [exp2_power_profiling]: STANDBY: CNN stopped; IMU/line sensors only (motion off).
+[INFO] [1775513655.010166966] [exp2_power_profiling]: TRANSIT: camera/gas/CNN processes stopped (best-effort).
+[INFO] [1775513665.304914895] [exp2_power_profiling]: DECISION: launched exp6_cnn (Kinect /rgb expected).
+[INFO] [1775513670.132080310] [exp2_power_profiling]: STANDBY: CNN stopped; IMU/line sensors only (motion off).
+[INFO] [1775513672.024536746] [exp2_power_profiling]: TRANSIT: camera/gas/CNN processes stopped (best-effort).
+[INFO] [1775513682.209697373] [exp2_power_profiling]: DECISION: launched exp6_cnn (Kinect /rgb expected).
+[INFO] [1775513687.253772196] [exp2_power_profiling]: STANDBY: CNN stopped; IMU/line sensors only (motion off).
+[INFO] [1775513689.005934152] [exp2_power_profiling]: TRANSIT: camera/gas/CNN processes stopped (best-effort).
+[INFO] [1775513699.210335139] [exp2_power_profiling]: DECISION: launched exp6_cnn (Kinect /rgb expected).
+[INFO] [1775513704.132494503] [exp2_power_profiling]: STANDBY: CNN stopped; IMU/line sensors only (motion off).
+[INFO] [1775513706.016996137] [exp2_power_profiling]: TRANSIT: camera/gas/CNN processes stopped (best-effort).
+[INFO] [1775513716.208446141] [exp2_power_profiling]: DECISION: launched exp6_cnn (Kinect /rgb expected).
+[INFO] [1775513721.132548884] [exp2_power_profiling]: STANDBY: CNN stopped; IMU/line sensors only (motion off).
+[INFO] [1775513723.007752790] [exp2_power_profiling]: TRANSIT: camera/gas/CNN processes stopped (best-effort).
+[INFO] [1775513733.185770989] [exp2_power_profiling]: DECISION: launched exp6_cnn (Kinect /rgb expected).
+[INFO] [1775513738.141414488] [exp2_power_profiling]: STANDBY: CNN stopped; IMU/line sensors only (motion off).
+[INFO] [1775513740.035458228] [exp2_power_profiling]: TRANSIT: camera/gas/CNN processes stopped (best-effort).
+[INFO] [1775513750.226350239] [exp2_power_profiling]: DECISION: launched exp6_cnn (Kinect /rgb expected).
+[INFO] [1775513755.135470556] [exp2_power_profiling]: STANDBY: CNN stopped; IMU/line sensors only (motion off).
+[INFO] [1775513757.199703584] [exp2_power_profiling]: TRANSIT: camera/gas/CNN processes stopped (best-effort).
+[INFO] [1775513767.264280222] [exp2_power_profiling]: DECISION: launched exp6_cnn (Kinect /rgb expected).
+[INFO] [1775513772.131084002] [exp2_power_profiling]: STANDBY: CNN stopped; IMU/line sensors only (motion off).
+[INFO] [1775513774.035505442] [exp2_power_profiling]: TRANSIT: camera/gas/CNN processes stopped (best-effort).
+[INFO] [1775513784.233900274] [exp2_power_profiling]: DECISION: launched exp6_cnn (Kinect /rgb expected).
+[INFO] [1775513789.294205232] [exp2_power_profiling]: STANDBY: CNN stopped; IMU/line sensors only (motion off).
+[INFO] [1775513791.043406109] [exp2_power_profiling]: TRANSIT: camera/gas/CNN processes stopped (best-effort).
+[INFO] [1775513801.202284910] [exp2_power_profiling]: DECISION: launched exp6_cnn (Kinect /rgb expected).
+[INFO] [1775513806.342552976] [exp2_power_profiling]: STANDBY: CNN stopped; IMU/line sensors only (motion off).
+[INFO] [1775513808.032338957] [exp2_power_profiling]: TRANSIT: camera/gas/CNN processes stopped (best-effort).
+[INFO] [1775513818.251840130] [exp2_power_profiling]: DECISION: launched exp6_cnn (Kinect /rgb expected).
+[INFO] [1775513823.149126704] [exp2_power_profiling]: STANDBY: CNN stopped; IMU/line sensors only (motion off).
+[INFO] [1775513825.022430892] [exp2_power_profiling]: TRANSIT: camera/gas/CNN processes stopped (best-effort).
+[INFO] [1775513835.213606279] [exp2_power_profiling]: DECISION: launched exp6_cnn (Kinect /rgb expected).
+[INFO] [1775513840.134034000] [exp2_power_profiling]: STANDBY: CNN stopped; IMU/line sensors only (motion off).
+[INFO] [1775513842.060133249] [exp2_power_profiling]: TRANSIT: camera/gas/CNN processes stopped (best-effort).
+[INFO] [1775513852.359652136] [exp2_power_profiling]: DECISION: launched exp6_cnn (Kinect /rgb expected).
+[INFO] [1775513857.143783589] [exp2_power_profiling]: STANDBY: CNN stopped; IMU/line sensors only (motion off).
+[INFO] [1775513859.268645939] [exp2_power_profiling]: TRANSIT: camera/gas/CNN processes stopped (best-effort).
+[INFO] [1775513869.262357983] [exp2_power_profiling]: DECISION: launched exp6_cnn (Kinect /rgb expected).
+[INFO] [1775513874.249105534] [exp2_power_profiling]: STANDBY: CNN stopped; IMU/line sensors only (motion off).
+[INFO] [1775513875.985734659] [exp2_power_profiling]: TRANSIT: camera/gas/CNN processes stopped (best-effort).
+[INFO] [1775513886.231056669] [exp2_power_profiling]: DECISION: launched exp6_cnn (Kinect /rgb expected).
+[INFO] [1775513891.132839601] [exp2_power_profiling]: STANDBY: CNN stopped; IMU/line sensors only (motion off).
+[INFO] [1775513893.025422203] [exp2_power_profiling]: TRANSIT: camera/gas/CNN processes stopped (best-effort).
+[INFO] [1775513903.198554795] [exp2_power_profiling]: DECISION: launched exp6_cnn (Kinect /rgb expected).
+[INFO] [1775513908.131616405] [exp2_power_profiling]: STANDBY: CNN stopped; IMU/line sensors only (motion off).
+[INFO] [1775513910.203378158] [exp2_power_profiling]: TRANSIT: camera/gas/CNN processes stopped (best-effort).
+[INFO] [1775513920.225990866] [exp2_power_profiling]: DECISION: launched exp6_cnn (Kinect /rgb expected).
+[INFO] [1775513925.133251174] [exp2_power_profiling]: STANDBY: CNN stopped; IMU/line sensors only (motion off).
+[INFO] [1775513927.005750885] [exp2_power_profiling]: TRANSIT: camera/gas/CNN processes stopped (best-effort).
+[INFO] [1775513937.218521414] [exp2_power_profiling]: DECISION: launched exp6_cnn (Kinect /rgb expected).
+[INFO] [1775513942.502631894] [exp2_power_profiling]: STANDBY: CNN stopped; IMU/line sensors only (motion off).
+[INFO] [1775513944.021757542] [exp2_power_profiling]: TRANSIT: camera/gas/CNN processes stopped (best-effort).
+[INFO] [1775513954.317369028] [exp2_power_profiling]: DECISION: launched exp6_cnn (Kinect /rgb expected).
+[INFO] [1775513959.464562487] [exp2_power_profiling]: STANDBY: CNN stopped; IMU/line sensors only (motion off).
+[INFO] [1775513961.241661941] [exp2_power_profiling]: TRANSIT: camera/gas/CNN processes stopped (best-effort).
+[INFO] [1775513971.249590382] [exp2_power_profiling]: DECISION: launched exp6_cnn (Kinect /rgb expected).
+[INFO] [1775513976.138691162] [exp2_power_profiling]: STANDBY: CNN stopped; IMU/line sensors only (motion off).
+[INFO] [1775513978.273414208] [exp2_power_profiling]: TRANSIT: camera/gas/CNN processes stopped (best-effort).
+[INFO] [1775513988.204370689] [exp2_power_profiling]: DECISION: launched exp6_cnn (Kinect /rgb expected).
+[INFO] [1775513993.481035658] [exp2_power_profiling]: STANDBY: CNN stopped; IMU/line sensors only (motion off).
+[INFO] [1775513995.033411816] [exp2_power_profiling]: TRANSIT: camera/gas/CNN processes stopped (best-effort).
+[INFO] [1775514005.238974758] [exp2_power_profiling]: DECISION: launched exp6_cnn (Kinect /rgb expected).
+[INFO] [1775514010.324491163] [exp2_power_profiling]: STANDBY: CNN stopped; IMU/line sensors only (motion off).
+[INFO] [1775514012.231114764] [exp2_power_profiling]: TRANSIT: camera/gas/CNN processes stopped (best-effort).
+[INFO] [1775514022.337810670] [exp2_power_profiling]: DECISION: launched exp6_cnn (Kinect /rgb expected).
+[INFO] [1775514027.479997923] [exp2_power_profiling]: STANDBY: CNN stopped; IMU/line sensors only (motion off).
+[INFO] [1775514029.031119645] [exp2_power_profiling]: TRANSIT: camera/gas/CNN processes stopped (best-effort).
+[INFO] [1775514039.217268547] [exp2_power_profiling]: DECISION: launched exp6_cnn (Kinect /rgb expected).
+[INFO] [1775514044.764527296] [exp2_power_profiling]: STANDBY: CNN stopped; IMU/line sensors only (motion off).
+[INFO] [1775514046.289661073] [exp2_power_profiling]: TRANSIT: camera/gas/CNN processes stopped (best-effort).
+[INFO] [1775514056.194274729] [exp2_power_profiling]: DECISION: launched exp6_cnn (Kinect /rgb expected).
+[INFO] [1775514061.578771547] [exp2_power_profiling]: STANDBY: CNN stopped; IMU/line sensors only (motion off).
+[INFO] [1775514063.209362660] [exp2_power_profiling]: TRANSIT: camera/gas/CNN processes stopped (best-effort).
+[INFO] [1775514073.355427132] [exp2_power_profiling]: DECISION: launched exp6_cnn (Kinect /rgb expected).
+[INFO] [1775514078.667487986] [exp2_power_profiling]: STANDBY: CNN stopped; IMU/line sensors only (motion off).
+[INFO] [1775514080.347718189] [exp2_power_profiling]: TRANSIT: camera/gas/CNN processes stopped (best-effort).
+[INFO] [1775514090.249739284] [exp2_power_profiling]: DECISION: launched exp6_cnn (Kinect /rgb expected).
+[INFO] [1775514095.218466186] [exp2_power_profiling]: STANDBY: CNN stopped; IMU/line sensors only (motion off).
+[INFO] [1775514097.143827370] [exp2_power_profiling]: TRANSIT: camera/gas/CNN processes stopped (best-effort).
+[INFO] [1775514107.231251881] [exp2_power_profiling]: DECISION: launched exp6_cnn (Kinect /rgb expected).
+[INFO] [1775514112.203829554] [exp2_power_profiling]: STANDBY: CNN stopped; IMU/line sensors only (motion off).
+[INFO] [1775514115.760240413] [exp2_power_profiling]: TRANSIT: camera/gas/CNN processes stopped (best-effort).
+[INFO] [1775514124.398910390] [exp2_power_profiling]: DECISION: launched exp6_cnn (Kinect /rgb expected).
+[INFO] [1775514129.602628761] [exp2_power_profiling]: STANDBY: CNN stopped; IMU/line sensors only (motion off).
+[INFO] [1775514132.235783806] [exp2_power_profiling]: TRANSIT: camera/gas/CNN processes stopped (best-effort).
+[INFO] [1775514141.282737554] [exp2_power_profiling]: DECISION: launched exp6_cnn (Kinect /rgb expected).
+[INFO] [1775514146.917979498] [exp2_power_profiling]: STANDBY: CNN stopped; IMU/line sensors only (motion off).
+[INFO] [1775514148.439834828] [exp2_power_profiling]: TRANSIT: camera/gas/CNN processes stopped (best-effort).
+[INFO] [1775514158.979091189] [exp2_power_profiling]: DECISION: launched exp6_cnn (Kinect /rgb expected).
+[INFO] [1775514163.187137829] [exp2_power_profiling]: STANDBY: CNN stopped; IMU/line sensors only (motion off).
+[INFO] [1775514167.212769332] [exp2_power_profiling]: TRANSIT: camera/gas/CNN processes stopped (best-effort).
+[INFO] [1775514175.443694203] [exp2_power_profiling]: DECISION: launched exp6_cnn (Kinect /rgb expected).
+[INFO] [1775514180.782187981] [exp2_power_profiling]: STANDBY: CNN stopped; IMU/line sensors only (motion off).
+[INFO] [1775514183.051538805] [exp2_power_profiling]: TRANSIT: camera/gas/CNN processes stopped (best-effort).
+[INFO] [1775514192.271624678] [exp2_power_profiling]: DECISION: launched exp6_cnn (Kinect /rgb expected).
+[INFO] [1775514197.468956511] [exp2_power_profiling]: STANDBY: CNN stopped; IMU/line sensors only (motion off).
+[INFO] [1775514199.167383802] [exp2_power_profiling]: TRANSIT: camera/gas/CNN processes stopped (best-effort).
+[INFO] [1775514209.245719027] [exp2_power_profiling]: DECISION: launched exp6_cnn (Kinect /rgb expected).
+[INFO] [1775514215.175064150] [exp2_power_profiling]: STANDBY: CNN stopped; IMU/line sensors only (motion off).
+[INFO] [1775514216.103113514] [exp2_power_profiling]: TRANSIT: camera/gas/CNN processes stopped (best-effort).
+[INFO] [1775514226.241716880] [exp2_power_profiling]: DECISION: launched exp6_cnn (Kinect /rgb expected).
+[INFO] [1775514231.711645351] [exp2_power_profiling]: STANDBY: CNN stopped; IMU/line sensors only (motion off).
+[INFO] [1775514235.651601286] [exp2_power_profiling]: TRANSIT: camera/gas/CNN processes stopped (best-effort).
+[INFO] [1775514243.297560632] [exp2_power_profiling]: DECISION: launched exp6_cnn (Kinect /rgb expected).
+[INFO] [1775514248.674662841] [exp2_power_profiling]: STANDBY: CNN stopped; IMU/line sensors only (motion off).
+[INFO] [1775514251.911301749] [exp2_power_profiling]: TRANSIT: camera/gas/CNN processes stopped (best-effort).
+[INFO] [1775514260.260921805] [exp2_power_profiling]: DECISION: launched exp6_cnn (Kinect /rgb expected).
+[INFO] [1775514265.416655918] [exp2_power_profiling]: STANDBY: CNN stopped; IMU/line sensors only (motion off).
+[INFO] [1775514267.249857743] [exp2_power_profiling]: TRANSIT: camera/gas/CNN processes stopped (best-effort).
+[INFO] [1775514277.234926837] [exp2_power_profiling]: DECISION: launched exp6_cnn (Kinect /rgb expected).
+[INFO] [1775514282.354770559] [exp2_power_profiling]: STANDBY: CNN stopped; IMU/line sensors only (motion off).
+[INFO] [1775514284.502841777] [exp2_power_profiling]: TRANSIT: camera/gas/CNN processes stopped (best-effort).
+[INFO] [1775514296.344482901] [exp2_power_profiling]: DECISION: launched exp6_cnn (Kinect /rgb expected).
+[INFO] [1775514299.133671906] [exp2_power_profiling]: STANDBY: CNN stopped; IMU/line sensors only (motion off).
+[INFO] [1775514301.125138508] [exp2_power_profiling]: TRANSIT: camera/gas/CNN processes stopped (best-effort).
+[INFO] [1775514311.681167248] [exp2_power_profiling]: DECISION: launched exp6_cnn (Kinect /rgb expected).
+[INFO] [1775514316.164297777] [exp2_power_profiling]: STANDBY: CNN stopped; IMU/line sensors only (motion off).
+[INFO] [1775514321.319646664] [exp2_power_profiling]: TRANSIT: camera/gas/CNN processes stopped (best-effort).
+[INFO] [1775514328.238326627] [exp2_power_profiling]: DECISION: launched exp6_cnn (Kinect /rgb expected).
+[INFO] [1775514333.490206493] [exp2_power_profiling]: STANDBY: CNN stopped; IMU/line sensors only (motion off).
+[INFO] [1775514337.975136460] [exp2_power_profiling]: TRANSIT: camera/gas/CNN processes stopped (best-effort).
+[INFO] [1775514345.298413948] [exp2_power_profiling]: DECISION: launched exp6_cnn (Kinect /rgb expected).
+[INFO] [1775514350.367843298] [exp2_power_profiling]: STANDBY: CNN stopped; IMU/line sensors only (motion off).
+[INFO] [1775514352.950803436] [exp2_power_profiling]: TRANSIT: camera/gas/CNN processes stopped (best-effort).
+[INFO] [1775514362.235445045] [exp2_power_profiling]: DECISION: launched exp6_cnn (Kinect /rgb expected).
+[INFO] [1775514367.508572773] [exp2_power_profiling]: STANDBY: CNN stopped; IMU/line sensors only (motion off).
+[INFO] [1775514370.340956063] [exp2_power_profiling]: TRANSIT: camera/gas/CNN processes stopped (best-effort).
+[INFO] [1775514379.284852469] [exp2_power_profiling]: DECISION: launched exp6_cnn (Kinect /rgb expected).
+[INFO] [1775514384.134982180] [exp2_power_profiling]: STANDBY: CNN stopped; IMU/line sensors only (motion off).
+[INFO] [1775514386.593572455] [exp2_power_profiling]: TRANSIT: camera/gas/CNN processes stopped (best-effort).
+[INFO] [1775514398.366404876] [exp2_power_profiling]: DECISION: launched exp6_cnn (Kinect /rgb expected).
+[INFO] [1775514402.115792269] [exp2_power_profiling]: STANDBY: CNN stopped; IMU/line sensors only (motion off).
+[INFO] [1775514405.792751087] [exp2_power_profiling]: TRANSIT: camera/gas/CNN processes stopped (best-effort).
+[INFO] [1775514413.724252356] [exp2_power_profiling]: DECISION: launched exp6_cnn (Kinect /rgb expected).
+[INFO] [1775514419.373417774] [exp2_power_profiling]: STANDBY: CNN stopped; IMU/line sensors only (motion off).
+[INFO] [1775514422.831836763] [exp2_power_profiling]: TRANSIT: camera/gas/CNN processes stopped (best-effort).
+[INFO] [1775514434.849610452] [exp2_power_profiling]: DECISION: launched exp6_cnn (Kinect /rgb expected).
+[INFO] [1775514435.539647723] [exp2_power_profiling]: STANDBY: CNN stopped; IMU/line sensors only (motion off).
+[INFO] [1775514437.038720907] [exp2_power_profiling]: TRANSIT: camera/gas/CNN processes stopped (best-effort).
+[INFO] [1775514448.966235523] [exp2_power_profiling]: DECISION: launched exp6_cnn (Kinect /rgb expected).
+[INFO] [1775514452.142542468] [exp2_power_profiling]: STANDBY: CNN stopped; IMU/line sensors only (motion off).
+[INFO] [1775514457.952808722] [exp2_power_profiling]: TRANSIT: camera/gas/CNN processes stopped (best-effort).
+[INFO] [1775514465.920027862] [exp2_power_profiling]: DECISION: launched exp6_cnn (Kinect /rgb expected).
+[INFO] [1775514469.789930690] [exp2_power_profiling]: STANDBY: CNN stopped; IMU/line sensors only (motion off).
+[INFO] [1775514471.991901961] [exp2_power_profiling]: TRANSIT: camera/gas/CNN processes stopped (best-effort).
+[INFO] [1775514484.087302112] [exp2_power_profiling]: DECISION: launched exp6_cnn (Kinect /rgb expected).
+[INFO] [1775514486.147730374] [exp2_power_profiling]: STANDBY: CNN stopped; IMU/line sensors only (motion off).
+[INFO] [1775514492.316053074] [exp2_power_profiling]: TRANSIT: camera/gas/CNN processes stopped (best-effort).
+[INFO] [1775514499.583885352] [exp2_power_profiling]: DECISION: launched exp6_cnn (Kinect /rgb expected).
+[INFO] [1775514503.587618457] [exp2_power_profiling]: STANDBY: CNN stopped; IMU/line sensors only (motion off).
+[INFO] [1775514505.880876021] [exp2_power_profiling]: TRANSIT: camera/gas/CNN processes stopped (best-effort).
+[INFO] [1775514515.301463797] [exp2_power_profiling]: DECISION: launched exp6_cnn (Kinect /rgb expected).
+[INFO] [1775514520.873598885] [exp2_power_profiling]: STANDBY: CNN stopped; IMU/line sensors only (motion off).
+[INFO] [1775514523.260109295] [exp2_power_profiling]: TRANSIT: camera/gas/CNN processes stopped (best-effort).
+[INFO] [1775514533.481969456] [exp2_power_profiling]: DECISION: launched exp6_cnn (Kinect /rgb expected).
+[INFO] [1775514537.144222924] [exp2_power_profiling]: STANDBY: CNN stopped; IMU/line sensors only (motion off).
+[INFO] [1775514540.995550950] [exp2_power_profiling]: TRANSIT: camera/gas/CNN processes stopped (best-effort).
+[INFO] [1775514551.055021425] [exp2_power_profiling]: DECISION: launched exp6_cnn (Kinect /rgb expected).
+[INFO] [1775514555.437395442] [exp2_power_profiling]: STANDBY: CNN stopped; IMU/line sensors only (motion off).
+[INFO] [1775514560.996331202] [exp2_power_profiling]: TRANSIT: camera/gas/CNN processes stopped (best-effort).
+[INFO] [1775514569.571989682] [exp2_power_profiling]: DECISION: launched exp6_cnn (Kinect /rgb expected).
+[INFO] [1775514571.133695298] [exp2_power_profiling]: STANDBY: CNN stopped; IMU/line sensors only (motion off).
+[INFO] [1775514576.177082847] [exp2_power_profiling]: TRANSIT: camera/gas/CNN processes stopped (best-effort).
+[INFO] [1775514583.246828379] [exp2_power_profiling]: DECISION: launched exp6_cnn (Kinect /rgb expected).
+[INFO] [1775514588.300194312] [exp2_power_profiling]: STANDBY: CNN stopped; IMU/line sensors only (motion off).
+[INFO] [1775514593.184937368] [exp2_power_profiling]: TRANSIT: camera/gas/CNN processes stopped (best-effort).
+[INFO] [1775514601.305890208] [exp2_power_profiling]: DECISION: launched exp6_cnn (Kinect /rgb expected).
+[INFO] [1775514605.287519531] [exp2_power_profiling]: STANDBY: CNN stopped; IMU/line sensors only (motion off).
+[INFO] [1775514607.523035211] [exp2_power_profiling]: TRANSIT: camera/gas/CNN processes stopped (best-effort).
+[INFO] [1775514617.868325630] [exp2_power_profiling]: DECISION: launched exp6_cnn (Kinect /rgb expected).
+[INFO] [1775514622.266215245] [exp2_power_profiling]: STANDBY: CNN stopped; IMU/line sensors only (motion off).
+[INFO] [1775514624.519209998] [exp2_power_profiling]: TRANSIT: camera/gas/CNN processes stopped (best-effort).
+[INFO] [1775514634.643620538] [exp2_power_profiling]: DECISION: launched exp6_cnn (Kinect /rgb expected).
+[INFO] [1775514639.831849609] [exp2_power_profiling]: STANDBY: CNN stopped; IMU/line sensors only (motion off).
+[INFO] [1775514643.077565099] [exp2_power_profiling]: TRANSIT: camera/gas/CNN processes stopped (best-effort).
+[INFO] [1775514653.200269225] [exp2_power_profiling]: DECISION: launched exp6_cnn (Kinect /rgb expected).
+[INFO] [1775514656.136120950] [exp2_power_profiling]: STANDBY: CNN stopped; IMU/line sensors only (motion off).
+[INFO] [1775514662.221308674] [exp2_power_profiling]: TRANSIT: camera/gas/CNN processes stopped (best-effort).
+[INFO] [1775514668.283955536] [exp2_power_profiling]: DECISION: launched exp6_cnn (Kinect /rgb expected).
+[INFO] [1775514674.610940132] [exp2_power_profiling]: STANDBY: CNN stopped; IMU/line sensors only (motion off).
+[INFO] [1775514677.205859398] [exp2_power_profiling]: TRANSIT: camera/gas/CNN processes stopped (best-effort).
+[INFO] [1775514688.923767169] [exp2_power_profiling]: DECISION: launched exp6_cnn (Kinect /rgb expected).
+[INFO] [1775514690.165695468] [exp2_power_profiling]: STANDBY: CNN stopped; IMU/line sensors only (motion off).
+[INFO] [1775514697.050354054] [exp2_power_profiling]: TRANSIT: camera/gas/CNN processes stopped (best-effort).
+[INFO] [1775514706.095275940] [exp2_power_profiling]: DECISION: launched exp6_cnn (Kinect /rgb expected).
+[INFO] [1775514707.140690011] [exp2_power_profiling]: STANDBY: CNN stopped; IMU/line sensors only (motion off).
+[INFO] [1775514712.938818854] [exp2_power_profiling]: TRANSIT: camera/gas/CNN processes stopped (best-effort).
+[INFO] [1775514722.127211090] [exp2_power_profiling]: DECISION: launched exp6_cnn (Kinect /rgb expected).
+[INFO] [1775514725.482405985] [exp2_power_profiling]: STANDBY: CNN stopped; IMU/line sensors only (motion off).
+[INFO] [1775514729.481707521] [exp2_power_profiling]: TRANSIT: camera/gas/CNN processes stopped (best-effort).
+[INFO] [1775514736.737275476] [exp2_power_profiling]: DECISION: launched exp6_cnn (Kinect /rgb expected).
+[INFO] [1775514742.046698493] [exp2_power_profiling]: STANDBY: CNN stopped; IMU/line sensors only (motion off).
+[INFO] [1775514743.400985009] [exp2_power_profiling]: TRANSIT: camera/gas/CNN processes stopped (best-effort).
+[INFO] [1775514757.048469497] [exp2_power_profiling]: DECISION: launched exp6_cnn (Kinect /rgb expected).
+[INFO] [1775514758.136182057] [exp2_power_profiling]: STANDBY: CNN stopped; IMU/line sensors only (motion off).
+[INFO] [1775514762.762202725] [exp2_power_profiling]: TRANSIT: camera/gas/CNN processes stopped (best-effort).
