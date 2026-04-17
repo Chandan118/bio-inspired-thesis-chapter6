@@ -1,0 +1,13 @@
+[INFO] [1775418155.189304353] [arduino_base_controller]: Connected to Arduino on /dev/ttyCH341USB0
+[INFO] [1775418155.213030124] [arduino_base_controller]: Arduino Base Controller started.
+[INFO] [1775418169.140584334] [arduino_base_controller]: RAW SERIAL FROM ARDUINO: "s,46,112,0,56"
+[INFO] [1775418169.251825821] [arduino_base_controller]: RAW SERIAL FROM ARDUINO: "s,46,112,0,56"
+[INFO] [1775418176.033805308] [arduino_base_controller]: RAW SERIAL FROM ARDUINO: "s,45,112,0,56"
+[INFO] [1775418184.218687313] [arduino_base_controller]: RAW SERIAL FROM ARDUINO: "s,44,112,0,56"
+[INFO] [1775418207.621729992] [arduino_base_controller]: RAW SERIAL FROM ARDUINO: "s,46,112,0,56"
+[INFO] [1775418207.753587801] [arduino_base_controller]: RAW SERIAL FROM ARDUINO: "s,46,112,0,56"
+[INFO] [1775418221.216023023] [arduino_base_controller]: RAW SERIAL FROM ARDUINO: "s,46,112,0,56"
+[INFO] [1775418221.325165823] [arduino_base_controller]: RAW SERIAL FROM ARDUINO: "s,46,112,0,56"
+[INFO] [1775418221.424593882] [arduino_base_controller]: RAW SERIAL FROM ARDUINO: "s,46,112,0,57"
+[INFO] [1775418221.530002073] [arduino_base_controller]: RAW SERIAL FROM ARDUINO: "s,46,112,0,56"
+[INFO] [1775418275.554473090] [arduino_base_controller]: >>> Received first cmd_vel! Movement integration active.
