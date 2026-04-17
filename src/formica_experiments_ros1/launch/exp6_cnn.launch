@@ -1,0 +1,7 @@
+<launch>
+  <!-- Experiment 6 - CNN Detection (ROS 1) -->
+  <node name="exp6_cnn" pkg="formica_experiments"
+        type="exp6_cnn_detection.py" output="screen">
+    <param name="duration_s" value="120.0"/>
+  </node>
+</launch>

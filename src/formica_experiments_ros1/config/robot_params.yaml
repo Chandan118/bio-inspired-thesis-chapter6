@@ -1,0 +1,26 @@
+# FormicaBot - Chapter 6 Experimental Validation
+# ROS 1 Noetic Configuration
+
+# Serial ports
+lidar_port: /dev/ttyUSB0
+imu_port: /dev/ttyUSB1
+arduino_port: /dev/ttyACM0
+arduino_baudrate: 115200
+lidar_baudrate: 115200
+imu_baudrate: 115200
+
+# IMU
+imu_frame_id: imu_link
+imu_publish_rate_hz: 50
+
+# Odometry
+odometry_source: wheel_encoders
+publish_tf: true
+
+# Sensors
+rgb_camera_device: /dev/video0
+rgb_camera_width: 1920
+rgb_camera_height: 1080
+
+# Task-specific
+task2_ethanol_sampling_rate_hz: 10

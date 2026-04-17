@@ -1,0 +1,27 @@
+<launch>
+  <!-- Single robot simulation with Gazebo (ROS 1 Noetic) -->
+  <arg name="use_sim_time" default="false"/>
+
+  <!-- Gazebo world -->
+  <include file="$(find gazebo_ros)/launch/empty_world.launch">
+    <arg name="world_name" value="$(find formica_experiments)/config/simple_maze.world"/>
+    <arg name="paused" value="false"/>
+    <arg name="use_sim_time" value="$(arg use_sim_time)"/>
+  </include>
+
+  <!-- Spawn FormicaBot URDF -->
+  <node name="urdf_spawner" pkg="gazebo_ros"
+        type="spawn_model"
+        args="-file $(find formica_experiments)/config/formica.urdf
+              -urdf
+              -model formica_bot
+              -x 0 -y 0 -z 0.05"
+        output="screen"/>
+
+  <!-- Controllers -->
+  <node name="diff_drive_controller" pkg="diff_drive_controller"
+        type="diff_drive_controller" name="controller" output="screen">
+    <param name="left_wheel" value="left_wheel_joint"/>
+    <param name="right_wheel" value="right_wheel_joint"/>
+  </node>
+</launch>

@@ -1,0 +1,10 @@
+<launch>
+  <!-- Experiment 2 - Power Profiling (ROS 1) -->
+  <node name="ina219_power" pkg="formica_experiments"
+        type="ina219_power_monitor.py" output="screen"/>
+
+  <node name="exp2_power" pkg="formica_experiments"
+        type="exp2_power_profiling.py" output="screen">
+    <param name="duration_s" value="60.0"/>
+  </node>
+</launch>

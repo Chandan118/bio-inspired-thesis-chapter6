@@ -1,0 +1,61 @@
+name: ROS 1 Validation
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  ros1-validation:
+    runs-on: ubuntu-latest
+    container: osrf/ros:noetic-perception
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install Python dependencies
+        run: |
+          apt-get update && apt-get install -y python3-pip python3-numpy python3-serial
+          pip3 install pyserial numpy pandas matplotlib pyyaml
+
+      - name: Validate ROS 1 scripts syntax
+        run: |
+          python3 -m py_compile src/formica_experiments_ros1/scripts/exp1_sensor_calibration.py
+          python3 -m py_compile src/formica_experiments_ros1/scripts/exp2_power_profiling.py
+          python3 -m py_compile src/formica_experiments_ros1/scripts/exp3_slam_mapping.py
+          python3 -m py_compile src/formica_experiments_ros1/scripts/exp4_maze_navigation.py
+          python3 -m py_compile src/formica_experiments_ros1/scripts/exp5_obstacle_fault.py
+          python3 -m py_compile src/formica_experiments_ros1/scripts/exp6_cnn_detection.py
+          python3 -m py_compile src/formica_experiments_ros1/scripts/exp7_pheromone_trail.py
+          echo "All ROS 1 Python scripts validated!"
+
+      - name: Check launch files
+        run: |
+          ls -la src/formica_experiments_ros1/launch/*.launch
+          echo "ROS 1 launch files present"
+
+      - name: Check package.xml
+        run: |
+          cat src/formica_experiments_ros1/package.xml
+          echo "package.xml exists"
+
+  ros2-validation:
+    runs-on: ubuntu-latest
+    container: ros:iron
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install Python dependencies
+        run: |
+          apt-get update && apt-get install -y python3-pip python3-numpy
+          pip3 install numpy pandas matplotlib pyyaml
+
+      - name: Check ROS 2 structure
+        run: |
+          ls -la src/formica_experiments/formica_experiments/*.py
+          cat src/formica_experiments/package.xml | head -30
+          echo "ROS 2 package structure validated"

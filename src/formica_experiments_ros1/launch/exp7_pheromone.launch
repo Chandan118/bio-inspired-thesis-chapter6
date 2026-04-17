@@ -1,0 +1,7 @@
+<launch>
+  <!-- Experiment 7 - Pheromone Trail (ROS 1) -->
+  <node name="exp7_pheromone" pkg="formica_experiments"
+        type="exp7_pheromone_trail.py" output="screen">
+    <param name="duration_s" value="180.0"/>
+  </node>
+</launch>

@@ -1,0 +1,34 @@
+<launch>
+  <!-- Common robot launch - RPLIDAR + Base + IMU -->
+  <node name="rplidar" pkg="rplidar_ros" type="rplidarNode"
+        output="screen">
+    <param name="serial_port" type="string" value="/dev/ttyUSB0"/>
+    <param name="serial_baudrate" type="int" value="115200"/>
+    <param name="frame_id" type="string" value="laser"/>
+    <param name="inverted" type="bool" value="false"/>
+    <param name="angle_compensate" type="bool" value="true"/>
+  </node>
+
+  <!-- IMU node (MPU6050) -->
+  <node name="imu_node" pkg="mpu6050_ros" type="mpu6050_node"
+        output="screen">
+    <param name="port" value="/dev/ttyUSB1"/>
+    <param name="frame_id" value="imu_link"/>
+  </node>
+
+  <!-- Wheel odometry -->
+  <node name="odometry" pkg="formica_experiments"
+        type="arduino_base_node.py" output="screen"/>
+
+  <!-- Line sensors -->
+  <node name="line_sensors" pkg="formica_experiments"
+        type="jetson_camera_publisher.py" output="screen">
+    <param name="sensor_type" value="line"/>
+  </node>
+
+  <!-- Gas sensor -->
+  <node name="gas_sensor" pkg="formica_experiments"
+        type="jetson_camera_publisher.py" output="screen">
+    <param name="sensor_type" value="gas"/>
+  </node>
+</launch>

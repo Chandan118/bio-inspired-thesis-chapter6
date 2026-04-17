@@ -1,0 +1,17 @@
+%YAML:1.0
+# Camera calibration - Azure Kinect
+camera_matrix: !!opencv-matrix
+   rows: 3
+   cols: 3
+   dt: d
+   data: [ 6.0e2, 0., 3.2e2, 0., 6.0e2, 2.4e2, 0., 0., 1. ]
+distortion_coefficients: !!opencv-matrix
+   rows: 1
+   cols: 5
+   dt: d
+   data: [0., 0., 0., 0., 0.]
+
+%YAML:1.0
+# IMU calibration
+gyro_bias: [0.0, 0.0, 0.0]
+accel_bias: [0.0, 0.0, 0.0]

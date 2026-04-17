@@ -1,0 +1,10 @@
+<launch>
+  <!-- Experiment 4 - Maze Navigation (ROS 1) -->
+  <include file="$(find formica_experiments)/launch/robot_with_laserscan.launch"/>
+
+  <node name="exp4_nav" pkg="formica_experiments"
+        type="exp4_maze_navigation.py" output="screen">
+    <param name="duration_s" value="300.0"/>
+    <rosparam param="goals">[[1.0, 0.0], [2.0, 0.0], [2.0, 1.0], [1.0, 1.0]]</rosparam>
+  </node>
+</launch>

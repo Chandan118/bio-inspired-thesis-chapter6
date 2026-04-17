@@ -1,0 +1,10 @@
+<launch>
+  <!-- Experiment 5 - Fault Tolerance (ROS 1) -->
+  <include file="$(find formica_experiments)/launch/robot_with_laserscan.launch"/>
+
+  <node name="exp5_fault" pkg="formica_experiments"
+        type="exp5_obstacle_fault.py" output="screen">
+    <param name="duration_s" value="300.0"/>
+    <rosparam param="obstacle_positions">[2.0, 4.0, 6.0]</rosparam>
+  </node>
+</launch>

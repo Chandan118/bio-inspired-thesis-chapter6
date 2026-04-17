@@ -1,0 +1,9 @@
+<launch>
+  <!-- Experiment 3 - SLAM Mapping (ROS 1) -->
+  <include file="$(find formica_experiments)/launch/robot_with_laserscan.launch"/>
+
+  <node name="exp3_slam" pkg="formica_experiments"
+        type="exp3_slam_mapping.py" output="screen">
+    <param name="duration_s" value="300.0"/>
+  </node>
+</launch>

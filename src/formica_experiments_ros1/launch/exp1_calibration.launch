@@ -1,0 +1,27 @@
+<launch>
+  <!-- Experiment 1 - Sensor Calibration (ROS 1) -->
+  <arg name="launch_gazebo" default="false"/>
+  <arg name="world" default=""/>
+
+  <group if="$(arg launch_gazebo)">
+    <include file="$(find gazebo_ros)/launch/empty_world.launch">
+      <arg name="world_name" value="$(arg world)"/>
+      <arg name="paused" value="true"/>
+      <arg name="use_sim_time" value="false"/>
+    </include>
+  </group>
+
+  <!-- Hardware Checker -->
+  <node name="hardware_checker" pkg="formica_experiments"
+        type="hardware_checker.py" output="screen" required="true">
+    <param name="quick" value="false"/>
+  </node>
+
+  <!-- Main calibration node -->
+  <node name="exp1_calibration" pkg="formica_experiments"
+        type="exp1_sensor_calibration.py" output="screen">
+    <param name="auto_odom" value="true"/>
+    <param name="auto_odom_speed" value="0.20"/>
+    <param name="auto_odom_duration" value="10.0"/>
+  </node>
+</launch>
