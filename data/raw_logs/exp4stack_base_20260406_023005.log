@@ -1,0 +1,14 @@
+[INFO] [1775413812.146728111] [arduino_base_controller]: Connected to Arduino on /dev/ttyCH341USB0
+[INFO] [1775413812.192633969] [arduino_base_controller]: Arduino Base Controller started.
+[INFO] [1775413815.697486079] [arduino_base_controller]: RAW SERIAL FROM ARDUINO: "s,116,163,0,59"
+[INFO] [1775413816.197177040] [arduino_base_controller]: RAW SERIAL FROM ARDUINO: "s,117,166,0,59"
+[INFO] [1775413816.308693034] [arduino_base_controller]: RAW SERIAL FROM ARDUINO: "s,118,165,0,59"
+[INFO] [1775413817.197314522] [arduino_base_controller]: RAW SERIAL FROM ARDUINO: "s,117,165,0,59"
+[INFO] [1775413817.310754803] [arduino_base_controller]: RAW SERIAL FROM ARDUINO: "s,116,163,0,59"
+[INFO] [1775413819.195297954] [arduino_base_controller]: RAW SERIAL FROM ARDUINO: "s,118,166,0,59"
+[INFO] [1775413819.494761374] [arduino_base_controller]: RAW SERIAL FROM ARDUINO: "s,116,164,0,59"
+[INFO] [1775413820.697579145] [arduino_base_controller]: RAW SERIAL FROM ARDUINO: "s,118,166,0,59"
+[INFO] [1775413821.300389463] [arduino_base_controller]: RAW SERIAL FROM ARDUINO: "s,118,165,0,59"
+[INFO] [1775413821.408839165] [arduino_base_controller]: RAW SERIAL FROM ARDUINO: "s,114,163,0,59"
+[WARN] [1775413872.814169021] [arduino_base_controller]: Parse error on line "s,117,163,0,s,115,163,0,59": could not convert string to float: 's'
+[INFO] [1775413924.548028415] [arduino_base_controller]: >>> Received first cmd_vel! Movement integration active.
