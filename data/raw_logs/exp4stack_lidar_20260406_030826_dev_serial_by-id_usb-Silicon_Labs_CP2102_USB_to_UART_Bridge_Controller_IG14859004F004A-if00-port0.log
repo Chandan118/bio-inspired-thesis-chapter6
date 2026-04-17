@@ -1,0 +1,7 @@
+nohup: ignoring input
+[INFO] [launch]: All log files can be found below /home/jetson/.ros/log/2026-04-06-03-12-13-169473-chandan-62904
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [rplidar_node-1]: process started with pid [62932]
+[rplidar_node-1] [INFO] [1775416333.785128400] [rplidar_node]: RPLidar running on ROS2 package rplidar_ros. RPLIDAR SDK Version:2.1.0
+[rplidar_node-1] [ERROR] [1775416336.318297906] [rplidar_node]: Error, operation time out. SL_RESULT_OPERATION_TIMEOUT! 
+[ERROR] [rplidar_node-1]: process has died [pid 62932, exit code 255, cmd '/home/jetson/ros2_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_node --ros-args -r __node:=rplidar_node --params-file /tmp/launch_params_egvew8kh'].
