@@ -1,0 +1,64 @@
+Chapter 6 — FormicaBot deliverables (generated from /home/jetson logs)
+=====================================================================
+
+Rebuild:  python3 /home/jetson/chapter6_formica_deliverables/build_chapter6_from_logs.py
+Quick robot USB check (~3s) + ROS snapshot + rebuild:
+  ./run_robot_check_then_figures.sh
+  (USB: python3 /home/jetson/formica_experiments/hardware_checker.py --quick)
+
+New SLAM map on the Jetson (Arduino + lidar by-id, slam_toolbox, /cmd_vel motion helper, map_saver):
+  cd /home/jetson/formica_experiments && ./remap_save_formica.sh /home/jetson/formica_map
+  SAVE_B=1 WAIT_SLAM_SEC=90 ./remap_save_formica.sh /home/jetson/formica_map
+  MAPPING_MOTION=0 ./remap_save_formica.sh /home/jetson/formica_map   # optional: no /cmd_vel motion
+  ./run_mapping_then_chapter6.sh   # mapping + SAVE_B=1 + chapter 6 rebuild
+After new experiment CSVs:  python3 /home/jetson/chapter6_formica_deliverables/build_chapter6_from_logs.py
+
+Experiment 1 — Sensor calibration
+  tables/Table_6_1_Sensor_Calibration.csv
+
+Experiment 2 — Power
+  tables/Table_6_2_Power_Profile.csv
+  figures/Figure_6_3_Power_Profile.png
+  meta/exp2_summary.txt
+
+Experiment 3 — SLAM
+  tables/Table_6_3a_SLAM_Landmark_Errors_All_Logged.csv
+  tables/Table_6_3a_SLAM_Summary.txt
+  figures/Figure_6_2_Map_From_LiDAR_SLAM.png   (occupancy from saved map; add CAD overlay in thesis if required)
+  figures/Figure_6_2a_Map_From_LiDAR_SLAM.png  (frozen subfigure a — copy before a new map run; not overwritten by the build)
+  figures/Figure_6_2b_Map_From_LiDAR_SLAM.png  (subfigure b — only after saving NEW map as formica_map_b.pgm + yaml, or FORMICA_MAP_B)
+  figures/Figure_6_4_Map_Overlay.png
+  figures/Figure_6_4a_Map_Overlay.png  (frozen subfigure a)
+  figures/Figure_6_4b_Map_Overlay.png  (subfigure b; same rule as 6.2b; optional EXP3_SLAM_CSV_B or 2nd exp3_slam CSV)
+  figures/Figure_6_5_Exploration_Trajectory.png
+  figures/Figure_6_5a_Exploration_Trajectory.png  (frozen subfigure a)
+  figures/Figure_6_5b_Exploration_Trajectory.png  (subfigure b; exp3_trajectory_b.csv or EXP3_TRAJECTORY_B after new run)
+
+Experiment 4 — Maze navigation (thesis Table 6.3)
+  tables/Table_6_3_Maze_Navigation_All_Trials_Logged.csv
+  tables/Table_6_3_Maze_Summary.txt
+  figures/Figure_6_6_Maze_Protocol_Overlay.png
+  figures/Figure_6_6a_Maze_Protocol_Overlay.png  (frozen subfigure a)
+  figures/Figure_6_6b_Maze_Protocol_Overlay.png  (subfigure b; protocol S,T on formica_map_b.pgm only)
+
+Experiment 5 — Dynamic obstacle / fault tolerance
+  tables/Table_6_4_Dynamic_Obstacle_and_Fault_Tolerance.txt  (no logs found)
+  figures/Figure_6_7_Dynamic_Obstacle_Timeline_PLACEHOLDER.txt
+
+Experiment 6 — CNN detection
+  tables/Table_6_5_CNN_Detection.txt
+  figures/Figure_6_8_Confusion_Matrix_MISSING.txt
+
+Experiment 7 — Pheromone / trail following
+  figures/Figure_6_9_Pheromone_Straight_Lateral_Deviation.png
+  figures/Figure_6_10_Pheromone_Curved_Lateral_Deviation.png
+  tables/Table_6_6_Pheromone_Lateral_Summary.txt
+  tables/Table_6_7_SNR_Switchover_Logged.csv  (only if sub-exp C present in source CSV)
+  figures/Figure_6_12_LED_PWM_vs_Mean_ADC.png  (only if sub-exp D present)
+
+Photo
+  figures/Figure_6_1_Robot_Photo.png  (uses local photo if present; fallback placeholder otherwise)
+
+Provenance (required for thesis integrity)
+  meta/PROVENANCE.md
+  meta/sources_index.json
