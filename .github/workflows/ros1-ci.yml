@@ -1,4 +1,4 @@
-name: ROS 1 Validation
+name: ROS 1 & ROS 2 CI
 
 on:
   push:
@@ -7,21 +7,23 @@ on:
     branches: [ main ]
 
 jobs:
-  ros1-validation:
-    runs-on: ubuntu-latest
-    container: osrf/ros:noetic-perception
+  ros1-noetic-check:
+    runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
-      - name: Install Python dependencies
+      - name: Set up Python 3
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.8'
+
+      - name: Install dependencies
         run: |
-          apt-get update && apt-get install -y python3-pip python3-numpy python3-serial
-          pip3 install pyserial numpy pandas matplotlib pyyaml
+          pip3 install --user pyserial numpy pandas matplotlib pyyaml
 
       - name: Validate ROS 1 scripts syntax
         run: |
+          set -e
           python3 -m py_compile src/formica_experiments_ros1/scripts/exp1_sensor_calibration.py
           python3 -m py_compile src/formica_experiments_ros1/scripts/exp2_power_profiling.py
           python3 -m py_compile src/formica_experiments_ros1/scripts/exp3_slam_mapping.py
@@ -29,33 +31,59 @@ jobs:
           python3 -m py_compile src/formica_experiments_ros1/scripts/exp5_obstacle_fault.py
           python3 -m py_compile src/formica_experiments_ros1/scripts/exp6_cnn_detection.py
           python3 -m py_compile src/formica_experiments_ros1/scripts/exp7_pheromone_trail.py
-          echo "All ROS 1 Python scripts validated!"
+          python3 -m py_compile src/formica_experiments_ros1/scripts/data_logger.py
+          python3 -m py_compile src/formica_experiments_ros1/scripts/hardware_checker.py
+          python3 -m py_compile src/formica_experiments_ros1/scripts/ina219_power_monitor.py
+          python3 -m py_compile src/formica_experiments_ros1/scripts/exp2_postprocess.py
+          python3 -m py_compile src/formica_experiments_ros1/scripts/exp7_postprocess.py
+          python3 -m py_compile src/formica_experiments_ros1/scripts/task2_filter_csv.py
+          python3 -m py_compile src/formica_experiments_ros1/scripts/task2_mq_ethanol_record.py
+          echo "✅ All ROS 1 Python scripts validated!"
 
-      - name: Check launch files
+      - name: Check launch files exist
         run: |
-          ls -la src/formica_experiments_ros1/launch/*.launch
-          echo "ROS 1 launch files present"
+          LAUNCH_COUNT=$(ls -1 src/formica_experiments_ros1/launch/*.launch 2>/dev/null | wc -l)
+          echo "Found $LAUNCH_COUNT ROS 1 launch files"
+          test "$LAUNCH_COUNT" -ge 7 && echo "✅ Launch files OK"
 
       - name: Check package.xml
         run: |
-          cat src/formica_experiments_ros1/package.xml
-          echo "package.xml exists"
+          grep -q "<name>formica_experiments</name>" src/formica_experiments_ros1/package.xml && echo "✅ package.xml valid"
 
-  ros2-validation:
-    runs-on: ubuntu-latest
-    container: ros:iron
+  ros2-humble-check:
+    runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
-      - name: Install Python dependencies
+      - name: Set up Python 3
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
         run: |
-          apt-get update && apt-get install -y python3-pip python3-numpy
           pip3 install numpy pandas matplotlib pyyaml
 
-      - name: Check ROS 2 structure
+      - name: Validate ROS 2 scripts syntax
         run: |
-          ls -la src/formica_experiments/formica_experiments/*.py
-          cat src/formica_experiments/package.xml | head -30
-          echo "ROS 2 package structure validated"
+          set -e
+          python3 -m py_compile src/formica_experiments/formica_experiments/exp1_sensor_calibration.py
+          python3 -m py_compile src/formica_experiments/formica_experiments/exp2_power_profiling.py
+          python3 -m py_compile src/formica_experiments/formica_experiments/exp3_slam_mapping.py
+          python3 -m py_compile src/formica_experiments/formica_experiments/exp4_maze_navigation.py
+          python3 -m py_compile src/formica_experiments/formica_experiments/exp5_obstacle_fault.py
+          python3 -m py_compile src/formica_experiments/formica_experiments/exp6_cnn_detection.py
+          python3 -m py_compile src/formica_experiments/formica_experiments/exp7_pheromone_trail.py
+          python3 -m py_compile src/formica_experiments/formica_experiments/data_logger.py
+          python3 -m py_compile src/formica_experiments/hardware_checker.py
+          python3 -m py_compile src/formica_experiments/formica_experiments/ina219_power_monitor.py
+          python3 -m py_compile src/formica_experiments/formica_experiments/exp2_postprocess.py
+          python3 -m py_compile src/formica_experiments/formica_experiments/exp7_postprocess.py
+          python3 -m py_compile src/formica_experiments/formica_experiments/task2_filter_csv.py
+          python3 -m py_compile src/formica_experiments/formica_experiments/task2_mq_ethanol_record.py
+          echo "✅ All ROS 2 Python scripts validated!"
+
+      - name: Check package.xml
+        run: |
+          grep -q "<name>formica_experiments</name>" src/formica_experiments/package.xml && echo "✅ package.xml valid"
+          grep -q "rclpy" src/formica_experiments/package.xml && echo "✅ ROS 2 dependencies OK"
