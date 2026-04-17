@@ -1,0 +1,7 @@
+metric,value,unit,target,pass_fail,notes
+LiDAR_RMSE,,m,<=0.02,FAIL,"4 distances: 0.5/1.0/1.5/2.0m, 15 front samples each"
+IMU_Drift,0.014119,deg/min,<=0.5,PASS,bias_rad_s=-0.00000411
+Odom_Mean_Error,5.7015,%,<=2.0,FAIL,"10 trials, speed_scale=0.37"
+Odom_SD,0.1932,%,N/A,N/A,std of 10 odom errors
+RGBD_Reprojection,,px,<=0.5,FAIL,from camera_calibration output
+TCRT5000_SNR,,dB,>=6.0,FAIL,"SNR=20*log10(signal_mean/noise_std), 5/10/15cm"
