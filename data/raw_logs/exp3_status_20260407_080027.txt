@@ -1,0 +1,7 @@
+status,starting
+started_at,2026-04-07T08:00:27+08:00
+lidar_pid,62807
+slam_pid,62808
+nav2_pid,62809
+base_pid,62810
+status,running_exp3
