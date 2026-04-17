@@ -1,0 +1,104 @@
+[INFO] [launch]: All log files can be found below /home/jetson/.ros/log/2026-04-06-03-56-32-341500-chandan-15707
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [map_server-1]: process started with pid [15741]
+[INFO] [amcl-2]: process started with pid [15743]
+[INFO] [lifecycle_manager-3]: process started with pid [15745]
+[amcl-2] [INFO] [1775418992.847827390] [amcl]: 
+[amcl-2] 	amcl lifecycle node launched. 
+[amcl-2] 	Waiting on external lifecycle transitions to activate
+[amcl-2] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[amcl-2] [INFO] [1775418992.875134969] [amcl]: Creating
+[lifecycle_manager-3] [INFO] [1775418992.914242329] [lifecycle_manager_localization]: Creating
+[lifecycle_manager-3] [INFO] [1775418992.988207964] [lifecycle_manager_localization]: [34m[1mCreating and initializing lifecycle service clients[0m[0m
+[map_server-1] [INFO] [1775418993.004371041] [map_server]: 
+[map_server-1] 	map_server lifecycle node launched. 
+[map_server-1] 	Waiting on external lifecycle transitions to activate
+[map_server-1] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[map_server-1] [INFO] [1775418993.010357573] [map_server]: Creating
+[lifecycle_manager-3] [INFO] [1775418993.770833320] [lifecycle_manager_localization]: [34m[1mStarting managed nodes bringup...[0m[0m
+[lifecycle_manager-3] [INFO] [1775418993.773352319] [lifecycle_manager_localization]: [34m[1mConfiguring map_server[0m[0m
+[map_server-1] [INFO] [1775418993.886993641] [map_server]: Configuring
+[map_server-1] [INFO] [1775418993.887223023] [map_io]: Loading yaml file: /home/jetson/formica_map.yaml
+[map_server-1] [INFO] [1775418993.888025088] [map_io]: resolution: 0.05
+[map_server-1] [INFO] [1775418993.888072833] [map_io]: origin[0]: -5.9
+[map_server-1] [INFO] [1775418993.888092578] [map_io]: origin[1]: -2.99
+[map_server-1] [INFO] [1775418993.888107106] [map_io]: origin[2]: 0
+[map_server-1] [INFO] [1775418993.888121346] [map_io]: free_thresh: 0.25
+[map_server-1] [INFO] [1775418993.888135363] [map_io]: occupied_thresh: 0.65
+[map_server-1] [INFO] [1775418993.888150275] [map_io]: mode: trinary
+[map_server-1] [INFO] [1775418993.888166051] [map_io]: negate: 0
+[map_server-1] [INFO] [1775418993.888744304] [map_io]: Loading image_file: /home/jetson/formica_map.pgm
+[map_server-1] [INFO] [1775418993.901457384] [map_io]: Read map /home/jetson/formica_map.pgm: 185 X 172 map @ 0.05 m/cell
+[lifecycle_manager-3] [INFO] [1775418993.940505606] [lifecycle_manager_localization]: [34m[1mConfiguring amcl[0m[0m
+[amcl-2] [INFO] [1775418993.941207285] [amcl]: Configuring
+[amcl-2] [INFO] [1775418993.941452346] [amcl]: initTransforms
+[amcl-2] [INFO] [1775418993.985063004] [amcl]: initPubSub
+[amcl-2] [INFO] [1775418994.003425169] [amcl]: Subscribed to map topic.
+[lifecycle_manager-3] [INFO] [1775418994.026034275] [lifecycle_manager_localization]: [34m[1mActivating map_server[0m[0m
+[map_server-1] [INFO] [1775418994.028663549] [map_server]: Activating
+[map_server-1] [INFO] [1775418994.029133511] [map_server]: Creating bond (map_server) to lifecycle manager.
+[amcl-2] [INFO] [1775418994.032610900] [amcl]: Received a 185 X 172 map @ 0.050 m/pix
+[lifecycle_manager-3] [INFO] [1775418994.159430139] [lifecycle_manager_localization]: Server map_server connected with bond.
+[lifecycle_manager-3] [INFO] [1775418994.159573406] [lifecycle_manager_localization]: [34m[1mActivating amcl[0m[0m
+[amcl-2] [INFO] [1775418994.160488306] [amcl]: Activating
+[amcl-2] [INFO] [1775418994.160608917] [amcl]: Creating bond (amcl) to lifecycle manager.
+[amcl-2] [INFO] [1775418994.167258823] [amcl]: createLaserObject
+[lifecycle_manager-3] [INFO] [1775418994.289185155] [lifecycle_manager_localization]: Server amcl connected with bond.
+[lifecycle_manager-3] [INFO] [1775418994.289325702] [lifecycle_manager_localization]: [34m[1mManaged nodes are active[0m[0m
+[lifecycle_manager-3] [INFO] [1775418994.289368839] [lifecycle_manager_localization]: [34m[1mCreating bond timer...[0m[0m
+[amcl-2] [INFO] [1775418995.045790669] [amcl]: Message Filter dropping message: frame 'laser' at time 1775418993.884 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [WARN] [1775418995.947629071] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[amcl-2] [WARN] [1775418997.998910384] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[amcl-2] [WARN] [1775419000.062450980] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[amcl-2] [WARN] [1775419002.113412530] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[amcl-2] [WARN] [1775419004.176753752] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[amcl-2] [WARN] [1775419006.227917991] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[amcl-2] [WARN] [1775419008.291476847] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[amcl-2] [WARN] [1775419010.341836718] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[amcl-2] [WARN] [1775419012.393141493] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[amcl-2] [WARN] [1775419014.456402958] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[amcl-2] [INFO] [1775419016.020212630] [amcl]: initialPoseReceived
+[amcl-2] [WARN] [1775419016.020475483] [amcl]: Failed to transform initial pose in time (Lookup would require extrapolation into the future.  Requested time 1775419016.020350 but the latest data is at time 1775419016.013765, when looking up transform from frame [base_footprint] to frame [odom])
+[amcl-2] [INFO] [1775419016.020515260] [amcl]: Setting pose (1775419016.020514): 0.000 0.000 0.000
+[amcl-2] [INFO] [1775419017.135377327] [amcl]: initialPoseReceived
+[amcl-2] [WARN] [1775419017.135633940] [amcl]: Failed to transform initial pose in time (Lookup would require extrapolation into the future.  Requested time 1775419017.135526 but the latest data is at time 1775419017.122861, when looking up transform from frame [base_footprint] to frame [odom])
+[amcl-2] [INFO] [1775419017.135699029] [amcl]: Setting pose (1775419017.135697): 0.000 0.000 0.000
+[amcl-2] [INFO] [1775419066.079637602] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419064.899 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775419057.817357 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775419058.493010 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775419059.316333 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775419059.598176 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775419060.286122 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775419060.827231 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775419063.982987 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775419064.806670 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775419065.493728 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] [INFO] [1775419084.181996814] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419083.003 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419282.974508563] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419281.788 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419296.823849781] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419295.630 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419380.942920142] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419379.774 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419383.691342716] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419382.516 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419427.885938665] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419426.716 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419430.601326598] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419429.455 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419443.461637366] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419442.327 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419476.170070257] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419475.036 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419483.152662819] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419482.009 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419518.865769283] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419517.729 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
