@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <!-- Aliengo Robot URDF Model - Bio-Inspired Thesis Chapter 6 -->
+<!-- 12 DOF Quadruped Robot - Unitree Aliengo -->
 <robot name="aliengo">
   <!-- Base Link -->
   <link name="base_link">
@@ -18,32 +19,40 @@
       <inertia ixx="0.1" ixy="0" ixz="0" iyy="0.15" iyz="0" izz="0.1"/>
     </inertial>
   </link>
+
   <!-- FR - Front Right Leg -->
   <link name="FR_hip"><visual><geometry><box size="0.05 0.04 0.08"/></geometry></visual><inertial><mass value="0.5"/></inertial></link>
   <link name="FR_thigh"><visual><geometry><box size="0.15 0.03 0.03"/></geometry></visual><inertial><mass value="1.0"/></inertial></link>
   <link name="FR_calf"><visual><geometry><box size="0.15 0.02 0.02"/></geometry></visual><inertial><mass value="0.3"/></inertial></link>
+
   <!-- FL - Front Left Leg -->
   <link name="FL_hip"><visual><geometry><box size="0.05 0.04 0.08"/></geometry></visual><inertial><mass value="0.5"/></inertial></link>
   <link name="FL_thigh"><visual><geometry><box size="0.15 0.03 0.03"/></geometry></visual><inertial><mass value="1.0"/></inertial></link>
   <link name="FL_calf"><visual><geometry><box size="0.15 0.02 0.02"/></geometry></visual><inertial><mass value="0.3"/></inertial></link>
+
   <!-- RR - Rear Right Leg -->
   <link name="RR_hip"><visual><geometry><box size="0.05 0.04 0.08"/></geometry></visual><inertial><mass value="0.5"/></inertial></link>
   <link name="RR_thigh"><visual><geometry><box size="0.15 0.03 0.03"/></geometry></visual><inertial><mass value="1.0"/></inertial></link>
   <link name="RR_calf"><visual><geometry><box size="0.15 0.02 0.02"/></geometry></visual><inertial><mass value="0.3"/></inertial></link>
+
   <!-- RL - Rear Left Leg -->
   <link name="RL_hip"><visual><geometry><box size="0.05 0.04 0.08"/></geometry></visual><inertial><mass value="0.5"/></inertial></link>
   <link name="RL_thigh"><visual><geometry><box size="0.15 0.03 0.03"/></geometry></visual><inertial><mass value="1.0"/></inertial></link>
   <link name="RL_calf"><visual><geometry><box size="0.15 0.02 0.02"/></geometry></visual><inertial><mass value="0.3"/></inertial></link>
-  <!-- Joints for all 4 legs -->
+
+  <!-- Joints -->
   <joint name="FR_hip_joint" type="revolute"><parent link="base_link"/><child link="FR_hip"/><origin xyz="0.2 0.1 0"/><axis xyz="1 0 0"/><limit lower="-3.14" upper="3.14"/></joint>
   <joint name="FR_thigh_joint" type="revolute"><parent link="FR_hip"/><child link="FR_thigh"/><origin xyz="0 0 -0.04"/><axis xyz="0 1 0"/><limit lower="-2.0" upper="2.0"/></joint>
   <joint name="FR_calf_joint" type="revolute"><parent link="FR_thigh"/><child link="FR_calf"/><origin xyz="0.15 0 0"/><axis xyz="0 1 0"/><limit lower="-2.0" upper="-0.1"/></joint>
+
   <joint name="FL_hip_joint" type="revolute"><parent link="base_link"/><child link="FL_hip"/><origin xyz="0.2 -0.1 0"/><axis xyz="1 0 0"/><limit lower="-3.14" upper="3.14"/></joint>
   <joint name="FL_thigh_joint" type="revolute"><parent link="FL_hip"/><child link="FL_thigh"/><origin xyz="0 0 -0.04"/><axis xyz="0 1 0"/><limit lower="-2.0" upper="2.0"/></joint>
   <joint name="FL_calf_joint" type="revolute"><parent link="FL_thigh"/><child link="FL_calf"/><origin xyz="0.15 0 0"/><axis xyz="0 1 0"/><limit lower="-2.0" upper="-0.1"/></joint>
+
   <joint name="RR_hip_joint" type="revolute"><parent link="base_link"/><child link="RR_hip"/><origin xyz="-0.2 0.1 0"/><axis xyz="1 0 0"/><limit lower="-3.14" upper="3.14"/></joint>
   <joint name="RR_thigh_joint" type="revolute"><parent link="RR_hip"/><child link="RR_thigh"/><origin xyz="0 0 -0.04"/><axis xyz="0 1 0"/><limit lower="-2.0" upper="2.0"/></joint>
   <joint name="RR_calf_joint" type="revolute"><parent link="RR_thigh"/><child link="RR_calf"/><origin xyz="0.15 0 0"/><axis xyz="0 1 0"/><limit lower="-2.0" upper="-0.1"/></joint>
+
   <joint name="RL_hip_joint" type="revolute"><parent link="base_link"/><child link="RL_hip"/><origin xyz="-0.2 -0.1 0"/><axis xyz="1 0 0"/><limit lower="-3.14" upper="3.14"/></joint>
   <joint name="RL_thigh_joint" type="revolute"><parent link="RL_hip"/><child link="RL_thigh"/><origin xyz="0 0 -0.04"/><axis xyz="0 1 0"/><limit lower="-2.0" upper="2.0"/></joint>
   <joint name="RL_calf_joint" type="revolute"><parent link="RL_thigh"/><child link="RL_calf"/><origin xyz="0.15 0 0"/><axis xyz="0 1 0"/><limit lower="-2.0" upper="-0.1"/></joint>

@@ -1,9 +1,0 @@
-[INFO] [1775415243.133763443] [exp4_maze_navigation]: Experiment 4 — Maze Navigation starting ...
-[INFO] [1775415243.134626798] [exp4_maze_navigation]:   S=(0.0, 0.0)  T=(2.525, 3.035)  Euclidean=3.95 m  MaxPath=5.92 m
-[INFO] [1775415246.198588184] [exp4_maze_navigation]: 
---- Trial 1/20 ---
-[INFO] [1775415246.199540535] [exp4_maze_navigation]: Return robot to S=(0.0, 0.0) and verify AMCL localisation. Auto-starting trial in 3 seconds ...
-[INFO] [1775415429.210445266] [exp4_maze_navigation]:   FAIL  Path=3.28 m  Time=180.0 s  Replans=175  Failure=timeout  Running efficiency=0.0 %
-[INFO] [1775415429.212603587] [exp4_maze_navigation]: 
---- Trial 2/20 ---
-[INFO] [1775415429.214462941] [exp4_maze_navigation]: Return robot to S=(0.0, 0.0) and verify AMCL localisation. Auto-starting trial in 3 seconds ...

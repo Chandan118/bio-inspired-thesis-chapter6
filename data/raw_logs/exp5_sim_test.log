@@ -1,3 +1,0 @@
-[INFO] [1776194041.606092047] [exp5_obstacle_fault]: Experiment 5 — Obstacle & Fault Tolerance starting ...
-[ERROR] [1776194054.662685600] [exp5_obstacle_fault]: NavigateToPose server not available.
-[DataLogger] Writing to /home/jetson/formica_experiments/data/exp5_fault_20260414_191401.csv

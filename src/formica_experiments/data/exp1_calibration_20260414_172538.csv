@@ -1,9 +1,0 @@
-metric,trial,measured,ground_truth,error,unit,pass,notes
-bringup_topic_presence,/scan,1.0,1.0,0.0,bool,True,
-bringup_topic_presence,/imu/data,1.0,1.0,0.0,bool,True,
-bringup_topic_presence,/odom,1.0,1.0,0.0,bool,True,
-bringup_topic_presence,/line_sensors,1.0,1.0,0.0,bool,True,
-bringup_topic_presence,/gas_sensor,1.0,1.0,0.0,bool,True,
-bringup_topic_presence,/rgb/image_raw,1.0,1.0,0.0,bool,True,
-topic_hz,/scan,0.0,8.0,-8.0,Hz,False,
-topic_hz,/imu/data,9.796546082728128,50.0,-40.20345391727187,Hz,False,

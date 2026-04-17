@@ -1,18 +1,52 @@
 # Aliengo Gait Parameters - Bio-Inspired Thesis Chapter 6
-gait_cycle_period: 0.8
+
+# Gait Cycle Parameters
+gait_cycle_period: 0.8  # seconds
 duty_factor: 0.75
-step_height: 0.08
-step_length: 0.12
+step_height: 0.08  # meters
+step_length: 0.12  # meters
+
+# Joint Angle Limits (degrees)
 joint_limits:
-  hip: {min: -180, max: 180}
-  thigh: {min: -120, max: 120}
-  calf: {min: -150, max: -5}
+  hip:
+    min: -180
+    max: 180
+  thigh:
+    min: -120
+    max: 120
+  calf:
+    min: -150
+    max: -5
+
+# Gait Types
 gait_types:
-  walk: {duty_factor: 0.75, phase_offset: [0, 0.5, 0.5, 0]}
-  trot: {duty_factor: 0.5, phase_offset: [0, 0.5, 0.5, 0]}
-  pace: {duty_factor: 0.5, phase_offset: [0, 0, 0.5, 0.5]}
-  bound: {duty_factor: 0.4, phase_offset: [0, 0, 0.5, 0.5]}
+  walk:
+    duty_factor: 0.75
+    phase_offset: [0, 0.5, 0.5, 0]
+    description: "Static stability, one leg lifted at a time"
+  trot:
+    duty_factor: 0.5
+    phase_offset: [0, 0.5, 0.5, 0]
+    description: "Diagonal legs move together"
+  pace:
+    duty_factor: 0.5
+    phase_offset: [0, 0, 0.5, 0.5]
+    description: "Lateral legs move together"
+  bound:
+    duty_factor: 0.4
+    phase_offset: [0, 0, 0.5, 0.5]
+    description: "Front/rear pairs move together"
+
+# Performance Metrics
 performance:
-  max_speed: 0.8
-  max_inclination: 30
-  energy_consumption: 150
+  max_speed: 0.8  # m/s
+  max_inclination: 30  # degrees
+  energy_consumption: 150  # watts (average)
+  continuous_runtime: 2.5  # hours
+
+# Comparison with FormicaBot
+comparison:
+  weight_ratio: 8.0  # Aliengo/FormicaBot
+  dof_ratio: 0.67  # Aliengo/FormicaBot (12/18)
+  cost_ratio: 40.0  # Aliengo/FormicaBot ($20000/$500)
+  terrain_adaptability: "High"  # vs "Very High" for FormicaBot

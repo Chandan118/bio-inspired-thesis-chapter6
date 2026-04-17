@@ -1,9 +1,0 @@
-[INFO] [1776193999.852271328] [exp3_slam_mapping]: Experiment 3 — SLAM Mapping starting ...
-[WARN] [1776194012.905139241] [exp3_slam_mapping]: NavigateToPose action server not available. Switching to /cmd_vel autonomous mapping mode.
-[INFO] [1776194013.018737207] [exp3_slam_mapping]: 
---- Trial 1/10 ---
-[INFO] [1776194015.023052364] [exp3_slam_mapping]:   Mapping … coverage 0.3% (target 95.0%), elapsed 0s / 900s
-[INFO] [1776194022.684686593] [exp3_slam_mapping]:   Coverage reached 95.4% (target 95.0%).
-[INFO] [1776194022.686183155] [exp3_slam_mapping]:   Navigating to landmark 0: (1.00, 0.00) ...
-[DataLogger] Writing to /home/jetson/formica_experiments/data/exp3_slam_20260414_191319.csv
-The following exception was never retrieved: 

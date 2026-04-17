@@ -1,8 +1,0 @@
-condition,distance_m,class_name,TP,FP,FN,precision,recall,F1,AP
-normal,0.5,red_cube,0,0,30,0.0,0.0,0.0,0.0
-normal,1.0,red_cube,0,0,30,0.0,0.0,0.0,0.0
-normal,1.5,red_cube,0,0,30,0.0,0.0,0.0,0.0
-normal,2.0,red_cube,0,0,30,0.0,0.0,0.0,0.0
-normal,2.5,red_cube,0,0,30,0.0,0.0,0.0,0.0
-normal,0.5,green_cylinder,0,0,30,0.0,0.0,0.0,0.0
-normal,1.0,green_cylinder,0,0,30,0.0,0.0,0.0,0.0

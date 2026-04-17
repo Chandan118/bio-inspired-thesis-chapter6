@@ -2,7 +2,7 @@
 
 ## Overview
 
-This directory contains the Aliengo quadruped robot model specifications used in the bio-inspired navigation thesis Chapter 6 comparative analysis.
+This directory contains the Aliengo quadruped robot model specifications used in the bio-inspired navigation thesis Chapter 6 comparative analysis with FormicaBot.
 
 ## Robot Specifications (Aliengo Unitree)
 
@@ -18,14 +18,28 @@ This directory contains the Aliengo quadruped robot model specifications used in
 
 ## Files
 
-- `aliengo_urdf.urdf` - Robot URDF model
-- `gait_params.yaml` - Gait parameters
-- `experiment_data.csv` - Comparative experiment logs
-- `model_specs.md` - Full specifications
+| File | Description |
+|------|-------------|
+| `aliengo_urdf.urdf` | Robot URDF model (12 DOF) |
+| `gait_params.yaml` | Gait parameters for walk/trot/pace/bound |
+| `experiment_data.csv` | Comparative experiment logs |
+| `model_specs.md` | Full specifications and comparison |
+
+## Chapter 6 Comparison with FormicaBot
+
+| Feature | Aliengo | FormicaBot |
+|---------|---------|------------|
+| Type | Quadruped | Hexapod |
+| Legs | 4 | 6 |
+| DOF | 12 | 18 |
+| Weight | 24 kg | 3 kg |
+| Cost | ~$20,000 | ~$500 |
+| Terrain Adaptability | High | Very High |
+| Power Consumption | 150W | 15W |
 
 ## Usage
 
-The Aliengo model is used as a **quadruped comparison baseline** for the FormicaBot (hexapod) platform validation in Chapter 6.
+The Aliengo model serves as the **quadruped comparison baseline** for validating FormicaBot's superior terrain adaptability and multi-legged navigation advantages.
 
 ## Reference
 

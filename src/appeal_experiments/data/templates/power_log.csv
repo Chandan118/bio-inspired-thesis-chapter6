@@ -1,4 +1,0 @@
-timestamp_sec,trial_id,stage,power_w,voltage_v,current_a
-0.0,1,perception,14.2,19.0,0.75
-1.0,1,planning,15.1,19.0,0.79
-2.0,1,control,14.8,19.0,0.78

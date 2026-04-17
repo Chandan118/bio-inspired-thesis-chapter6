@@ -1,4 +1,0 @@
-run_tag=20260404_021816
-bag_dir=/home/jetson/exp1_logs/rosbag_exp4_20260404_021816
-playback: ros2 bag play /home/jetson/exp1_logs/rosbag_exp4_20260404_021816
-rviz: add Image display, topic /rgb/image_raw

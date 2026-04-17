@@ -1,3 +1,0 @@
-[INFO] [1775415569.869546862] [arduino_base_controller]: Connected to Arduino on /dev/ttyCH341USB0
-[INFO] [1775415569.984901975] [arduino_base_controller]: Arduino Base Controller started.
-[INFO] [1775415579.684078200] [arduino_base_controller]: RAW SERIAL FROM ARDUINO: "s,92,152,0,102"

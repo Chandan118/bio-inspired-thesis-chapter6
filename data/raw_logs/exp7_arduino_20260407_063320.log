@@ -1,4 +1,0 @@
-[ERROR] [1775514803.821243416] [arduino_base_controller]: Could not connect to Arduino on /dev/ttyCH341USB0: [Errno 2] could not open port /dev/ttyCH341USB0: [Errno 2] No such file or directory: '/dev/ttyCH341USB0'
-[INFO] [1775514804.745432134] [arduino_base_controller]: Arduino Base Controller started.
-[INFO] [1775515240.860634514] [arduino_base_controller]: >>> Received first cmd_vel! Movement integration active.
-[INFO] [1775515240.901985066] [arduino_base_controller]: >>> Received first cmd_vel! Movement integration active.

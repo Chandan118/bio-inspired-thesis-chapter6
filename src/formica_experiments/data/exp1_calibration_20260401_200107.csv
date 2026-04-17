@@ -1,7 +1,0 @@
-sensor,trial,measured_value,ground_truth,error,unit,pass
-Odometry,1,0.0,2.0,100.0,%,False
-Odometry,2,0.0,2.0,100.0,%,False
-Odometry,3,0.0,2.0,100.0,%,False
-Odometry,MEAN,100.0,0.0,100.0,%,False
-Odometry,STDEV,0.0,0.0,0.0,%,-
-TCRT5000,SNR,0.0,6.0,-6.0,dB,False

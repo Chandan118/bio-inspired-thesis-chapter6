@@ -1,10 +1,10 @@
-# Bio-Inspired Cross-Species Navigator — Chapter 6 Experimental Validation
+# Bio-Inspired Cross-Species Navigator - Chapter 6 Experimental Validation
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Overview
 
-This repository contains the complete experimental validation data, simulation code, and analysis tools for **Chapter 6** of the Bio-Inspired Cross-Species Navigator thesis. It validates a single-robot platform (FormicaBot) based on NVIDIA Jetson Orin Nano 8GB and ROS 2 Humble.
+This repository contains the complete experimental validation data, simulation code, and analysis tools for **Chapter 6** of the Bio-Inspired Cross-Species Navigator thesis. It validates the FormicaBot platform (hexapod robot) based on NVIDIA Jetson Orin Nano 8GB and ROS 2 Humble.
 
 ## Project Structure
 
@@ -16,7 +16,8 @@ bio-inspired-thesis-chapter6/
 ├── data/
 │   ├── chapter6_deliverables/   # Generated figures and tables
 │   ├── raw_logs/                # Raw experiment logs
-│   └── simulation_data/         # Simulation scripts and outputs
+│   ├── simulation_data/         # Simulation scripts and outputs
+│   └── aliengo_model/            # Aliengo quadruped comparison baseline
 ├── docs/                        # Documentation
 ├── workflows/                   # GitHub Actions CI/CD
 ├── README.md
@@ -35,21 +36,37 @@ bio-inspired-thesis-chapter6/
 | 6 | CNN Detection | TensorRT-based target recognition | Table 6.5, Fig 6.8 |
 | 7 | Pheromone Trail | LED trail following with ethanol detection | Table 6.6-7, Fig 6.9-12 |
 
+## Robot Platforms Compared
+
+### FormicaBot (Primary)
+- **Type**: Hexapod Robot
+- **Weight**: 3 kg
+- **DOF**: 18 (3 per leg × 6 legs)
+- **Cost**: ~$500
+- **Power**: 15W
+- **Terrain Adaptability**: Very High
+
+### Aliengo (Baseline for Comparison)
+- **Type**: Quadruped Robot
+- **Weight**: 24 kg
+- **DOF**: 12 (3 per leg × 4 legs)
+- **Cost**: ~$20,000
+- **Power**: 150W
+- **Terrain Adaptability**: High
+
+See `data/aliengo_model/` for full Aliengo specifications and comparison data.
+
 ## Simulation Experiments
 
 - **Simulation A**: Baseline foraging efficiency
 - **Simulation B**: Scalability analysis (1000-10000 robots)
 - **Simulation C**: Fault tolerance validation
-- **Simulation D**: Leader election protocols
 
 ## Quick Start
 
 ### Hardware Setup
 ```bash
-# Clone repository
 cd ~/bio-inspired-thesis-chapter6/src/formica_experiments
-
-# Hardware check
 python3 hardware_checker.py --quick
 ```
 
@@ -89,7 +106,7 @@ If you use this data in your research, please cite:
   title = {FormicaBot Chapter 6 Experimental Validation},
   author = {Chandan Sheikder},
   year = {2026},
-  url = {https://github.com/chandan-bio-inspired/bio-inspired-thesis-chapter6}
+  url = {https://github.com/Chandan118/bio-inspired-thesis-chapter6}
 }
 ```
 

@@ -1,3 +1,0 @@
-[INFO] [1776188074.230604034] [exp3_slam_mapping]: Experiment 3 — SLAM Mapping starting ...
-[WARN] [1776188087.279384163] [exp3_slam_mapping]: NavigateToPose action server not available. Switching to /cmd_vel autonomous mapping mode.
-[ERROR] [1776188107.296254222] [exp3_slam_mapping]: LiDAR /scan is not stable. Stopping Experiment 3.

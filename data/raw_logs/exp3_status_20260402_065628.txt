@@ -1,6 +1,0 @@
-status,starting
-started_at,2026-04-02T06:56:28+08:00
-lidar_pid,43859
-slam_pid,43860
-nav2_pid,43861
-status,failed_no_map_topic

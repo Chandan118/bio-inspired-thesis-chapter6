@@ -1,7 +1,0 @@
-status,starting
-started_at,2026-04-07T07:56:47+08:00
-lidar_pid,60398
-slam_pid,60399
-nav2_pid,60400
-base_pid,60401
-status,running_exp3

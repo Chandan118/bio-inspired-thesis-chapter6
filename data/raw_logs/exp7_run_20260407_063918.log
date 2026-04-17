@@ -1,4 +1,0 @@
-[INFO] [1775515167.108827270] [exp7_pheromone_trail]: Experiment 7 — mock_sensors=False auto_run=False
-[INFO] [1775515172.003089774] [exp7_pheromone_trail]: === Sub-experiment A: Straight trail ===
-[INFO] [1775515172.004943840] [exp7_pheromone_trail]: Trial 1/10 (straight): place robot at START, LED full; confirm TCRT > 1500 ADC. Press Enter ...
-[DataLogger] Writing to /home/jetson/formica_experiments/data/exp7_pheromone_20260406_223928.csv

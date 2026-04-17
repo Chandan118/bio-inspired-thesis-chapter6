@@ -1,5 +1,0 @@
-[WARN] [1775417161.780266971] []: Old-style arguments are deprecated; see --help for new-style arguments
-[INFO] [1775417161.869191805] [static_transform_publisher_M1wG3478r8zNUUgP]: Spinning until stopped - publishing transform
-translation: ('0.000000', '0.000000', '0.000000')
-rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
-from 'base_footprint' to 'base_link'
