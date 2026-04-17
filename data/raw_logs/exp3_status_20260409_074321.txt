@@ -1,0 +1,9 @@
+status,starting
+started_at,2026-04-09T07:43:21+08:00
+tf_base_laser_pid,10462
+tf_base_foot_pid,10463
+lidar_pid,10464
+slam_pid,10465
+nav2_pid,10466
+base_pid,10467
+status,running_exp3
