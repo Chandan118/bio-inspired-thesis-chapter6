@@ -1,0 +1,264 @@
+[INFO] [1776194095.138710473] [exp5_obstacle_fault]: Experiment 5 — Obstacle & Fault Tolerance starting ...
+[INFO] [1776194098.161806317] [exp5_obstacle_fault]: 
+=== CONDITION A: Dynamic Obstacle Injection ===
+[INFO] [1776194098.162494500] [exp5_obstacle_fault]:   Obstacle Trial 1/10
+[INFO] [1776194098.163092855] [exp5_obstacle_fault]: [MOCK] Simulating obstacle trial...
+[INFO] [1776194098.163686731] [exp5_obstacle_fault]: [MOCK] Simulating goal to (3.50, 2.50)
+[INFO] [1776194101.668735630] [exp5_obstacle_fault]:   PASS  InjectAt=1.00s  DetectLatency=0.300s  Replans=0
+[INFO] [1776194101.669690829] [exp5_obstacle_fault]:   Obstacle Trial 2/10
+[INFO] [1776194101.670469702] [exp5_obstacle_fault]: [MOCK] Simulating obstacle trial...
+[INFO] [1776194101.671235103] [exp5_obstacle_fault]: [MOCK] Simulating goal to (3.50, 2.50)
+[INFO] [1776194105.175030372] [exp5_obstacle_fault]:   PASS  InjectAt=1.00s  DetectLatency=0.300s  Replans=0
+[INFO] [1776194105.176494740] [exp5_obstacle_fault]:   Obstacle Trial 3/10
+[INFO] [1776194105.177791422] [exp5_obstacle_fault]: [MOCK] Simulating obstacle trial...
+[INFO] [1776194105.178873697] [exp5_obstacle_fault]: [MOCK] Simulating goal to (3.50, 2.50)
+[INFO] [1776194108.684494923] [exp5_obstacle_fault]:   PASS  InjectAt=1.00s  DetectLatency=0.300s  Replans=0
+[INFO] [1776194108.685899865] [exp5_obstacle_fault]:   Obstacle Trial 4/10
+[INFO] [1776194108.687189507] [exp5_obstacle_fault]: [MOCK] Simulating obstacle trial...
+[INFO] [1776194108.688541199] [exp5_obstacle_fault]: [MOCK] Simulating goal to (3.50, 2.50)
+[INFO] [1776194112.192188101] [exp5_obstacle_fault]:   PASS  InjectAt=1.00s  DetectLatency=0.300s  Replans=0
+[INFO] [1776194112.193601843] [exp5_obstacle_fault]:   Obstacle Trial 5/10
+[INFO] [1776194112.194869148] [exp5_obstacle_fault]: [MOCK] Simulating obstacle trial...
+[INFO] [1776194112.196416815] [exp5_obstacle_fault]: [MOCK] Simulating goal to (3.50, 2.50)
+[INFO] [1776194115.701640067] [exp5_obstacle_fault]:   PASS  InjectAt=1.00s  DetectLatency=0.300s  Replans=0
+Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[INFO] [1776194115.702940109] [exp5_obstacle_fault]:   Obstacle Trial 6/10
+Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[INFO] [1776194115.704158933] [exp5_obstacle_fault]: [MOCK] Simulating obstacle trial...
+Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[INFO] [1776194115.705375773] [exp5_obstacle_fault]: [MOCK] Simulating goal to (3.50, 2.50)
+Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[INFO] [1776194119.210106926] [exp5_obstacle_fault]:   PASS  InjectAt=1.00s  DetectLatency=0.300s  Replans=0
+Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[INFO] [1776194119.211420569] [exp5_obstacle_fault]:   Obstacle Trial 7/10
+Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[INFO] [1776194119.212673218] [exp5_obstacle_fault]: [MOCK] Simulating obstacle trial...
+Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[INFO] [1776194119.213901834] [exp5_obstacle_fault]: [MOCK] Simulating goal to (3.50, 2.50)
+Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[INFO] [1776194122.717819310] [exp5_obstacle_fault]:   PASS  InjectAt=1.00s  DetectLatency=0.300s  Replans=0
+Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[INFO] [1776194122.719125689] [exp5_obstacle_fault]:   Obstacle Trial 8/10
+Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[INFO] [1776194122.720391906] [exp5_obstacle_fault]: [MOCK] Simulating obstacle trial...
+Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[INFO] [1776194122.721631370] [exp5_obstacle_fault]: [MOCK] Simulating goal to (3.50, 2.50)
+Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[INFO] [1776194126.224312629] [exp5_obstacle_fault]:   PASS  InjectAt=1.00s  DetectLatency=0.300s  Replans=0
+Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[INFO] [1776194126.225637312] [exp5_obstacle_fault]:   Obstacle Trial 9/10
+Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[INFO] [1776194126.227397241] [exp5_obstacle_fault]: [MOCK] Simulating obstacle trial...
+Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[INFO] [1776194126.228699556] [exp5_obstacle_fault]: [MOCK] Simulating goal to (3.50, 2.50)
+Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[INFO] [1776194129.733856078] [exp5_obstacle_fault]:   PASS  InjectAt=1.00s  DetectLatency=0.300s  Replans=0
+Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[INFO] [1776194129.735197978] [exp5_obstacle_fault]:   Obstacle Trial 10/10
+Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[INFO] [1776194129.736678666] [exp5_obstacle_fault]: [MOCK] Simulating obstacle trial...
+Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[INFO] [1776194129.737936531] [exp5_obstacle_fault]: [MOCK] Simulating goal to (3.50, 2.50)
+Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[INFO] [1776194133.258719976] [exp5_obstacle_fault]:   PASS  InjectAt=1.00s  DetectLatency=0.300s  Replans=0
+Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[INFO] [1776194133.259671015] [exp5_obstacle_fault]: 
+  Condition A rerouting success rate: 100.0 %
+Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[INFO] [1776194133.260874030] [exp5_obstacle_fault]: 
+=== CONDITION B: Sensor Failure Simulation ===
+Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[INFO] [1776194133.262077973] [exp5_obstacle_fault]: 
+  Sensor failure type: LiDAR
+Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[INFO] [1776194133.263226554] [exp5_obstacle_fault]:   Sensor Trial 1/5 (LiDAR)
+Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[INFO] [1776194133.264417473] [exp5_obstacle_fault]: [MOCK] Simulating sensor failure trial...
+Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[INFO] [1776194133.265593255] [exp5_obstacle_fault]: [MOCK] Simulating goal to (3.50, 2.50)
+Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[INFO] [1776194136.270043864] [exp5_obstacle_fault]:   PASS  Sensor=LiDAR  Replans=0
+Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[INFO] [1776194136.271373283] [exp5_obstacle_fault]:   Sensor Trial 2/5 (LiDAR)
+Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[INFO] [1776194136.272627083] [exp5_obstacle_fault]: [MOCK] Simulating sensor failure trial...
+Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[INFO] [1776194136.273840627] [exp5_obstacle_fault]: [MOCK] Simulating goal to (3.50, 2.50)
+Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[INFO] [1776194139.278950600] [exp5_obstacle_fault]:   PASS  Sensor=LiDAR  Replans=0
+Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[INFO] [1776194139.280290099] [exp5_obstacle_fault]:   Sensor Trial 3/5 (LiDAR)
+Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[INFO] [1776194139.281500506] [exp5_obstacle_fault]: [MOCK] Simulating sensor failure trial...
+Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[INFO] [1776194139.282688705] [exp5_obstacle_fault]: [MOCK] Simulating goal to (3.50, 2.50)
+Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[INFO] [1776194142.286801573] [exp5_obstacle_fault]:   PASS  Sensor=LiDAR  Replans=0
+Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[INFO] [1776194142.288193650] [exp5_obstacle_fault]:   Sensor Trial 4/5 (LiDAR)
+Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[INFO] [1776194142.289586207] [exp5_obstacle_fault]: [MOCK] Simulating sensor failure trial...
+Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[INFO] [1776194142.290808646] [exp5_obstacle_fault]: [MOCK] Simulating goal to (3.50, 2.50)
+Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[INFO] [1776194145.295092800] [exp5_obstacle_fault]:   PASS  Sensor=LiDAR  Replans=0
+Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[INFO] [1776194145.296590768] [exp5_obstacle_fault]:   Sensor Trial 5/5 (LiDAR)
+Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[INFO] [1776194145.297882778] [exp5_obstacle_fault]: [MOCK] Simulating sensor failure trial...
+Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[INFO] [1776194145.299067008] [exp5_obstacle_fault]: [MOCK] Simulating goal to (3.50, 2.50)
+Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[INFO] [1776194148.303575281] [exp5_obstacle_fault]:   PASS  Sensor=LiDAR  Replans=0
+Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[INFO] [1776194148.304945885] [exp5_obstacle_fault]:   LiDAR failure success rate: 100.0 %
+Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[INFO] [1776194148.306409644] [exp5_obstacle_fault]: 
+  Sensor failure type: Camera
+Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[INFO] [1776194148.307626195] [exp5_obstacle_fault]:   Sensor Trial 1/5 (Camera)
+Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[INFO] [1776194148.308826234] [exp5_obstacle_fault]: [MOCK] Simulating sensor failure trial...
+Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[INFO] [1776194148.310007200] [exp5_obstacle_fault]: [MOCK] Simulating goal to (3.50, 2.50)
+Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[INFO] [1776194151.313725160] [exp5_obstacle_fault]:   PASS  Sensor=Camera  Replans=0
+Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[INFO] [1776194151.315002097] [exp5_obstacle_fault]:   Sensor Trial 2/5 (Camera)
+Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[INFO] [1776194151.316708200] [exp5_obstacle_fault]: [MOCK] Simulating sensor failure trial...
+Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[INFO] [1776194151.317973009] [exp5_obstacle_fault]: [MOCK] Simulating goal to (3.50, 2.50)
+Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[INFO] [1776194154.321510596] [exp5_obstacle_fault]:   PASS  Sensor=Camera  Replans=0
+Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[INFO] [1776194154.322799757] [exp5_obstacle_fault]:   Sensor Trial 3/5 (Camera)
+Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[INFO] [1776194154.323997972] [exp5_obstacle_fault]: [MOCK] Simulating sensor failure trial...
+Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[INFO] [1776194154.325189466] [exp5_obstacle_fault]: [MOCK] Simulating goal to (3.50, 2.50)
+Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[INFO] [1776194157.330164781] [exp5_obstacle_fault]:   PASS  Sensor=Camera  Replans=0
+Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[INFO] [1776194157.331462551] [exp5_obstacle_fault]:   Sensor Trial 4/5 (Camera)
+Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[INFO] [1776194157.332701055] [exp5_obstacle_fault]: [MOCK] Simulating sensor failure trial...
+Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[INFO] [1776194157.333886917] [exp5_obstacle_fault]: [MOCK] Simulating goal to (3.50, 2.50)
+Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[INFO] [1776194160.336438332] [exp5_obstacle_fault]:   PASS  Sensor=Camera  Replans=0
+Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[INFO] [1776194160.337736934] [exp5_obstacle_fault]:   Sensor Trial 5/5 (Camera)
+Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[INFO] [1776194160.338923788] [exp5_obstacle_fault]: [MOCK] Simulating sensor failure trial...
+Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[INFO] [1776194160.340165428] [exp5_obstacle_fault]: [MOCK] Simulating goal to (3.50, 2.50)
+Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[INFO] [1776194163.342841377] [exp5_obstacle_fault]:   PASS  Sensor=Camera  Replans=0
+Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[INFO] [1776194163.344197869] [exp5_obstacle_fault]:   Camera failure success rate: 100.0 %
+Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[INFO] [1776194163.345376691] [exp5_obstacle_fault]: 
+  Sensor failure type: LineSensor
+Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[INFO] [1776194163.346877571] [exp5_obstacle_fault]:   Sensor Trial 1/5 (LineSensor)
+Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[INFO] [1776194163.348140364] [exp5_obstacle_fault]: [MOCK] Simulating sensor failure trial...
+Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[INFO] [1776194163.349336914] [exp5_obstacle_fault]: [MOCK] Simulating goal to (3.50, 2.50)
+Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[INFO] [1776194166.353319516] [exp5_obstacle_fault]:   PASS  Sensor=LineSensor  Replans=0
+Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[INFO] [1776194166.354610278] [exp5_obstacle_fault]:   Sensor Trial 2/5 (LineSensor)
+Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[INFO] [1776194166.355787820] [exp5_obstacle_fault]: [MOCK] Simulating sensor failure trial...
+Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[INFO] [1776194166.357026963] [exp5_obstacle_fault]: [MOCK] Simulating goal to (3.50, 2.50)
+Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[INFO] [1776194169.361658630] [exp5_obstacle_fault]:   PASS  Sensor=LineSensor  Replans=0
+Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[INFO] [1776194169.362597060] [exp5_obstacle_fault]:   Sensor Trial 3/5 (LineSensor)
+Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[INFO] [1776194169.363376733] [exp5_obstacle_fault]: [MOCK] Simulating sensor failure trial...
+Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[INFO] [1776194169.364226776] [exp5_obstacle_fault]: [MOCK] Simulating goal to (3.50, 2.50)
+Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[INFO] [1776194172.367905792] [exp5_obstacle_fault]:   PASS  Sensor=LineSensor  Replans=0
+Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[INFO] [1776194172.369241291] [exp5_obstacle_fault]:   Sensor Trial 4/5 (LineSensor)
+Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[INFO] [1776194172.370662745] [exp5_obstacle_fault]: [MOCK] Simulating sensor failure trial...
+Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[INFO] [1776194172.371855967] [exp5_obstacle_fault]: [MOCK] Simulating goal to (3.50, 2.50)
+Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[INFO] [1776194175.376934472] [exp5_obstacle_fault]:   PASS  Sensor=LineSensor  Replans=0
+Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[INFO] [1776194175.378221745] [exp5_obstacle_fault]:   Sensor Trial 5/5 (LineSensor)
+Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[INFO] [1776194175.379379030] [exp5_obstacle_fault]: [MOCK] Simulating sensor failure trial...
+Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[INFO] [1776194175.380571069] [exp5_obstacle_fault]: [MOCK] Simulating goal to (3.50, 2.50)
+Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[INFO] [1776194178.385580536] [exp5_obstacle_fault]:   PASS  Sensor=LineSensor  Replans=0
+Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[INFO] [1776194178.386940003] [exp5_obstacle_fault]:   LineSensor failure success rate: 100.0 %
+Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[DataLogger] Writing to /home/jetson/formica_experiments/data/exp5_fault_20260414_191455.csv
+
+============================================================
+  EXPERIMENT SUMMARY — EXP 5 — Obstacle & Fault Tolerance
+============================================================
+  Trial    Metric                         Value        Unit
+------------------------------------------------------------
+  1        Obstacle detect latency        0.3000       s
+  2        Obstacle detect latency        0.3000       s
+  3        Obstacle detect latency        0.3000       s
+  4        Obstacle detect latency        0.3000       s
+  5        Obstacle detect latency        0.3000       s
+  6        Obstacle detect latency        0.3000       s
+  7        Obstacle detect latency        0.3000       s
+  8        Obstacle detect latency        0.3000       s
+  9        Obstacle detect latency        0.3000       s
+  10       Obstacle detect latency        0.3000       s
+  1        LiDAR kill — success           1.0000       
+  2        LiDAR kill — success           1.0000       
+  3        LiDAR kill — success           1.0000       
+  4        LiDAR kill — success           1.0000       
+  5        LiDAR kill — success           1.0000       
+  1        Camera kill — success          1.0000       
+  2        Camera kill — success          1.0000       
+  3        Camera kill — success          1.0000       
+  4        Camera kill — success          1.0000       
+  5        Camera kill — success          1.0000       
+  1        LineSensor kill — success      1.0000       
+  2        LineSensor kill — success      1.0000       
+  3        LineSensor kill — success      1.0000       
+  4        LineSensor kill — success      1.0000       
+  5        LineSensor kill — success      1.0000       
+============================================================
+
+[DataLogger] Closed /home/jetson/formica_experiments/data/exp5_fault_20260414_191455.csv
+Traceback (most recent call last):
+  File "/home/jetson/ros2_ws/install/formica_experiments/lib/formica_experiments/exp5_fault", line 33, in <module>
+    sys.exit(load_entry_point('formica-experiments==1.0.0', 'console_scripts', 'exp5_fault')())
+  File "/home/jetson/ros2_ws/install/formica_experiments/lib/python3.10/site-packages/formica_experiments/exp5_obstacle_fault.py", line 410, in main
+    rclpy.spin(node)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 229, in spin
+    executor.spin_once()
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 808, in spin_once
+    self._spin_once_impl(timeout_sec)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 805, in _spin_once_impl
+    raise handler.exception()
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/task.py", line 272, in _execute_coroutine_step
+    result = coro.send(None)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 488, in handler
+    await call_coroutine(entity, arg)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 396, in _execute_timer
+    await await_or_execute(tmr.callback)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 110, in await_or_execute
+    return callback(*args)
+  File "/home/jetson/ros2_ws/install/formica_experiments/lib/python3.10/site-packages/formica_experiments/exp5_obstacle_fault.py", line 172, in _start_experiment
+    self._log_pub.publish(msg)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/publisher.py", line 70, in publish
+    self.__publisher.publish(msg)
+rclpy._rclpy_pybind11.RCLError: Failed to publish: publisher's context is invalid, at ./src/rcl/publisher.c:389
