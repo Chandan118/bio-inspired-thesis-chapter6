@@ -1,0 +1,6 @@
+[INFO] [launch]: All log files can be found below /home/jetson/.ros/log/2026-04-04-01-31-07-793387-chandan-9513
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [rplidar_node-1]: process started with pid [9514]
+[rplidar_node-1] [INFO] [1775237467.976192164] [rplidar_node]: RPLidar running on ROS2 package rplidar_ros. RPLIDAR SDK Version:2.1.0
+[rplidar_node-1] [ERROR] [1775237470.493797076] [rplidar_node]: Error, operation time out. SL_RESULT_OPERATION_TIMEOUT! 
+[ERROR] [rplidar_node-1]: process has died [pid 9514, exit code 255, cmd '/home/jetson/ros2_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_node --ros-args -r __node:=rplidar_node --params-file /tmp/launch_params_k_fl8asm'].
