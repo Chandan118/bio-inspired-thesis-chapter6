@@ -1,0 +1,8 @@
+[INFO] [1776187538.457965713] [exp1_sensor_calibration]: Starting Experiment 1 full calibration workflow.
+[INFO] [1776187540.489213845] [exp1_sensor_calibration]: Task 1: System bring-up verification.
+[INFO] [1776187545.496346626] [exp1_sensor_calibration]: /scan rate: 0.00 Hz (target >= 8.0)
+[INFO] [1776187545.497679513] [exp1_sensor_calibration]: /imu/data rate: 9.80 Hz (target >= 50.0)
+[INFO] [1776187545.499093361] [exp1_sensor_calibration]: Task 2: LiDAR range calibration.
+[DataLogger] Writing to /home/jetson/formica_experiments/data/exp1_calibration_20260414_172538.csv
+
+Place robot exactly 0.50 m from wall, then press ENTER.
