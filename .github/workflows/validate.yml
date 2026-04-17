@@ -1,0 +1,56 @@
+name: ROS 2 Validation
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  validate-structure:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check experiment files exist
+        run: |
+          echo "=== Checking Experiment Files ==="
+          ls -la src/formica_experiments/formica_experiments/exp*.py
+          echo ""
+          echo "=== Checking Appeal Simulations ==="
+          ls -la src/appeal_experiments/simulation*.py
+          echo ""
+          echo "=== Checking Chapter 6 Deliverables ==="
+          ls -la data/chapter6_deliverables/tables/
+          echo ""
+          echo "=== Checking Aliengo Model ==="
+          ls -la data/aliengo_model/
+
+  python-validation:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+      - name: Install test dependencies
+        run: pip install numpy pandas matplotlib pyyaml
+      - name: Validate Python syntax
+        run: |
+          python -m py_compile src/formica_experiments/formica_experiments/exp1_sensor_calibration.py
+          python -m py_compile src/formica_experiments/formica_experiments/exp2_power_profiling.py
+          python -m py_compile src/formica_experiments/formica_experiments/exp3_slam_mapping.py
+          python -m py_compile src/appeal_experiments/simulation_B_fast.py
+          echo "All Python files validated!"
+
+  data-integrity:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify deliverable tables
+        run: |
+          echo "=== Chapter 6 Tables ==="
+          wc -l data/chapter6_deliverables/tables/*.csv data/chapter6_deliverables/tables/*.txt
+      - name: Verify Aliengo model data
+        run: |
+          echo "=== Aliengo Model Files ==="
+          cat data/aliengo_model/experiment_data.csv | head -5

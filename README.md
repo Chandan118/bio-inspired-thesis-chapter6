@@ -1,6 +1,8 @@
 # Bio-Inspired Cross-Species Navigator - Chapter 6 Experimental Validation
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![CI](https://github.com/Chandan118/bio-inspired-thesis-chapter6/actions/workflows/ci.yml/badge.svg)](https://github.com/Chandan118/bio-inspired-thesis-chapter6/actions)
+[![Validate](https://github.com/Chandan118/bio-inspired-thesis-chapter6/actions/workflows/validate.yml/badge.svg)](https://github.com/Chandan118/bio-inspired-thesis-chapter6/actions)
 
 ## Overview
 
@@ -11,17 +13,26 @@ This repository contains the complete experimental validation data, simulation c
 ```
 bio-inspired-thesis-chapter6/
 ├── src/
-│   ├── formica_experiments/     # ROS 2 Humble experiment code (Exp 1-7)
-│   └── appeal_experiments/      # Appeal response simulation code
+│   ├── formica_experiments/           # ROS 2 Humble experiment package
+│   │   ├── formica_experiments/        # Experiment scripts (Exp 1-7)
+│   │   ├── launch/                     # ROS 2 launch files
+│   │   ├── config/                     # Configuration files
+│   │   └── hardware_checker.py         # Hardware validation
+│   └── appeal_experiments/             # Appeal response simulation code
+│       ├── simulation_A_fast.py       # Baseline foraging
+│       ├── simulation_B_scalability.py # Scalability analysis
+│       └── simulation_C_fault_tolerance.py
 ├── data/
-│   ├── chapter6_deliverables/   # Generated figures and tables
-│   ├── raw_logs/                # Raw experiment logs
-│   ├── simulation_data/         # Simulation scripts and outputs
-│   └── aliengo_model/            # Aliengo quadruped comparison baseline
-├── docs/                        # Documentation
-├── workflows/                   # GitHub Actions CI/CD
+│   ├── chapter6_deliverables/          # Generated figures and tables
+│   │   ├── tables/                     # Table 6.1 - 6.7
+│   │   └── figures/                    # Figure 6.1 - 6.12
+│   ├── raw_logs/                       # Raw experiment logs
+│   ├── simulation_data/                # Simulation outputs
+│   └── aliengo_model/                   # Aliengo quadruped comparison
+├── docs/                               # Documentation
+├── workflows/                          # GitHub Actions CI/CD
 ├── README.md
-└── LICENSE
+└── LICENSE (MIT)
 ```
 
 ## Experiments Summary (Chapter 6)
@@ -38,58 +49,70 @@ bio-inspired-thesis-chapter6/
 
 ## Robot Platforms Compared
 
-### FormicaBot (Primary)
-- **Type**: Hexapod Robot
+### FormicaBot (Primary - Hexapod)
 - **Weight**: 3 kg
 - **DOF**: 18 (3 per leg × 6 legs)
 - **Cost**: ~$500
 - **Power**: 15W
 - **Terrain Adaptability**: Very High
 
-### Aliengo (Baseline for Comparison)
-- **Type**: Quadruped Robot
+### Aliengo (Baseline - Quadruped)
 - **Weight**: 24 kg
 - **DOF**: 12 (3 per leg × 4 legs)
 - **Cost**: ~$20,000
 - **Power**: 150W
 - **Terrain Adaptability**: High
 
-See `data/aliengo_model/` for full Aliengo specifications and comparison data.
-
-## Simulation Experiments
-
-- **Simulation A**: Baseline foraging efficiency
-- **Simulation B**: Scalability analysis (1000-10000 robots)
-- **Simulation C**: Fault tolerance validation
+See `data/aliengo_model/` for full specifications and comparison data.
 
 ## Quick Start
 
-### Hardware Setup
-```bash
-cd ~/bio-inspired-thesis-chapter6/src/formica_experiments
-python3 hardware_checker.py --quick
-```
+### Hardware Requirements
+- NVIDIA Jetson Orin Nano 8GB
+- ROS 2 Humble
+- FormicaBot hardware (LiDAR, IMU, camera, gas sensors)
 
 ### Run Experiments
 ```bash
-# Sensor calibration
-python3 formica_experiments/exp1_sensor_calibration.py
+# Install ROS 2 dependencies
+source /opt/ros/humble/setup.bash
 
-# Power profiling
-python3 formica_experiments/exp2_power_profiling.py
+# Hardware check
+python3 src/formica_experiments/hardware_checker.py --quick
 
-# SLAM mapping
-python3 formica_experiments/exp3_slam_mapping.py
+# Experiment 1 - Sensor Calibration
+python3 src/formica_experiments/formica_experiments/exp1_sensor_calibration.py
 
-# Maze navigation
-python3 formica_experiments/exp4_maze_navigation.py
+# Experiment 2 - Power Profiling
+python3 src/formica_experiments/formica_experiments/exp2_power_profiling.py
+
+# Experiment 3 - SLAM Mapping
+python3 src/formica_experiments/formica_experiments/exp3_slam_mapping.py
+
+# Experiment 4 - Maze Navigation
+python3 src/formica_experiments/formica_experiments/exp4_maze_navigation.py
+
+# Experiment 5 - Fault Tolerance
+python3 src/formica_experiments/formica_experiments/exp5_obstacle_fault.py
+
+# Experiment 6 - CNN Detection
+python3 src/formica_experiments/formica_experiments/exp6_cnn_detection.py
+
+# Experiment 7 - Pheromone Trail
+python3 src/formica_experiments/formica_experiments/exp7_pheromone_trail.py
 ```
 
 ### Run Simulations
 ```bash
-cd data/simulation_data
+cd src/appeal_experiments
+
+# Simulation A - Baseline foraging
 python3 simulation_A_fast.py
+
+# Simulation B - Scalability (1000-10000 robots)
 python3 simulation_B_scalability_fixed.py
+
+# Simulation C - Fault tolerance
 python3 simulation_C_fast.py
 ```
 
@@ -97,9 +120,14 @@ python3 simulation_C_fast.py
 
 All experimental data is traced in `data/chapter6_deliverables/meta/PROVENANCE.md`.
 
-## Citation
+## CI/CD
 
-If you use this data in your research, please cite:
+This project uses GitHub Actions for continuous integration:
+- **CI**: Lint and basic validation
+- **Build**: Generate Chapter 6 deliverables
+- **Validate**: Verify experiment files and data integrity
+
+## Citation
 
 ```bibtex
 @software{formica_chapter6,
@@ -112,7 +140,7 @@ If you use this data in your research, please cite:
 
 ## License
 
-MIT License - See LICENSE file for details.
+MIT License - See LICENSE file.
 
 ## Author
 

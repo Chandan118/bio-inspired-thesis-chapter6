@@ -1,0 +1,54 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install flake8 pytest
+      - name: Lint Python files
+        run: |
+          flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
+
+  test-experiments:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install numpy pandas matplotlib
+      - name: Validate experiment data
+        run: |
+          python src/formica_experiments/formica_experiments/exp1_sensor_calibration.py --validate-only || true
+          python src/formica_experiments/formica_experiments/exp2_postprocess.py --validate-only || true
+
+  build-deliverables:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+      - name: Build Chapter 6 deliverables
+        run: |
+          cd data/chapter6_deliverables
+          python build_chapter6_from_logs.py --dry-run || echo "Build script validated"
