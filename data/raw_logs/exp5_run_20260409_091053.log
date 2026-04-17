@@ -1,0 +1,151 @@
+[INFO] [1775697068.167604598] [exp5_obstacle_fault]: Experiment 5 — Obstacle & Fault Tolerance starting ...
+[INFO] [1775697071.300304138] [exp5_obstacle_fault]: 
+=== CONDITION A: Dynamic Obstacle Injection ===
+[INFO] [1775697071.301666681] [exp5_obstacle_fault]:   Obstacle Trial 1/10
+[INFO] [1775697071.302617915] [exp5_obstacle_fault]:   Return robot to S=(0.0, 0.0). Press Enter when ready ...
+[DataLogger] Writing to /home/jetson/formica_experiments/data/exp5_fault_20260409_011108.csv
+[WARN] [1775697081.306795861] [exp5_obstacle_fault]: Goal rejected (attempt 1/3).
+[WARN] [1775697091.810556070] [exp5_obstacle_fault]: Goal rejected (attempt 2/3).
+[WARN] [1775697102.314183777] [exp5_obstacle_fault]: Goal rejected (attempt 3/3).
+[INFO] [1775697102.816110713] [exp5_obstacle_fault]:   Obstacle Trial 2/10
+[INFO] [1775697102.816951702] [exp5_obstacle_fault]:   Return robot to S=(0.0, 0.0). Press Enter when ready ...
+[WARN] [1775697112.822239887] [exp5_obstacle_fault]: Goal rejected (attempt 1/3).
+[WARN] [1775697123.325875399] [exp5_obstacle_fault]: Goal rejected (attempt 2/3).
+[WARN] [1775697133.829748595] [exp5_obstacle_fault]: Goal rejected (attempt 3/3).
+[INFO] [1775697134.331598158] [exp5_obstacle_fault]:   Obstacle Trial 3/10
+[INFO] [1775697134.332445099] [exp5_obstacle_fault]:   Return robot to S=(0.0, 0.0). Press Enter when ready ...
+[WARN] [1775697144.336344685] [exp5_obstacle_fault]: Goal rejected (attempt 1/3).
+[WARN] [1775697154.840604914] [exp5_obstacle_fault]: Goal rejected (attempt 2/3).
+[WARN] [1775697165.344252608] [exp5_obstacle_fault]: Goal rejected (attempt 3/3).
+[INFO] [1775697165.846098036] [exp5_obstacle_fault]:   Obstacle Trial 4/10
+[INFO] [1775697165.846901423] [exp5_obstacle_fault]:   Return robot to S=(0.0, 0.0). Press Enter when ready ...
+[WARN] [1775697175.850205889] [exp5_obstacle_fault]: Goal rejected (attempt 1/3).
+[WARN] [1775697186.354603348] [exp5_obstacle_fault]: Goal rejected (attempt 2/3).
+[WARN] [1775697196.858010132] [exp5_obstacle_fault]: Goal rejected (attempt 3/3).
+[INFO] [1775697197.359865871] [exp5_obstacle_fault]:   Obstacle Trial 5/10
+[INFO] [1775697197.360708266] [exp5_obstacle_fault]:   Return robot to S=(0.0, 0.0). Press Enter when ready ...
+[WARN] [1775697207.365132988] [exp5_obstacle_fault]: Goal rejected (attempt 1/3).
+[WARN] [1775697217.869100176] [exp5_obstacle_fault]: Goal rejected (attempt 2/3).
+[WARN] [1775697228.372751370] [exp5_obstacle_fault]: Goal rejected (attempt 3/3).
+[INFO] [1775697228.874568571] [exp5_obstacle_fault]:   Obstacle Trial 6/10
+[INFO] [1775697228.875363861] [exp5_obstacle_fault]:   Return robot to S=(0.0, 0.0). Press Enter when ready ...
+[WARN] [1775697238.878198676] [exp5_obstacle_fault]: Goal rejected (attempt 1/3).
+[WARN] [1775697249.381701424] [exp5_obstacle_fault]: Goal rejected (attempt 2/3).
+[WARN] [1775697259.885366471] [exp5_obstacle_fault]: Goal rejected (attempt 3/3).
+[INFO] [1775697260.387182107] [exp5_obstacle_fault]:   Obstacle Trial 7/10
+[INFO] [1775697260.388038359] [exp5_obstacle_fault]:   Return robot to S=(0.0, 0.0). Press Enter when ready ...
+[WARN] [1775697270.392473180] [exp5_obstacle_fault]: Goal rejected (attempt 1/3).
+[WARN] [1775697280.896171926] [exp5_obstacle_fault]: Goal rejected (attempt 2/3).
+[WARN] [1775697291.399937406] [exp5_obstacle_fault]: Goal rejected (attempt 3/3).
+[INFO] [1775697291.901774918] [exp5_obstacle_fault]:   Obstacle Trial 8/10
+[INFO] [1775697291.902645954] [exp5_obstacle_fault]:   Return robot to S=(0.0, 0.0). Press Enter when ready ...
+[WARN] [1775697301.905839830] [exp5_obstacle_fault]: Goal rejected (attempt 1/3).
+[WARN] [1775697312.409628912] [exp5_obstacle_fault]: Goal rejected (attempt 2/3).
+[WARN] [1775697322.913119750] [exp5_obstacle_fault]: Goal rejected (attempt 3/3).
+[INFO] [1775697323.415017932] [exp5_obstacle_fault]:   Obstacle Trial 9/10
+[INFO] [1775697323.415886119] [exp5_obstacle_fault]:   Return robot to S=(0.0, 0.0). Press Enter when ready ...
+[WARN] [1775697333.420345324] [exp5_obstacle_fault]: Goal rejected (attempt 1/3).
+[WARN] [1775697343.923780536] [exp5_obstacle_fault]: Goal rejected (attempt 2/3).
+[WARN] [1775697354.427614273] [exp5_obstacle_fault]: Goal rejected (attempt 3/3).
+[INFO] [1775697354.929457809] [exp5_obstacle_fault]:   Obstacle Trial 10/10
+[INFO] [1775697354.930268394] [exp5_obstacle_fault]:   Return robot to S=(0.0, 0.0). Press Enter when ready ...
+[WARN] [1775697364.933115725] [exp5_obstacle_fault]: Goal rejected (attempt 1/3).
+[WARN] [1775697375.436684960] [exp5_obstacle_fault]: Goal rejected (attempt 2/3).
+[WARN] [1775697385.940324119] [exp5_obstacle_fault]: Goal rejected (attempt 3/3).
+[INFO] [1775697386.442433505] [exp5_obstacle_fault]: 
+  Condition A rerouting success rate: 0.0 %
+[INFO] [1775697386.443287515] [exp5_obstacle_fault]: 
+=== CONDITION B: Sensor Failure Simulation ===
+[INFO] [1775697386.444001552] [exp5_obstacle_fault]: 
+  Sensor failure type: LiDAR
+[INFO] [1775697386.444691045] [exp5_obstacle_fault]:   Sensor Trial 1/5 (LiDAR)
+[INFO] [1775697386.446044847] [exp5_obstacle_fault]:   Return robot to S=(0.0, 0.0). Press Enter when ready ...
+[WARN] [1775697396.449321988] [exp5_obstacle_fault]: Goal rejected (attempt 1/3).
+[WARN] [1775697406.953103491] [exp5_obstacle_fault]: Goal rejected (attempt 2/3).
+[WARN] [1775697417.456710080] [exp5_obstacle_fault]: Goal rejected (attempt 3/3).
+[INFO] [1775697417.958576164] [exp5_obstacle_fault]:   Sensor Trial 2/5 (LiDAR)
+[INFO] [1775697417.959431677] [exp5_obstacle_fault]:   Return robot to S=(0.0, 0.0). Press Enter when ready ...
+[WARN] [1775697427.962524542] [exp5_obstacle_fault]: Goal rejected (attempt 1/3).
+[WARN] [1775697438.466158313] [exp5_obstacle_fault]: Goal rejected (attempt 2/3).
+[WARN] [1775697448.970363504] [exp5_obstacle_fault]: Goal rejected (attempt 3/3).
+[INFO] [1775697449.472178488] [exp5_obstacle_fault]:   Sensor Trial 3/5 (LiDAR)
+[INFO] [1775697449.473028593] [exp5_obstacle_fault]:   Return robot to S=(0.0, 0.0). Press Enter when ready ...
+[WARN] [1775697459.476173601] [exp5_obstacle_fault]: Goal rejected (attempt 1/3).
+[WARN] [1775697469.979777989] [exp5_obstacle_fault]: Goal rejected (attempt 2/3).
+[WARN] [1775697480.483428592] [exp5_obstacle_fault]: Goal rejected (attempt 3/3).
+[INFO] [1775697480.985266060] [exp5_obstacle_fault]:   Sensor Trial 4/5 (LiDAR)
+[INFO] [1775697480.986059299] [exp5_obstacle_fault]:   Return robot to S=(0.0, 0.0). Press Enter when ready ...
+[WARN] [1775697490.988989327] [exp5_obstacle_fault]: Goal rejected (attempt 1/3).
+[WARN] [1775697501.493000172] [exp5_obstacle_fault]: Goal rejected (attempt 2/3).
+[WARN] [1775697511.996904842] [exp5_obstacle_fault]: Goal rejected (attempt 3/3).
+[INFO] [1775697512.498827936] [exp5_obstacle_fault]:   Sensor Trial 5/5 (LiDAR)
+[INFO] [1775697512.499696314] [exp5_obstacle_fault]:   Return robot to S=(0.0, 0.0). Press Enter when ready ...
+[WARN] [1775697522.502670705] [exp5_obstacle_fault]: Goal rejected (attempt 1/3).
+[WARN] [1775697533.006411524] [exp5_obstacle_fault]: Goal rejected (attempt 2/3).
+[WARN] [1775697543.510174416] [exp5_obstacle_fault]: Goal rejected (attempt 3/3).
+[INFO] [1775697544.012046984] [exp5_obstacle_fault]:   LiDAR failure success rate: 0.0 %
+[INFO] [1775697544.012919746] [exp5_obstacle_fault]: 
+  Sensor failure type: Camera
+[INFO] [1775697544.016691215] [exp5_obstacle_fault]:   Sensor Trial 1/5 (Camera)
+[INFO] [1775697544.017741678] [exp5_obstacle_fault]:   Return robot to S=(0.0, 0.0). Press Enter when ready ...
+[WARN] [1775697554.020745037] [exp5_obstacle_fault]: Goal rejected (attempt 1/3).
+[WARN] [1775697564.524308664] [exp5_obstacle_fault]: Goal rejected (attempt 2/3).
+[WARN] [1775697575.027890258] [exp5_obstacle_fault]: Goal rejected (attempt 3/3).
+[INFO] [1775697575.529703281] [exp5_obstacle_fault]:   Sensor Trial 2/5 (Camera)
+[INFO] [1775697575.530505640] [exp5_obstacle_fault]:   Return robot to S=(0.0, 0.0). Press Enter when ready ...
+[WARN] [1775697585.533507779] [exp5_obstacle_fault]: Goal rejected (attempt 1/3).
+[WARN] [1775697596.037100777] [exp5_obstacle_fault]: Goal rejected (attempt 2/3).
+[WARN] [1775697606.540934354] [exp5_obstacle_fault]: Goal rejected (attempt 3/3).
+[INFO] [1775697607.042814213] [exp5_obstacle_fault]:   Sensor Trial 3/5 (Camera)
+[INFO] [1775697607.043707007] [exp5_obstacle_fault]:   Return robot to S=(0.0, 0.0). Press Enter when ready ...
+[WARN] [1775697617.046586943] [exp5_obstacle_fault]: Goal rejected (attempt 1/3).
+[WARN] [1775697627.550834878] [exp5_obstacle_fault]: Goal rejected (attempt 2/3).
+[WARN] [1775697638.054319925] [exp5_obstacle_fault]: Goal rejected (attempt 3/3).
+[INFO] [1775697638.556099835] [exp5_obstacle_fault]:   Sensor Trial 4/5 (Camera)
+[INFO] [1775697638.556904657] [exp5_obstacle_fault]:   Return robot to S=(0.0, 0.0). Press Enter when ready ...
+[WARN] [1775697648.561376394] [exp5_obstacle_fault]: Goal rejected (attempt 1/3).
+[WARN] [1775697659.064842948] [exp5_obstacle_fault]: Goal rejected (attempt 2/3).
+[WARN] [1775697669.568316916] [exp5_obstacle_fault]: Goal rejected (attempt 3/3).
+[INFO] [1775697670.070124249] [exp5_obstacle_fault]:   Sensor Trial 5/5 (Camera)
+[INFO] [1775697670.070961040] [exp5_obstacle_fault]:   Return robot to S=(0.0, 0.0). Press Enter when ready ...
+[WARN] [1775697680.073785378] [exp5_obstacle_fault]: Goal rejected (attempt 1/3).
+[WARN] [1775697690.577623475] [exp5_obstacle_fault]: Goal rejected (attempt 2/3).
+[WARN] [1775697701.081129244] [exp5_obstacle_fault]: Goal rejected (attempt 3/3).
+[INFO] [1775697701.583079208] [exp5_obstacle_fault]:   Camera failure success rate: 0.0 %
+[INFO] [1775697701.583867934] [exp5_obstacle_fault]: 
+  Sensor failure type: LineSensor
+[INFO] [1775697701.584567505] [exp5_obstacle_fault]:   Sensor Trial 1/5 (LineSensor)
+[INFO] [1775697701.585435242] [exp5_obstacle_fault]:   Return robot to S=(0.0, 0.0). Press Enter when ready ...
+[WARN] [1775697711.589165808] [exp5_obstacle_fault]: Goal rejected (attempt 1/3).
+[WARN] [1775697722.092690783] [exp5_obstacle_fault]: Goal rejected (attempt 2/3).
+[WARN] [1775697732.597625115] [exp5_obstacle_fault]: Goal rejected (attempt 3/3).
+[INFO] [1775697733.099567216] [exp5_obstacle_fault]:   Sensor Trial 2/5 (LineSensor)
+[INFO] [1775697733.100482825] [exp5_obstacle_fault]:   Return robot to S=(0.0, 0.0). Press Enter when ready ...
+[WARN] [1775697743.104553313] [exp5_obstacle_fault]: Goal rejected (attempt 1/3).
+[WARN] [1775697753.608370478] [exp5_obstacle_fault]: Goal rejected (attempt 2/3).
+[WARN] [1775697764.112718453] [exp5_obstacle_fault]: Goal rejected (attempt 3/3).
+[INFO] [1775697764.614963840] [exp5_obstacle_fault]:   Sensor Trial 3/5 (LineSensor)
+[INFO] [1775697764.615778742] [exp5_obstacle_fault]:   Return robot to S=(0.0, 0.0). Press Enter when ready ...
+[WARN] [1775697774.620641972] [exp5_obstacle_fault]: Goal rejected (attempt 1/3).
+[WARN] [1775697785.125127764] [exp5_obstacle_fault]: Goal rejected (attempt 2/3).
+[WARN] [1775697795.628958670] [exp5_obstacle_fault]: Goal rejected (attempt 3/3).
+[INFO] [1775697796.133393032] [exp5_obstacle_fault]:   Sensor Trial 4/5 (LineSensor)
+[INFO] [1775697796.135797418] [exp5_obstacle_fault]:   Return robot to S=(0.0, 0.0). Press Enter when ready ...
+[WARN] [1775697806.139958404] [exp5_obstacle_fault]: Goal rejected (attempt 1/3).
+[WARN] [1775697816.644118814] [exp5_obstacle_fault]: Goal rejected (attempt 2/3).
+[WARN] [1775697827.147790391] [exp5_obstacle_fault]: Goal rejected (attempt 3/3).
+[INFO] [1775697827.649594880] [exp5_obstacle_fault]:   Sensor Trial 5/5 (LineSensor)
+[INFO] [1775697827.650442327] [exp5_obstacle_fault]:   Return robot to S=(0.0, 0.0). Press Enter when ready ...
+[WARN] [1775697837.654055500] [exp5_obstacle_fault]: Goal rejected (attempt 1/3).
+[WARN] [1775697848.158100837] [exp5_obstacle_fault]: Goal rejected (attempt 2/3).
+[WARN] [1775697858.661602711] [exp5_obstacle_fault]: Goal rejected (attempt 3/3).
+[INFO] [1775697859.163432925] [exp5_obstacle_fault]:   LineSensor failure success rate: 0.0 %
+
+============================================================
+  EXPERIMENT SUMMARY — EXP 5 — Obstacle & Fault Tolerance
+============================================================
+  Trial    Metric                         Value        Unit
+------------------------------------------------------------
+============================================================
+
+[DataLogger] Closed /home/jetson/formica_experiments/data/exp5_fault_20260409_011108.csv
