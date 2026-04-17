@@ -1,0 +1,2 @@
+total_trials,success_trials,failed_trials,success_rate_percent,avg_duration_min,std_duration_min,environment_breakdown
+67,57,10,85.075,36.0,5.387,forest: 17/22; indoor: 22/23; outdoor: 18/22
