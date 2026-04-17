@@ -1,0 +1,8 @@
+csv_path,/home/jetson/formica_experiments/data/exp2_power_20260408_234100.csv
+overall_mean_W,4.955303
+overall_sd_W,0.402625
+overall_peak_W,6.646080
+overall_min_W,4.679104
+energy_Wh,0.163800
+estimated_runtime_h,11.115365
+target_mean_le_1.2W,FAIL
