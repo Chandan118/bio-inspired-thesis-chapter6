@@ -1,0 +1,6 @@
+[INFO] [launch]: All log files can be found below /home/jetson/.ros/log/2026-04-07-08-00-36-754143-chandan-62808
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [async_slam_toolbox_node-1]: process started with pid [62892]
+[async_slam_toolbox_node-1] [INFO] [1775520038.661419037] [slam_toolbox]: Node using stack size 40000000
+[async_slam_toolbox_node-1] [INFO] [1775520039.600984835] [slam_toolbox]: Using solver plugin solver_plugins::CeresSolver
+[async_slam_toolbox_node-1] [INFO] [1775520039.605673210] [slam_toolbox]: CeresSolver: Using SCHUR_JACOBI preconditioner.
