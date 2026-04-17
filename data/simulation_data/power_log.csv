@@ -1,0 +1,10 @@
+timestamp_sec,trial_id,stage,power_w,voltage_v,current_a
+0,1,perception,22.3,19.0,1.17
+1800,1,planning,22.8,19.0,1.20
+3600,1,planning,22.9,19.0,1.21
+5400,1,control,23.0,19.0,1.21
+7200,1,control,23.2,19.0,1.22
+9000,1,planning,22.9,19.0,1.21
+10800,1,planning,23.0,19.0,1.21
+12600,1,control,22.8,19.0,1.20
+14400,1,control,23.1,19.0,1.22
