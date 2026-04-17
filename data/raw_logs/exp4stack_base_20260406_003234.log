@@ -1,0 +1,13 @@
+[INFO] [1775406760.388116504] [arduino_base_controller]: Connected to Arduino on /dev/ttyCH341USB0
+[INFO] [1775406760.479278944] [arduino_base_controller]: Arduino Base Controller started.
+[INFO] [1775406768.881450383] [arduino_base_controller]: RAW SERIAL FROM ARDUINO: "s,84,155,0,34"
+[INFO] [1775406771.090815859] [arduino_base_controller]: RAW SERIAL FROM ARDUINO: "s,84,153,0,34"
+[INFO] [1775406854.091267985] [arduino_base_controller]: RAW SERIAL FROM ARDUINO: "s,86,155,0,34"
+[INFO] [1775406862.881474749] [arduino_base_controller]: RAW SERIAL FROM ARDUINO: "s,87,155,0,34"
+[INFO] [1775406863.882945540] [arduino_base_controller]: RAW SERIAL FROM ARDUINO: "s,87,155,0,34"
+[INFO] [1775406864.025631935] [arduino_base_controller]: RAW SERIAL FROM ARDUINO: "s,86,156,0,34"
+[INFO] [1775406928.789480361] [arduino_base_controller]: RAW SERIAL FROM ARDUINO: "s,84,153,0,34"
+[INFO] [1775406955.383931214] [arduino_base_controller]: RAW SERIAL FROM ARDUINO: "s,82,152,0,34"
+[INFO] [1775406955.518971515] [arduino_base_controller]: RAW SERIAL FROM ARDUINO: "s,82,151,0,34"
+[INFO] [1775407049.917628022] [arduino_base_controller]: RAW SERIAL FROM ARDUINO: "s,80,151,0,34"
+[WARN] [1775407205.093590917] [arduino_base_controller]: Parse error on line "s,89,156,s,89,156,0,25": could not convert string to float: 's'
