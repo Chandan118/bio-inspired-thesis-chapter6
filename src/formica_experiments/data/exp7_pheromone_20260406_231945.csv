@@ -1,0 +1,2 @@
+sub_exp,trial,trail_type,dist_m,lateral_dev_m,modality,snr_db,trail_lost_all_four,elapsed_s,led_pwm,s0,s1,s2,s3,gas_adc,ambient_pct,switchover_latency_s,continued_following_or_trail_any
+A_straight,1,straight,0.0,0.0008,optical,40.59,False,0.02,,2567.4,2597.9,2602.1,2626.6,0.0,0.0,,
