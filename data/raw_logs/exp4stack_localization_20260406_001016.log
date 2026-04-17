@@ -1,0 +1,19 @@
+[INFO] [launch]: All log files can be found below /home/jetson/.ros/log/2026-04-06-00-10-58-408129-chandan-21018
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [map_server-1]: process started with pid [21020]
+[INFO] [amcl-2]: process started with pid [21022]
+[INFO] [lifecycle_manager-3]: process started with pid [21024]
+[lifecycle_manager-3] [INFO] [1775405459.195691385] [lifecycle_manager_localization]: Creating
+[amcl-2] [INFO] [1775405459.318851178] [amcl]: 
+[amcl-2] 	amcl lifecycle node launched. 
+[amcl-2] 	Waiting on external lifecycle transitions to activate
+[amcl-2] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[amcl-2] [INFO] [1775405459.326220373] [amcl]: Creating
+[lifecycle_manager-3] [INFO] [1775405459.475628554] [lifecycle_manager_localization]: [34m[1mCreating and initializing lifecycle service clients[0m[0m
+[map_server-1] [INFO] [1775405459.561276690] [map_server]: 
+[map_server-1] 	map_server lifecycle node launched. 
+[map_server-1] 	Waiting on external lifecycle transitions to activate
+[map_server-1] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[map_server-1] [INFO] [1775405459.565072202] [map_server]: Creating
+[lifecycle_manager-3] [INFO] [1775405460.928302804] [lifecycle_manager_localization]: [34m[1mStarting managed nodes bringup...[0m[0m
+[lifecycle_manager-3] [INFO] [1775405460.928466137] [lifecycle_manager_localization]: [34m[1mConfiguring map_server[0m[0m
