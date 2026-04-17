@@ -1,0 +1,4 @@
+trial,outcome,path_length_m,time_to_target_s,replan_events,failure_mode,efficiency_pct
+1,DATA_MISSING,,,,"nav2_status_6: AMCL pose (-20.7,-7.8) far from map origin; global planner generates 0 poses. Robot requires manual relocation to map origin for AMCL initialisation.",
+2,DATA_MISSING,,,,nav2_status_6: same localisation failure; all 20 trials in this run affected.,
+3,DATA_MISSING,,,,nav2_status_6: same localisation failure.,
