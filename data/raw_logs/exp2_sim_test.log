@@ -1,0 +1,23 @@
+[INFO] [1776193964.245700025] [exp2_power_profiling]: Exp2: mission 21600.0s, cycle 17.0s (TRANSIT 10.2s, DECISION 5.1s, STANDBY 1.7s)
+[INFO] [1776193964.246524021] [exp2_power_profiling]: Waiting for /power_monitor (10 Hz) …
+[WARN] [1776193966.189255683] [exp2_power_profiling]: No /power_monitor detected. Running in MOCK POWER mode.
+[INFO] [1776193966.504765483] [exp2_power_profiling]: TRANSIT: camera/gas/CNN processes stopped (best-effort).
+[INFO] [1776193976.707713577] [exp2_power_profiling]: DECISION: launched exp6_cnn (Kinect /rgb expected).
+[INFO] [1776193981.622314371] [exp2_power_profiling]: STANDBY: CNN stopped; IMU/line sensors only (motion off).
+[DataLogger] Writing to /home/jetson/formica_experiments/data/exp2_power_20260414_191244.csv
+Traceback (most recent call last):
+  File "/home/jetson/ros2_ws/install/formica_experiments/lib/formica_experiments/exp2_power", line 33, in <module>
+    sys.exit(load_entry_point('formica-experiments==1.0.0', 'console_scripts', 'exp2_power')())
+  File "/home/jetson/ros2_ws/install/formica_experiments/lib/python3.10/site-packages/formica_experiments/exp2_power_profiling.py", line 370, in main
+    rclpy.spin(node)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 229, in spin
+    executor.spin_once()
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 808, in spin_once
+    self._spin_once_impl(timeout_sec)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 797, in _spin_once_impl
+    handler, entity, node = self.wait_for_ready_callbacks(timeout_sec=timeout_sec)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 780, in wait_for_ready_callbacks
+    return next(self._cb_iter)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 681, in _wait_for_ready_callbacks
+    raise ExternalShutdownException()
+rclpy.executors.ExternalShutdownException
