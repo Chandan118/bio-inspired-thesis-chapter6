@@ -1,0 +1,42 @@
+run_tag,20260409_080602
+mission_duration_s,120
+2026-04-09T08:06:02+08:00
+Warning: Can't use SMBus Quick Write command, will skip some addresses
+     0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f
+00:                                                 
+10:                                                 
+20:                                                 
+30: -- -- -- -- -- -- -- --                         
+40:                                                 
+50: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+60:                                                 
+70:                                                 
+[exp2] WARN: no device at 0x40 — check wiring; Jetson may still use sysfs hwmon.
+WARNING: topic [/power_monitor] does not appear to be published yet
+average rate: 9.999
+	min: 0.098s max: 0.102s std dev: 0.00065s window: 12
+average rate: 12.269
+	min: 0.001s max: 0.438s std dev: 0.08093s window: 27
+average rate: 14.681
+	min: 0.001s max: 0.438s std dev: 0.06765s window: 47
+average rate: 16.136
+	min: 0.001s max: 0.438s std dev: 0.06058s window: 68
+average rate: 16.793
+	min: 0.001s max: 0.438s std dev: 0.05602s window: 89
+average rate: 17.301
+	min: 0.001s max: 0.438s std dev: 0.05311s window: 109
+average rate: 17.667
+	min: 0.001s max: 0.438s std dev: 0.05101s window: 129
+average rate: 18.043
+	min: 0.001s max: 0.438s std dev: 0.04938s window: 150
+average rate: 18.189
+	min: 0.001s max: 0.438s std dev: 0.04807s window: 171
+[exp2] PASS: topic rate looks like 10 Hz class.
+layout:
+  dim: []
+  data_offset: 0
+data:
+- 5.159999847412109
+- 1.4079999923706055
+- 7.265279769897461
+---
