@@ -1,0 +1,13 @@
+[INFO] [launch]: All log files can be found below /home/jetson/.ros/log/2026-04-09-07-31-48-599063-chandan-8595
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [lpms_ig1_node-1]: process started with pid [8636]
+[INFO] [quat_to_euler_node-2]: process started with pid [8638]
+[lpms_ig1_node-1] [INFO] [1775691109.211025940] [imu.lpms_ig1_node]: Settings
+[lpms_ig1_node-1] [INFO] [1775691109.212487277] [imu.lpms_ig1_node]: Port: /dev/ttyUSB1
+[lpms_ig1_node-1] [INFO] [1775691109.212519855] [imu.lpms_ig1_node]: Baudrate: 115200
+[lpms_ig1_node-1] [INFO] [1775691109.212531376] [imu.lpms_ig1_node]: Auto reconnect: Enabled
+[quat_to_euler_node-2] [INFO] [1775691109.233580471] [imu.quat_to_euler_node]: waiting for imu data
+[lpms_ig1_node-1] [INFO] [1775691109.439371642] [imu.lpms_ig1_node]: Waiting for sensor to connect 2
+[lpms_ig1_node-1] [INFO] [1775691110.439597952] [imu.lpms_ig1_node]: Sensor connected
+[lpms_ig1_node-1] [ INFO] [ IG1     ]: Get sensor info
+[lpms_ig1_node-1] [ INFO] [ IG1     ]: Sensor connected
