@@ -1,0 +1,48 @@
+[INFO] [1775693188.856789133] [exp2_power_profiling]: Exp2: mission 120.0s, cycle 17.0s (TRANSIT 10.2s, DECISION 5.1s, STANDBY 1.7s)
+[INFO] [1775693188.857587727] [exp2_power_profiling]: Waiting for /power_monitor (10 Hz) …
+[INFO] [1775693188.860193662] [exp2_power_profiling]: First /power_monitor received — mission clock started.
+[INFO] [1775693189.097955179] [exp2_power_profiling]: TRANSIT: camera/gas/CNN processes stopped (best-effort).
+[INFO] [1775693199.308669925] [exp2_power_profiling]: DECISION: launched exp6_cnn (Kinect /rgb expected).
+[INFO] [1775693204.204641881] [exp2_power_profiling]: STANDBY: CNN stopped; IMU/line sensors only (motion off).
+[INFO] [1775693206.108320427] [exp2_power_profiling]: TRANSIT: camera/gas/CNN processes stopped (best-effort).
+[INFO] [1775693216.308375610] [exp2_power_profiling]: DECISION: launched exp6_cnn (Kinect /rgb expected).
+[INFO] [1775693221.207905536] [exp2_power_profiling]: STANDBY: CNN stopped; IMU/line sensors only (motion off).
+[INFO] [1775693223.097801295] [exp2_power_profiling]: TRANSIT: camera/gas/CNN processes stopped (best-effort).
+[INFO] [1775693233.328354553] [exp2_power_profiling]: DECISION: launched exp6_cnn (Kinect /rgb expected).
+[INFO] [1775693238.204881584] [exp2_power_profiling]: STANDBY: CNN stopped; IMU/line sensors only (motion off).
+[INFO] [1775693240.103323124] [exp2_power_profiling]: TRANSIT: camera/gas/CNN processes stopped (best-effort).
+[INFO] [1775693250.309513198] [exp2_power_profiling]: DECISION: launched exp6_cnn (Kinect /rgb expected).
+[INFO] [1775693255.289676282] [exp2_power_profiling]: STANDBY: CNN stopped; IMU/line sensors only (motion off).
+[INFO] [1775693257.101312715] [exp2_power_profiling]: TRANSIT: camera/gas/CNN processes stopped (best-effort).
+[INFO] [1775693267.323816192] [exp2_power_profiling]: DECISION: launched exp6_cnn (Kinect /rgb expected).
+[INFO] [1775693272.205830171] [exp2_power_profiling]: STANDBY: CNN stopped; IMU/line sensors only (motion off).
+[INFO] [1775693274.095064599] [exp2_power_profiling]: TRANSIT: camera/gas/CNN processes stopped (best-effort).
+[INFO] [1775693284.307723362] [exp2_power_profiling]: DECISION: launched exp6_cnn (Kinect /rgb expected).
+[INFO] [1775693289.216728907] [exp2_power_profiling]: STANDBY: CNN stopped; IMU/line sensors only (motion off).
+[INFO] [1775693291.100793632] [exp2_power_profiling]: TRANSIT: camera/gas/CNN processes stopped (best-effort).
+[INFO] [1775693301.304319693] [exp2_power_profiling]: DECISION: launched exp6_cnn (Kinect /rgb expected).
+[INFO] [1775693306.225082501] [exp2_power_profiling]: STANDBY: CNN stopped; IMU/line sensors only (motion off).
+[INFO] [1775693308.105055970] [exp2_power_profiling]: TRANSIT: camera/gas/CNN processes stopped (best-effort).
+[DataLogger] Writing to /home/jetson/formica_experiments/data/exp2_power_20260409_000628.csv
+[DataLogger] Closed /home/jetson/formica_experiments/data/exp2_power_20260409_000628.csv
+
+============================================================
+  EXPERIMENT 2 — POWER PROFILING RESULTS
+============================================================
+  Mode         Mean (W)     Peak (W)     Min (W)
+------------------------------------------------------------
+  TRANSIT      5.6390       7.3066       5.3747
+  DECISION     6.6956       7.7486       5.7468
+  STANDBY      6.1963       7.5130       5.6228
+------------------------------------------------------------
+  OVERALL      6.0122       7.7486       5.3747
+
+  Estimated runtime @ 6.0122 W = 9.16 h
+  Battery capacity: 55.08 Wh
+
+  Target ≤ 1.2 W  →  FAIL
+============================================================
+
+TABLE_6_2_CSV,/home/jetson/exp1_logs/table6_2_power_profile_20260409_000628.csv
+FIGURE_6_3_PNG,/home/jetson/exp1_logs/Figure6_3_Power_Profile_20260409_000628.png
+SUMMARY_TXT,/home/jetson/exp1_logs/exp2_summary_20260409_000628.txt
