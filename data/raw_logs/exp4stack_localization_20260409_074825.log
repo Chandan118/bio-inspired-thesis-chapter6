@@ -1,0 +1,1111 @@
+[INFO] [launch]: All log files can be found below /home/jetson/.ros/log/2026-04-09-07-48-59-636267-chandan-11392
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [map_server-1]: process started with pid [11394]
+[INFO] [amcl-2]: process started with pid [11396]
+[INFO] [lifecycle_manager-3]: process started with pid [11398]
+[map_server-1] [INFO] [1775692140.545772558] [map_server]: 
+[map_server-1] 	map_server lifecycle node launched. 
+[map_server-1] 	Waiting on external lifecycle transitions to activate
+[map_server-1] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[lifecycle_manager-3] [INFO] [1775692140.550126222] [lifecycle_manager_localization]: Creating
+[map_server-1] [INFO] [1775692140.552394272] [map_server]: Creating
+[lifecycle_manager-3] [INFO] [1775692140.658419264] [lifecycle_manager_localization]: [34m[1mCreating and initializing lifecycle service clients[0m[0m
+[amcl-2] [INFO] [1775692140.748252380] [amcl]: 
+[amcl-2] 	amcl lifecycle node launched. 
+[amcl-2] 	Waiting on external lifecycle transitions to activate
+[amcl-2] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[amcl-2] [INFO] [1775692140.780040472] [amcl]: Creating
+[lifecycle_manager-3] [INFO] [1775692141.347055742] [lifecycle_manager_localization]: [34m[1mStarting managed nodes bringup...[0m[0m
+[lifecycle_manager-3] [INFO] [1775692141.349658200] [lifecycle_manager_localization]: [34m[1mConfiguring map_server[0m[0m
+[map_server-1] [INFO] [1775692141.353997656] [map_server]: Configuring
+[map_server-1] [INFO] [1775692141.354174171] [map_io]: Loading yaml file: /home/jetson/formica_map.yaml
+[map_server-1] [INFO] [1775692141.384842305] [map_io]: resolution: 0.05
+[map_server-1] [INFO] [1775692141.384904323] [map_io]: origin[0]: -5.9
+[map_server-1] [INFO] [1775692141.384913763] [map_io]: origin[1]: -2.99
+[map_server-1] [INFO] [1775692141.384920035] [map_io]: origin[2]: 0
+[map_server-1] [INFO] [1775692141.384926083] [map_io]: free_thresh: 0.25
+[map_server-1] [INFO] [1775692141.384932131] [map_io]: occupied_thresh: 0.65
+[map_server-1] [INFO] [1775692141.384940612] [map_io]: mode: trinary
+[map_server-1] [INFO] [1775692141.384949412] [map_io]: negate: 0
+[map_server-1] [INFO] [1775692141.390800581] [map_io]: Loading image_file: /home/jetson/formica_map.pgm
+[map_server-1] [INFO] [1775692141.398101735] [map_io]: Read map /home/jetson/formica_map.pgm: 185 X 172 map @ 0.05 m/cell
+[lifecycle_manager-3] [INFO] [1775692141.421002881] [lifecycle_manager_localization]: [34m[1mConfiguring amcl[0m[0m
+[amcl-2] [INFO] [1775692141.421648271] [amcl]: Configuring
+[amcl-2] [INFO] [1775692141.421997751] [amcl]: initTransforms
+[amcl-2] [INFO] [1775692141.452773567] [amcl]: initPubSub
+[amcl-2] [INFO] [1775692141.471391163] [amcl]: Subscribed to map topic.
+[lifecycle_manager-3] [INFO] [1775692141.491731420] [lifecycle_manager_localization]: [34m[1mActivating map_server[0m[0m
+[map_server-1] [INFO] [1775692141.492260040] [map_server]: Activating
+[map_server-1] [INFO] [1775692141.492731794] [map_server]: Creating bond (map_server) to lifecycle manager.
+[amcl-2] [INFO] [1775692141.493104539] [amcl]: Received a 185 X 172 map @ 0.050 m/pix
+[lifecycle_manager-3] [INFO] [1775692141.604185554] [lifecycle_manager_localization]: Server map_server connected with bond.
+[lifecycle_manager-3] [INFO] [1775692141.604326005] [lifecycle_manager_localization]: [34m[1mActivating amcl[0m[0m
+[amcl-2] [INFO] [1775692141.605115367] [amcl]: Activating
+[amcl-2] [INFO] [1775692141.605275466] [amcl]: Creating bond (amcl) to lifecycle manager.
+[amcl-2] [INFO] [1775692141.681100118] [amcl]: createLaserObject
+[lifecycle_manager-3] [INFO] [1775692141.721245454] [lifecycle_manager_localization]: Server amcl connected with bond.
+[lifecycle_manager-3] [INFO] [1775692141.721386065] [lifecycle_manager_localization]: [34m[1mManaged nodes are active[0m[0m
+[lifecycle_manager-3] [INFO] [1775692141.721434002] [lifecycle_manager_localization]: [34m[1mCreating bond timer...[0m[0m
+[amcl-2] [INFO] [1775692142.545943883] [amcl]: Message Filter dropping message: frame 'laser' at time 1775692141.410 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775692143.260624966] [amcl]: Received a 1844 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692143.350417396] [amcl]: createLaserObject
+[amcl-2] [WARN] [1775692145.119811345] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[amcl-2] [WARN] [1775692147.241197665] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[amcl-2] [INFO] [1775692148.262740666] [amcl]: Received a 1844 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692148.327461841] [amcl]: createLaserObject
+[amcl-2] [WARN] [1775692150.059427108] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[amcl-2] [WARN] [1775692152.071875667] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[amcl-2] [INFO] [1775692153.259255103] [amcl]: Received a 1844 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692153.316965611] [amcl]: createLaserObject
+[amcl-2] [WARN] [1775692154.984353664] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[amcl-2] [WARN] [1775692157.070589219] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[amcl-2] [INFO] [1775692158.267193497] [amcl]: Received a 1844 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692158.315772132] [amcl]: createLaserObject
+[amcl-2] [WARN] [1775692160.134133689] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[amcl-2] [WARN] [1775692162.217485801] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[amcl-2] [INFO] [1775692163.259203501] [amcl]: Received a 1844 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692163.334174135] [amcl]: createLaserObject
+[amcl-2] [WARN] [1775692165.046093961] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[amcl-2] [WARN] [1775692167.166713618] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[amcl-2] [INFO] [1775692167.871115268] [amcl]: initialPoseReceived
+[amcl-2] [WARN] [1775692167.871386219] [amcl]: Failed to transform initial pose in time (Lookup would require extrapolation into the future.  Requested time 1775692167.871225 but the latest data is at time 1775692167.858881, when looking up transform from frame [base_footprint] to frame [odom])
+[amcl-2] [INFO] [1775692167.871434284] [amcl]: Setting pose (1775692167.871432): 0.000 0.000 0.000
+[amcl-2] [INFO] [1775692168.279402858] [amcl]: Received a 1844 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692168.331877554] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692173.266302713] [amcl]: Received a 1844 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692173.321025832] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692180.010833439] [amcl]: Received a 1898 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692181.013968325] [amcl]: Message Filter dropping message: frame 'laser' at time 1775692179.878 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775692181.969240902] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692184.189837854] [amcl]: Received a 1898 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692184.190055011] [amcl]: Message Filter dropping message: frame 'laser' at time 1775692180.996 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775692184.229568733] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692188.321748570] [amcl]: Received a 1916 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692188.383696050] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692193.274669602] [amcl]: Received a 1916 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692193.389243849] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692198.334695660] [amcl]: Received a 1942 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692198.394012964] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692203.275054757] [amcl]: Received a 1942 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692203.386469915] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692208.280937334] [amcl]: Received a 1942 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692208.372469440] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692213.274287328] [amcl]: Received a 1942 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692213.359038830] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692218.274913746] [amcl]: Received a 1942 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692218.358865953] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692223.265809674] [amcl]: Received a 1942 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692223.356809070] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692228.275392336] [amcl]: Received a 1942 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692228.334218843] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692233.273196849] [amcl]: Received a 1942 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692233.332282130] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692238.293303201] [amcl]: Received a 1942 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692238.426949328] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692243.319914555] [amcl]: Received a 1942 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692243.407739970] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692248.279541641] [amcl]: Received a 1942 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692248.375626446] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692253.300032683] [amcl]: Received a 1942 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692253.354909644] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692258.269791396] [amcl]: Received a 1942 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692258.326401764] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692263.264400654] [amcl]: Received a 1942 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692263.331876791] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692268.267668428] [amcl]: Received a 1942 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692268.395484105] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692273.272733505] [amcl]: Received a 1942 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692273.383013845] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692278.270732212] [amcl]: Received a 1942 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692279.382254903] [amcl]: Message Filter dropping message: frame 'laser' at time 1775692278.246 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775692280.972314553] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692282.962841348] [amcl]: Message Filter dropping message: frame 'laser' at time 1775692280.041 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775692283.269691771] [amcl]: Received a 1942 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692283.973581302] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692285.978252287] [amcl]: Message Filter dropping message: frame 'laser' at time 1775692283.086 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775692288.264347108] [amcl]: Received a 1942 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692288.341979397] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692293.266434107] [amcl]: Received a 1942 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692293.329607093] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692298.280035054] [amcl]: Received a 1942 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692298.347052042] [amcl]: createLaserObject
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692281.875888 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692284.920848 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692286.578623 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692286.849122 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692286.983919 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692287.132373 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692287.267232 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692287.403013 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692287.549973 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692287.684954 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692287.822558 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692287.955000 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692288.102795 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692288.237719 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692288.372761 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692288.509080 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692288.655013 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692288.790266 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692288.925469 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692289.060710 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692289.206785 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692290.582871 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692290.722192 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692290.866949 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692291.000010 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692291.135311 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692291.282637 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692291.419916 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692291.553896 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692291.688869 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692291.837251 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692291.971902 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692292.107620 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692292.253862 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692292.389384 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692292.524039 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692292.671461 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692292.806752 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] [INFO] [1775692303.273908179] [amcl]: Received a 1942 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692304.045275378] [amcl]: Message Filter dropping message: frame 'laser' at time 1775692302.898 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775692304.974102325] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692306.920161987] [amcl]: Message Filter dropping message: frame 'laser' at time 1775692304.003 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775692308.271703108] [amcl]: Received a 1942 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692308.341091747] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692313.276217386] [amcl]: Received a 1942 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692313.323516616] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692318.270053686] [amcl]: Received a 1942 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692318.396745965] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692323.274675987] [amcl]: Received a 1942 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692323.371380530] [amcl]: createLaserObject
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692305.973222 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692307.913133 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692308.048819 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692308.196242 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692308.331571 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692308.466634 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692308.616729 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692308.748898 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692308.884155 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692309.019833 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692309.166628 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692310.554338 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692310.689564 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692310.824626 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692310.972070 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692311.107041 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692311.242203 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692311.377472 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692311.524657 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692311.659893 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692311.794975 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692311.930073 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692312.077500 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692312.212893 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692312.347537 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692312.482634 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692312.630147 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692312.766395 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692312.900446 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692313.047650 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692313.182894 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692313.318322 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692313.466254 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692313.600561 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692313.735743 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692313.882994 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692314.018507 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692314.153312 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692315.676083 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] [INFO] [1775692328.278812113] [amcl]: Received a 1942 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692328.358049913] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692333.275971344] [amcl]: Received a 1942 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692334.356636890] [amcl]: Message Filter dropping message: frame 'laser' at time 1775692333.223 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775692334.977828391] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692337.028550806] [amcl]: Message Filter dropping message: frame 'laser' at time 1775692334.057 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775692338.272792369] [amcl]: Received a 1942 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692338.355533156] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692343.278358534] [amcl]: Received a 1942 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692343.330265833] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692348.271119789] [amcl]: Received a 1942 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692348.337739027] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692353.278193375] [amcl]: Received a 1942 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692353.347206940] [amcl]: createLaserObject
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692335.892664 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692337.550229 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692337.685021 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692337.832355 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692337.967359 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692338.103042 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692338.238702 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692338.386174 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692338.520564 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692338.656455 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692338.803683 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692338.938699 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692339.073774 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692339.221111 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692340.595808 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692340.731116 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692340.878426 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692341.013736 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692341.148776 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692341.283567 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692341.432127 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692341.567874 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692341.702472 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692341.839396 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692341.984649 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692342.121699 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692342.254853 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692342.390807 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692342.539001 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692342.671776 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692342.808118 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692342.943467 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692343.090497 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692343.225757 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692343.361098 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692343.507711 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692343.642843 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692343.777953 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692343.914919 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692344.060771 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692344.195544 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] [INFO] [1775692358.270325305] [amcl]: Received a 1942 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692358.376145712] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692363.271480375] [amcl]: Received a 1942 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692363.337597867] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692368.269767398] [amcl]: Received a 1942 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692368.336332275] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692373.267120215] [amcl]: Received a 1942 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692373.335572236] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692378.275736720] [amcl]: Received a 1942 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692378.325169880] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692383.282509331] [amcl]: Received a 1942 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692383.407825121] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692388.286975714] [amcl]: Received a 1949 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692388.369655599] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692393.272538432] [amcl]: Received a 1949 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692393.333025295] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692398.332590182] [amcl]: Received a 1949 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692398.428083001] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692403.271136059] [amcl]: Received a 1949 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692403.325642223] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692408.272273137] [amcl]: Received a 1962 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692408.321649502] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692413.269548633] [amcl]: Received a 1962 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692413.401648368] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692418.278452984] [amcl]: Received a 1985 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692418.366232339] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692423.271578170] [amcl]: Received a 1985 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692423.333773521] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692428.274318647] [amcl]: Received a 1985 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692428.373387692] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692433.287635914] [amcl]: Received a 1985 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692433.361597286] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692438.272224982] [amcl]: Received a 1985 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692438.350595956] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692443.267576678] [amcl]: Received a 1985 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692443.323287513] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692448.267034698] [amcl]: Received a 1985 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692448.368085041] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692453.272911434] [amcl]: Received a 1985 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692453.338082483] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692458.272208563] [amcl]: Received a 1985 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692459.415070106] [amcl]: Message Filter dropping message: frame 'laser' at time 1775692458.268 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775692460.984416139] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692462.906248328] [amcl]: Message Filter dropping message: frame 'laser' at time 1775692460.062 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775692463.273955642] [amcl]: Received a 1985 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692463.983814366] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692466.410251157] [amcl]: Message Filter dropping message: frame 'laser' at time 1775692463.059 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775692468.302818714] [amcl]: Received a 1985 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692468.379525551] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692473.286241225] [amcl]: Received a 1985 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692473.341772791] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692478.268622520] [amcl]: Received a 1985 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692478.373638537] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692483.276619379] [amcl]: Received a 1996 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692483.324865225] [amcl]: createLaserObject
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692461.209132 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692461.958425 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692464.955191 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692466.600487 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692466.747681 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692466.896661 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692467.042261 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692467.190048 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692467.337744 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692467.484804 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692467.632977 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692467.780193 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692467.927708 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692468.074312 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692468.227186 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692468.370965 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692468.504377 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692468.651254 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692468.798975 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692468.946190 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692469.081531 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692469.228816 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692471.624055 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692471.759313 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692471.894692 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692472.041567 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692472.176161 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692472.323786 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692472.458951 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692472.606053 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692472.741500 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692472.888806 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692473.023706 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692473.170907 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692473.306159 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692473.453903 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692473.588651 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692473.737582 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692473.871037 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692474.018544 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692474.153903 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] [INFO] [1775692486.682738119] [amcl]: Message Filter dropping message: frame 'laser' at time 1775692485.547 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775692488.269616623] [amcl]: Received a 1996 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692488.347417128] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692493.271017058] [amcl]: Received a 1996 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692493.370957787] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692498.274185335] [amcl]: Received a 1996 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692498.333842045] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692503.273775960] [amcl]: Received a 1996 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692503.392943321] [amcl]: createLaserObject
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692487.947765 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692488.095364 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692488.230137 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692488.365637 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692488.514016 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692488.647723 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692488.782764 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692488.930557 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692489.065729 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692489.199479 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692490.465742 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692490.600646 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692490.735627 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692490.883180 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692491.019101 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692491.153398 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692491.299583 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692491.435207 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692491.569870 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692491.718572 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692491.853497 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692491.988546 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692492.135742 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692492.271359 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692492.419369 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692492.553501 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692492.688537 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692492.835890 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692492.971568 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692493.106244 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692493.254446 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692493.389231 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692493.536319 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692493.671247 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692493.806986 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692493.953670 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692494.088751 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692494.222821 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775692495.487879 according to authority Authority undetectable
+[amcl-2] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[amcl-2]          at line 294 in ./src/buffer_core.cpp
+[amcl-2] [INFO] [1775692508.278590428] [amcl]: Received a 2014 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692508.333625380] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692513.369289554] [amcl]: Received a 2014 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692513.441677921] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692518.295056402] [amcl]: Received a 2027 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692518.372836856] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692523.268763269] [amcl]: Received a 2027 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692523.377199737] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692528.271760356] [amcl]: Received a 2027 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692528.413859726] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692533.275307479] [amcl]: Received a 2028 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692533.332007486] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692538.273564849] [amcl]: Received a 2028 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692538.348668842] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692543.287405341] [amcl]: Received a 2041 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692543.372169458] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692548.273337022] [amcl]: Received a 2041 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692548.325942304] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692553.272024596] [amcl]: Received a 2041 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692553.349310246] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692558.273503185] [amcl]: Received a 2046 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692558.326616484] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692563.275040826] [amcl]: Received a 2046 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692563.406896569] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692568.279809988] [amcl]: Received a 2056 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692568.392222013] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692573.274469866] [amcl]: Received a 2056 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692573.378350806] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692578.276107555] [amcl]: Received a 2056 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692578.364755853] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692583.278687097] [amcl]: Received a 2067 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692583.350757606] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692588.271658476] [amcl]: Received a 2067 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692588.341609268] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692593.270802674] [amcl]: Received a 2068 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692593.350214313] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692598.270579087] [amcl]: Received a 2068 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692598.349220158] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692603.268853475] [amcl]: Received a 2068 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692603.347450509] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692608.278560672] [amcl]: Received a 2081 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692608.344496772] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692613.287779654] [amcl]: Received a 2081 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692613.341943822] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692618.283468741] [amcl]: Received a 2089 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692618.358552933] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692623.270051979] [amcl]: Received a 2089 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692623.380219685] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692628.268819267] [amcl]: Received a 2089 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692628.342383543] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692633.272515589] [amcl]: Received a 2097 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692633.343253205] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692638.269291063] [amcl]: Received a 2097 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692638.364844523] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692643.268682733] [amcl]: Received a 2097 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692643.326729015] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692648.275395006] [amcl]: Received a 2103 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692648.412209786] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692653.270084320] [amcl]: Received a 2103 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692653.361865694] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692658.272258376] [amcl]: Received a 2105 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692658.320948708] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692663.269041777] [amcl]: Received a 2105 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692663.384041410] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692668.272280246] [amcl]: Received a 2105 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692668.334363883] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692673.282319686] [amcl]: Received a 2118 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692673.344676485] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692678.304980170] [amcl]: Received a 2118 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692678.429549148] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692683.297414392] [amcl]: Received a 2122 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692683.349979576] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692688.288731250] [amcl]: Received a 2122 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692688.416858171] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692693.272822025] [amcl]: Received a 2122 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692693.365596791] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692698.273468204] [amcl]: Received a 2127 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692698.327814647] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692703.273396148] [amcl]: Received a 2127 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692703.401184991] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692708.286758524] [amcl]: Received a 2136 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692708.362270009] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692713.298805073] [amcl]: Received a 2136 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692713.423091062] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692718.283780370] [amcl]: Received a 2136 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692718.373093203] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692723.282164216] [amcl]: Received a 2139 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692723.351369106] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692728.282781072] [amcl]: Received a 2139 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692728.395140146] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692733.280116036] [amcl]: Received a 2146 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692733.369162672] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692738.279601834] [amcl]: Received a 2146 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692738.345548363] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692743.279849956] [amcl]: Received a 2146 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692743.380740154] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692748.279134279] [amcl]: Received a 2152 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692748.337154882] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692753.280575297] [amcl]: Received a 2152 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692753.331762185] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692758.279844945] [amcl]: Received a 2156 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692758.364493066] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692763.274790810] [amcl]: Received a 2156 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692763.335061332] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692768.277231564] [amcl]: Received a 2156 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692768.387026269] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692773.274347437] [amcl]: Received a 2163 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692773.351628087] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692778.279107937] [amcl]: Received a 2163 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692778.409116780] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692783.284972836] [amcl]: Received a 2169 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692783.360645601] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692788.278488581] [amcl]: Received a 2169 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692788.330391874] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692793.286391943] [amcl]: Received a 2169 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692793.394445498] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692798.279985203] [amcl]: Received a 2171 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692798.343483726] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692803.283881101] [amcl]: Received a 2171 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692803.428334851] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692808.283514322] [amcl]: Received a 2178 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692808.366139671] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692813.280491466] [amcl]: Received a 2178 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692813.352942827] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692818.282341572] [amcl]: Received a 2178 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692818.400700749] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692823.276086948] [amcl]: Received a 2181 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692823.350835014] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692828.273372110] [amcl]: Received a 2181 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692828.330671116] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692833.278107342] [amcl]: Received a 2187 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692833.385565197] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692838.272459765] [amcl]: Received a 2187 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692838.323354550] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692843.275553135] [amcl]: Received a 2187 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692843.407497596] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692848.275090751] [amcl]: Received a 2189 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692848.351594883] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692853.273639735] [amcl]: Received a 2189 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692853.333412954] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692858.275885319] [amcl]: Received a 2189 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692858.368569454] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692863.274015962] [amcl]: Received a 2189 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692863.345545438] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692868.275353778] [amcl]: Received a 2189 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692868.390907454] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692873.274340508] [amcl]: Received a 2189 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692873.347038159] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692878.274001022] [amcl]: Received a 2189 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692878.327217466] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692883.275181088] [amcl]: Received a 2191 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692883.350773325] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692888.275263022] [amcl]: Received a 2191 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692888.324572732] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692893.280412793] [amcl]: Received a 2191 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692893.361823650] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692898.277735982] [amcl]: Received a 2208 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692898.358927371] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692903.282153146] [amcl]: Received a 2208 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692903.382885098] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692908.281073784] [amcl]: Received a 2217 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692908.344914619] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692913.276896530] [amcl]: Received a 2217 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692913.406373508] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692918.276831750] [amcl]: Received a 2217 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692918.353706718] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692923.293066661] [amcl]: Received a 2217 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692923.415297876] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692928.282751047] [amcl]: Received a 2217 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692928.366043315] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692933.286628731] [amcl]: Received a 2221 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692933.371077111] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692938.290751779] [amcl]: Received a 2221 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692938.375459177] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692943.285096781] [amcl]: Received a 2221 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692943.338252437] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692948.289258797] [amcl]: Received a 2225 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692948.386140640] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692953.289962116] [amcl]: Received a 2225 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692953.363172913] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692958.282692944] [amcl]: Received a 2226 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692958.409543123] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692963.286064376] [amcl]: Received a 2226 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692963.347485057] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692968.297408554] [amcl]: Received a 2226 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692968.431065808] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692973.299749063] [amcl]: Received a 2231 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692973.368199263] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692978.287183025] [amcl]: Received a 2231 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692978.356901950] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692983.285816308] [amcl]: Received a 2236 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692983.378394589] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692988.281257089] [amcl]: Received a 2236 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692988.345950097] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692993.288610952] [amcl]: Received a 2236 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692993.389076834] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775692998.292262884] [amcl]: Received a 2242 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775692998.353640803] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775693003.286628007] [amcl]: Received a 2242 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775693003.386561031] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775693008.283200867] [amcl]: Received a 2242 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775693008.338495000] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775693013.293950364] [amcl]: Received a 2242 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775693013.384233175] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775693018.305055903] [amcl]: Received a 2242 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775693018.369422874] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775693023.291997227] [amcl]: Received a 2242 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775693023.394381996] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775693028.284667723] [amcl]: Received a 2242 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775693028.361317173] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775693033.299333533] [amcl]: Received a 2247 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775693033.392252611] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775693038.287351633] [amcl]: Received a 2247 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775693038.358442440] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775693043.289445796] [amcl]: Received a 2247 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775693043.390877492] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775693048.284487687] [amcl]: Received a 2247 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775693048.343775935] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775693053.283278413] [amcl]: Received a 2247 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775693053.388701701] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775693058.293389212] [amcl]: Received a 2248 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775693058.355049624] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775693063.288122937] [amcl]: Received a 2248 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775693063.386101870] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775693068.278134224] [amcl]: Received a 2248 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775693068.335453807] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775693073.283794636] [amcl]: Received a 2250 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775693073.383712208] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775693078.279043888] [amcl]: Received a 2250 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775693078.325753829] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775693083.287883841] [amcl]: Received a 2253 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775693083.382212881] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775693088.285689824] [amcl]: Received a 2253 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775693088.338156107] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775693093.279143405] [amcl]: Received a 2253 X 1803 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775693093.367355860] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775693098.286914122] [amcl]: Received a 2255 X 1810 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775693098.360645219] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775693103.288368418] [amcl]: Received a 2255 X 1810 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775693103.365901404] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775693108.283636124] [amcl]: Received a 2256 X 1825 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775693108.369566205] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775693113.278865089] [amcl]: Received a 2256 X 1825 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775693113.363380035] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775693118.279261231] [amcl]: Received a 2256 X 1825 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775693118.360936599] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775693123.281787174] [amcl]: Received a 2258 X 1838 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775693123.349061220] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775693128.283625678] [amcl]: Received a 2258 X 1838 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775693128.409339663] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775693133.295640184] [amcl]: Received a 2262 X 1857 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775693133.352260333] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775693138.302937384] [amcl]: Received a 2262 X 1857 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775693138.394934308] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775693143.305800043] [amcl]: Received a 2262 X 1857 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775693143.353722058] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775693148.287858023] [amcl]: Received a 2262 X 1875 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775693148.380361781] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775693153.302297148] [amcl]: Received a 2262 X 1875 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775693153.346917901] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775693158.291608499] [amcl]: Received a 2264 X 1888 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775693158.366747930] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775693163.336436351] [amcl]: Received a 2264 X 1888 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775693163.426341050] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775693168.329431835] [amcl]: Received a 2264 X 1888 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775693168.406632663] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775693173.289222310] [amcl]: Received a 2264 X 1906 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775693173.412875709] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775693178.296695607] [amcl]: Received a 2264 X 1906 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775693178.376364058] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775693183.326202346] [amcl]: Received a 2264 X 1906 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775693188.312244408] [amcl]: Received a 2264 X 1906 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775693193.302161892] [amcl]: Received a 2264 X 1906 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775693198.300978467] [amcl]: Received a 2264 X 1906 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775693203.293578035] [amcl]: Received a 2264 X 1906 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775693208.293883526] [amcl]: Received a 2264 X 1906 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775693213.293334639] [amcl]: Received a 2264 X 1906 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775693218.359830037] [amcl]: Received a 2264 X 1906 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775693223.316245776] [amcl]: Received a 2264 X 1906 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775693228.298954598] [amcl]: Received a 2264 X 1906 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775693233.306361811] [amcl]: Received a 2264 X 1906 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775693238.305206194] [amcl]: Received a 2264 X 1906 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775693243.292587018] [amcl]: Received a 2264 X 1906 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775693248.299511550] [amcl]: Received a 2264 X 1906 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775693253.299870268] [amcl]: Received a 2264 X 1906 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775693258.293353655] [amcl]: Received a 2264 X 1906 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775693263.292055217] [amcl]: Received a 2264 X 1906 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775693268.313908641] [amcl]: Received a 2264 X 1906 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775693273.292090330] [amcl]: Received a 2264 X 1906 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775693278.291839688] [amcl]: Received a 2264 X 1906 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775693283.292769611] [amcl]: Received a 2264 X 1906 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775693288.295451900] [amcl]: Received a 2264 X 1906 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775693293.292852147] [amcl]: Received a 2264 X 1906 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775693298.292531184] [amcl]: Received a 2264 X 1906 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775693303.342532387] [amcl]: Received a 2264 X 1906 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775693308.311644544] [amcl]: Received a 2264 X 1906 map @ 0.050 m/pix
