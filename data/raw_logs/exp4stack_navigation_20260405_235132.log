@@ -1,0 +1,109 @@
+[INFO] [launch]: All log files can be found below /home/jetson/.ros/log/2026-04-05-23-52-24-681349-chandan-14963
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [controller_server-1]: process started with pid [14965]
+[INFO] [smoother_server-2]: process started with pid [14967]
+[INFO] [planner_server-3]: process started with pid [14969]
+[INFO] [behavior_server-4]: process started with pid [14971]
+[INFO] [bt_navigator-5]: process started with pid [14973]
+[INFO] [waypoint_follower-6]: process started with pid [14975]
+[INFO] [velocity_smoother-7]: process started with pid [14991]
+[INFO] [lifecycle_manager-8]: process started with pid [15024]
+[waypoint_follower-6] [INFO] [1775404345.649139033] [waypoint_follower]: 
+[waypoint_follower-6] 	waypoint_follower lifecycle node launched. 
+[waypoint_follower-6] 	Waiting on external lifecycle transitions to activate
+[waypoint_follower-6] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[planner_server-3] [INFO] [1775404345.666082085] [planner_server]: 
+[planner_server-3] 	planner_server lifecycle node launched. 
+[planner_server-3] 	Waiting on external lifecycle transitions to activate
+[planner_server-3] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[waypoint_follower-6] [INFO] [1775404345.682100610] [waypoint_follower]: Creating
+[planner_server-3] [INFO] [1775404345.712801574] [planner_server]: Creating
+[bt_navigator-5] [INFO] [1775404345.821061556] [bt_navigator]: 
+[bt_navigator-5] 	bt_navigator lifecycle node launched. 
+[bt_navigator-5] 	Waiting on external lifecycle transitions to activate
+[bt_navigator-5] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[bt_navigator-5] [INFO] [1775404345.821606461] [bt_navigator]: Creating
+[smoother_server-2] [INFO] [1775404346.083368193] [smoother_server]: 
+[smoother_server-2] 	smoother_server lifecycle node launched. 
+[smoother_server-2] 	Waiting on external lifecycle transitions to activate
+[smoother_server-2] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[controller_server-1] [INFO] [1775404346.118566157] [controller_server]: 
+[controller_server-1] 	controller_server lifecycle node launched. 
+[controller_server-1] 	Waiting on external lifecycle transitions to activate
+[controller_server-1] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[smoother_server-2] [INFO] [1775404346.136972976] [smoother_server]: Creating smoother server
+[lifecycle_manager-8] [INFO] [1775404346.232425778] [lifecycle_manager_navigation]: Creating
+[controller_server-1] [INFO] [1775404346.312601604] [controller_server]: Creating controller server
+[lifecycle_manager-8] [INFO] [1775404346.324052281] [lifecycle_manager_navigation]: [34m[1mCreating and initializing lifecycle service clients[0m[0m
+[behavior_server-4] [INFO] [1775404346.352308503] [behavior_server]: 
+[behavior_server-4] 	behavior_server lifecycle node launched. 
+[behavior_server-4] 	Waiting on external lifecycle transitions to activate
+[behavior_server-4] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[velocity_smoother-7] [INFO] [1775404346.631558606] [velocity_smoother]: 
+[velocity_smoother-7] 	velocity_smoother lifecycle node launched. 
+[velocity_smoother-7] 	Waiting on external lifecycle transitions to activate
+[velocity_smoother-7] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[planner_server-3] [INFO] [1775404346.873192564] [global_costmap.global_costmap]: 
+[planner_server-3] 	global_costmap lifecycle node launched. 
+[planner_server-3] 	Waiting on external lifecycle transitions to activate
+[planner_server-3] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[planner_server-3] [INFO] [1775404346.874349799] [global_costmap.global_costmap]: Creating Costmap
+[controller_server-1] [INFO] [1775404347.635449168] [local_costmap.local_costmap]: 
+[controller_server-1] 	local_costmap lifecycle node launched. 
+[controller_server-1] 	Waiting on external lifecycle transitions to activate
+[controller_server-1] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[controller_server-1] [INFO] [1775404347.636830214] [local_costmap.local_costmap]: Creating Costmap
+[lifecycle_manager-8] [INFO] [1775404348.408293135] [lifecycle_manager_navigation]: Waiting for service controller_server/get_state...
+[lifecycle_manager-8] [INFO] [1775404349.845160624] [lifecycle_manager_navigation]: [34m[1mStarting managed nodes bringup...[0m[0m
+[lifecycle_manager-8] [INFO] [1775404349.845302674] [lifecycle_manager_navigation]: [34m[1mConfiguring controller_server[0m[0m
+[controller_server-1] [INFO] [1775404349.846305474] [controller_server]: Configuring controller interface
+[controller_server-1] [INFO] [1775404349.846919883] [controller_server]: getting goal checker plugins..
+[controller_server-1] [INFO] [1775404349.847581366] [controller_server]: Controller frequency set to 10.0000Hz
+[controller_server-1] [INFO] [1775404349.847678711] [local_costmap.local_costmap]: Configuring
+[lifecycle_manager-8] [ERROR] [1775404349.855519251] [lifecycle_manager_navigation]: Failed to change state for node: controller_server
+[lifecycle_manager-8] [ERROR] [1775404349.855713174] [lifecycle_manager_navigation]: Failed to bring up all requested nodes. Aborting bringup.
+[controller_server-1] [INFO] [1775404349.904142866] [local_costmap.local_costmap]: Using plugin "obstacle_layer"
+[controller_server-1] [INFO] [1775404349.916567830] [local_costmap.local_costmap]: Subscribed to Topics: scan
+[controller_server-1] [INFO] [1775404349.956424490] [local_costmap.local_costmap]: Initialized plugin "obstacle_layer"
+[controller_server-1] [INFO] [1775404349.956528011] [local_costmap.local_costmap]: Using plugin "inflation_layer"
+[controller_server-1] [INFO] [1775404349.963359255] [local_costmap.local_costmap]: Initialized plugin "inflation_layer"
+[controller_server-1] [INFO] [1775404350.043147745] [controller_server]: Created progress_checker : progress_checker of type nav2_controller::SimpleProgressChecker
+[controller_server-1] [INFO] [1775404350.049086590] [controller_server]: Created goal checker : goal_checker of type nav2_controller::SimpleGoalChecker
+[controller_server-1] [INFO] [1775404350.053035549] [controller_server]: Controller Server has goal_checker  goal checkers available.
+[controller_server-1] [INFO] [1775404350.057344193] [controller_server]: Created controller : FollowPath of type dwb_core::DWBLocalPlanner
+[controller_server-1] [INFO] [1775404350.069664867] [controller_server]: Setting transform_tolerance to 0.200000
+[controller_server-1] [INFO] [1775404350.123876121] [controller_server]: Using critic "RotateToGoal" (dwb_critics::RotateToGoalCritic)
+[controller_server-1] [INFO] [1775404350.128945865] [controller_server]: Critic plugin initialized
+[controller_server-1] [INFO] [1775404350.131126123] [controller_server]: Using critic "Oscillation" (dwb_critics::OscillationCritic)
+[controller_server-1] [INFO] [1775404350.138870469] [controller_server]: Critic plugin initialized
+[controller_server-1] [INFO] [1775404350.142251643] [controller_server]: Using critic "BaseObstacle" (dwb_critics::BaseObstacleCritic)
+[controller_server-1] [INFO] [1775404350.145952469] [controller_server]: Critic plugin initialized
+[controller_server-1] [INFO] [1775404350.148785890] [controller_server]: Using critic "GoalAlign" (dwb_critics::GoalAlignCritic)
+[controller_server-1] [INFO] [1775404350.153313609] [controller_server]: Critic plugin initialized
+[controller_server-1] [INFO] [1775404350.156755615] [controller_server]: Using critic "PathAlign" (dwb_critics::PathAlignCritic)
+[controller_server-1] [INFO] [1775404350.161126084] [controller_server]: Critic plugin initialized
+[controller_server-1] [INFO] [1775404350.163543626] [controller_server]: Using critic "PathDist" (dwb_critics::PathDistCritic)
+[controller_server-1] [INFO] [1775404350.166218868] [controller_server]: Critic plugin initialized
+[controller_server-1] [INFO] [1775404350.169864814] [controller_server]: Using critic "GoalDist" (dwb_critics::GoalDistCritic)
+[controller_server-1] [INFO] [1775404350.173935182] [controller_server]: Critic plugin initialized
+[controller_server-1] [INFO] [1775404350.175111680] [controller_server]: Controller Server has FollowPath  controllers available.
+[bt_navigator-5] [WARN] [1775404361.499655368] [rcl_lifecycle]: No transition matching activate found for current state unconfigured
+[bt_navigator-5] [WARN] [1775404372.926913934] [rcl_lifecycle]: No transition matching activate found for current state unconfigured
+[controller_server-1] [INFO] [1775404421.512963966] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[controller_server-1] [INFO] [1775404432.511611878] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[controller_server-1] [INFO] [1775404438.513537327] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[controller_server-1] [INFO] [1775404449.522735531] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[controller_server-1] [INFO] [1775404460.515713354] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[controller_server-1] [INFO] [1775404471.515634083] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[controller_server-1] [INFO] [1775404482.515244316] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[controller_server-1] [INFO] [1775404493.548317638] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[controller_server-1] [INFO] [1775404501.948190006] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[controller_server-1] [INFO] [1775404614.516061226] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[controller_server-1] [INFO] [1775404629.516045321] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[controller_server-1] [INFO] [1775404648.520834923] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[controller_server-1] [INFO] [1775404661.540833055] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[controller_server-1] [INFO] [1775404669.940841826] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[controller_server-1] [INFO] [1775404681.545169291] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[controller_server-1] [INFO] [1775404690.945137298] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[controller_server-1] [INFO] [1775404704.667296962] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[controller_server-1] [INFO] [1775404704.670591346] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
