@@ -1,0 +1,79 @@
+[INFO] [launch]: All log files can be found below /home/jetson/.ros/log/2026-04-09-07-43-22-793195-chandan-10465
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [async_slam_toolbox_node-1]: process started with pid [10517]
+[async_slam_toolbox_node-1] [INFO] [1775691803.028028839] [slam_toolbox]: Node using stack size 40000000
+[async_slam_toolbox_node-1] [INFO] [1775691803.110876799] [slam_toolbox]: Using solver plugin solver_plugins::CeresSolver
+[async_slam_toolbox_node-1] [INFO] [1775691803.112067486] [slam_toolbox]: CeresSolver: Using SCHUR_JACOBI preconditioner.
+[async_slam_toolbox_node-1] [WARN] [1775691804.625877309] [slam_toolbox]: minimum laser range setting (0.0 m) exceeds the capabilities of the used Lidar (0.2 m)
+[async_slam_toolbox_node-1] [WARN] [1775691804.627687242] [slam_toolbox]: maximum laser range setting (20.0 m) exceeds the capabilities of the used Lidar (12.0 m)
+[async_slam_toolbox_node-1] Registering sensor: [Custom Described Lidar]
+[async_slam_toolbox_node-1] WARNING: Logging before InitGoogleLogging() is written to STDERR
+[async_slam_toolbox_node-1] W0409 09:01:58.720165 10517 preprocessor.cc:62] Specified options.num_threads: 50 exceeds maximum available from the threading model Ceres was compiled with: 6.  Bounding to maximum number available.
+[async_slam_toolbox_node-1] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775697311.228312 according to authority Authority undetectable
+[async_slam_toolbox_node-1] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[async_slam_toolbox_node-1]          at line 294 in ./src/buffer_core.cpp
+[async_slam_toolbox_node-1] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775697311.890290 according to authority Authority undetectable
+[async_slam_toolbox_node-1] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[async_slam_toolbox_node-1]          at line 294 in ./src/buffer_core.cpp
+[async_slam_toolbox_node-1] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775697312.026008 according to authority Authority undetectable
+[async_slam_toolbox_node-1] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[async_slam_toolbox_node-1]          at line 294 in ./src/buffer_core.cpp
+[async_slam_toolbox_node-1] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775697401.083872 according to authority Authority undetectable
+[async_slam_toolbox_node-1] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[async_slam_toolbox_node-1]          at line 294 in ./src/buffer_core.cpp
+[async_slam_toolbox_node-1] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775697460.823997 according to authority Authority undetectable
+[async_slam_toolbox_node-1] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[async_slam_toolbox_node-1]          at line 294 in ./src/buffer_core.cpp
+[async_slam_toolbox_node-1] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775697461.487333 according to authority Authority undetectable
+[async_slam_toolbox_node-1] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[async_slam_toolbox_node-1]          at line 294 in ./src/buffer_core.cpp
+[async_slam_toolbox_node-1] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775697552.768564 according to authority Authority undetectable
+[async_slam_toolbox_node-1] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[async_slam_toolbox_node-1]          at line 294 in ./src/buffer_core.cpp
+[async_slam_toolbox_node-1] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775697553.039002 according to authority Authority undetectable
+[async_slam_toolbox_node-1] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[async_slam_toolbox_node-1]          at line 294 in ./src/buffer_core.cpp
+[async_slam_toolbox_node-1] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775697553.702615 according to authority Authority undetectable
+[async_slam_toolbox_node-1] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[async_slam_toolbox_node-1]          at line 294 in ./src/buffer_core.cpp
+[async_slam_toolbox_node-1] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775697658.076492 according to authority Authority undetectable
+[async_slam_toolbox_node-1] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[async_slam_toolbox_node-1]          at line 294 in ./src/buffer_core.cpp
+[async_slam_toolbox_node-1] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775697659.010323 according to authority Authority undetectable
+[async_slam_toolbox_node-1] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[async_slam_toolbox_node-1]          at line 294 in ./src/buffer_core.cpp
+[async_slam_toolbox_node-1] W0409 09:22:31.335911 10517 preprocessor.cc:62] Specified options.num_threads: 50 exceeds maximum available from the threading model Ceres was compiled with: 6.  Bounding to maximum number available.
+[async_slam_toolbox_node-1] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775697719.376463 according to authority Authority undetectable
+[async_slam_toolbox_node-1] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[async_slam_toolbox_node-1]          at line 294 in ./src/buffer_core.cpp
+[async_slam_toolbox_node-1] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775697754.874228 according to authority Authority undetectable
+[async_slam_toolbox_node-1] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[async_slam_toolbox_node-1]          at line 294 in ./src/buffer_core.cpp
+[async_slam_toolbox_node-1] W0409 09:24:11.106609 10517 preprocessor.cc:62] Specified options.num_threads: 50 exceeds maximum available from the threading model Ceres was compiled with: 6.  Bounding to maximum number available.
+[async_slam_toolbox_node-1] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775697826.220268 according to authority Authority undetectable
+[async_slam_toolbox_node-1] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[async_slam_toolbox_node-1]          at line 294 in ./src/buffer_core.cpp
+[async_slam_toolbox_node-1] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775697827.019663 according to authority Authority undetectable
+[async_slam_toolbox_node-1] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[async_slam_toolbox_node-1]          at line 294 in ./src/buffer_core.cpp
+[async_slam_toolbox_node-1] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775697890.381916 according to authority Authority undetectable
+[async_slam_toolbox_node-1] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[async_slam_toolbox_node-1]          at line 294 in ./src/buffer_core.cpp
+[async_slam_toolbox_node-1] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775697921.479655 according to authority Authority undetectable
+[async_slam_toolbox_node-1] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[async_slam_toolbox_node-1]          at line 294 in ./src/buffer_core.cpp
+[async_slam_toolbox_node-1] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775697922.266246 according to authority Authority undetectable
+[async_slam_toolbox_node-1] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[async_slam_toolbox_node-1]          at line 294 in ./src/buffer_core.cpp
+[async_slam_toolbox_node-1] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775697985.764806 according to authority Authority undetectable
+[async_slam_toolbox_node-1] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[async_slam_toolbox_node-1]          at line 294 in ./src/buffer_core.cpp
+[async_slam_toolbox_node-1] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775697985.887482 according to authority Authority undetectable
+[async_slam_toolbox_node-1] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[async_slam_toolbox_node-1]          at line 294 in ./src/buffer_core.cpp
+[async_slam_toolbox_node-1] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775697986.022488 according to authority Authority undetectable
+[async_slam_toolbox_node-1] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[async_slam_toolbox_node-1]          at line 294 in ./src/buffer_core.cpp
+[async_slam_toolbox_node-1] Warning: TF_OLD_DATA ignoring data from the past for frame odom at time 1775697986.562963 according to authority Authority undetectable
+[async_slam_toolbox_node-1] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[async_slam_toolbox_node-1]          at line 294 in ./src/buffer_core.cpp
