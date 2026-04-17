@@ -1,0 +1,27 @@
+[INFO] [1775515856.003830000] [exp7_pheromone_trail]: Experiment 7 — mock_sensors=True auto_run=True
+[INFO] [1775515859.137046582] [exp7_pheromone_trail]: === Sub-experiment A: Straight trail ===
+[INFO] [1775515859.175217949] [exp7_pheromone_trail]: [auto_run] Trial 1/1 (straight): place robot at START, LED full; confirm TCRT > 1500 ADC. Press Enter ...
+[INFO] [1775515892.456028337] [exp7_pheromone_trail]: Trial 1: mean_lat=0.04 cm  trail_loss=0  time=33.0s  PASS (target ≤ 1.5 cm, no loss)
+[INFO] [1775515892.457685751] [exp7_pheromone_trail]: straight overall mean lateral: 0.04 ± 0.00 cm
+[INFO] [1775515892.459034582] [exp7_pheromone_trail]: === Sub-experiment B: Curved trail ===
+[INFO] [1775515892.462617511] [exp7_pheromone_trail]: [auto_run] Trial 1/1 (curved): place robot at START, LED full; confirm TCRT > 1500 ADC. Press Enter ...
+[INFO] [1775515935.991997334] [exp7_pheromone_trail]: Trial 1: mean_lat=0.07 cm  trail_loss=0  time=43.2s  PASS (target ≤ 2.0 cm, no loss)
+[INFO] [1775515935.992861482] [exp7_pheromone_trail]: curved overall mean lateral: 0.07 ± 0.00 cm
+[INFO] [1775515935.993577370] [exp7_pheromone_trail]: === Sub-experiment C: SNR / chemical switchover ===
+[INFO] [1775515935.995447748] [exp7_pheromone_trail]: [auto_run] SNR trial 1/1: robot on trail, ambient LOW, MQ-135 primed; Enter ...
+[WARN] [1775515960.447437835] [exp7_pheromone_trail]: SNR < 6 dB switching to chemical backup
+[WARN] [1775515960.449104432] [exp7_pheromone_trail]:   (SNR=5.99 dB)
+[INFO] [1775515960.450447503] [exp7_pheromone_trail]: Chemical backup active: latency=0.004 s  gas_adc=520.0
+[INFO] [1775515960.455750407] [exp7_pheromone_trail]: === Sub-experiment D: Pheromone decay (LED PWM) ===
+[INFO] [1775515960.781516775] [exp7_pheromone_trail]: [auto_run] Sub-exp D: robot centred on trail; Enter to step PWM 100%→10% ...
+[INFO] [1775515961.084044346] [exp7_pheromone_trail]: D step 1: LED PWM = 1.00
+[INFO] [1775515963.290747221] [exp7_pheromone_trail]:   ADC=[2000,2000,2000,2000]  any>1500=True  SNR=52.04 dB
+[INFO] [1775515963.292372762] [exp7_pheromone_trail]: D step 2: LED PWM = 0.90
+[INFO] [1775515965.497017723] [exp7_pheromone_trail]:   ADC=[1820,1820,1820,1820]  any>1500=True  SNR=51.22 dB
+[INFO] [1775515965.499285743] [exp7_pheromone_trail]: D step 3: LED PWM = 0.80
+[INFO] [1775515967.704293614] [exp7_pheromone_trail]:   ADC=[1640,1640,1640,1640]  any>1500=True  SNR=50.32 dB
+[INFO] [1775515967.705902002] [exp7_pheromone_trail]: D step 4: LED PWM = 0.70
+[INFO] [1775515969.909073501] [exp7_pheromone_trail]:   ADC=[1460,1460,1460,1460]  any>1500=False  SNR=49.31 dB
+[INFO] [1775515969.910555806] [exp7_pheromone_trail]: Minimum detectable PWM (last any-sensor-on step): 0.80
+[INFO] [1775515969.912052288] [exp7_pheromone_trail]: Done decay: min detectable PWM ≈ 0.80 (link τ_evaporation=0.08/s model in Ch.3)
+[INFO] [1775515969.913770951] [exp7_pheromone_trail]: EXP7 complete.
