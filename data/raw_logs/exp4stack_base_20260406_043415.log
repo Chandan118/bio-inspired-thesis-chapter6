@@ -1,0 +1,14 @@
+[INFO] [1775421266.956769173] [arduino_base_controller]: Connected to Arduino on /dev/ttyCH341USB0
+[INFO] [1775421266.971688947] [arduino_base_controller]: Arduino Base Controller started.
+[INFO] [1775421320.177101606] [arduino_base_controller]: RAW SERIAL FROM ARDUINO: "s,18,134,0,211"
+[INFO] [1775421322.174793777] [arduino_base_controller]: RAW SERIAL FROM ARDUINO: "s,18,134,0,212"
+[INFO] [1775421364.884666681] [arduino_base_controller]: RAW SERIAL FROM ARDUINO: "s,18,134,0,57"
+[INFO] [1775421367.581609880] [arduino_base_controller]: RAW SERIAL FROM ARDUINO: "s,18,134,0,212"
+[INFO] [1775421367.706154676] [arduino_base_controller]: RAW SERIAL FROM ARDUINO: "s,18,134,0,212"
+[INFO] [1775421368.577135148] [arduino_base_controller]: RAW SERIAL FROM ARDUINO: "s,18,134,0,211"
+[INFO] [1775421368.701375875] [arduino_base_controller]: RAW SERIAL FROM ARDUINO: "s,18,134,0,212"
+[INFO] [1775421376.776888321] [arduino_base_controller]: RAW SERIAL FROM ARDUINO: "s,18,134,0,56"
+[INFO] [1775421376.890118406] [arduino_base_controller]: RAW SERIAL FROM ARDUINO: "s,18,134,0,56"
+[INFO] [1775421388.062839808] [arduino_base_controller]: >>> Received first cmd_vel! Movement integration active.
+[INFO] [1775421486.893255986] [arduino_base_controller]: RAW SERIAL FROM ARDUINO: "s,58,152,0,5"
+Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:389
