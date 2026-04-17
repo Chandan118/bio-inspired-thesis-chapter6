@@ -1,0 +1,37 @@
+[INFO] [exp3_slam_mapping] Experiment 3 — SLAM Mapping starting ...
+[WARN] [exp3_slam_mapping] NavigateToPose action server not available. Switching to /cmd_vel autonomous mapping mode.
+[INFO] [exp3_slam_mapping] 
+--- Trial 1/10 ---
+[INFO] [exp3_slam_mapping]   Mapping … coverage 0.0% (target 95.0%), elapsed 0s / 900s
+[INFO] [exp3_slam_mapping]   Mapping … coverage 0.0% (target 95.0%), elapsed 18s / 900s
+[INFO] [exp3_slam_mapping]   Mapping … coverage 0.0% (target 95.0%), elapsed 36s / 900s
+[INFO] [exp3_slam_mapping]   Mapping … coverage 0.0% (target 95.0%), elapsed 54s / 900s
+[INFO] [exp3_slam_mapping]   Mapping … coverage 0.0% (target 95.0%), elapsed 72s / 900s
+[INFO] [exp3_slam_mapping]   Mapping … coverage 0.0% (target 95.0%), elapsed 90s / 900s
+[INFO] [exp3_slam_mapping]   Mapping … coverage 0.0% (target 95.0%), elapsed 109s / 900s
+[INFO] [exp3_slam_mapping]   Mapping … coverage 0.0% (target 95.0%), elapsed 127s / 900s
+[INFO] [exp3_slam_mapping]   Mapping … coverage 0.0% (target 95.0%), elapsed 145s / 900s
+[INFO] [exp3_slam_mapping]   Mapping … coverage 0.0% (target 95.0%), elapsed 163s / 900s
+[INFO] [exp3_slam_mapping]   Mapping … coverage 0.0% (target 95.0%), elapsed 181s / 900s
+[INFO] [exp3_slam_mapping]   Mapping … coverage 0.0% (target 95.0%), elapsed 199s / 900s
+[INFO] [exp3_slam_mapping]   Mapping … coverage 0.0% (target 95.0%), elapsed 217s / 900s
+[INFO] [exp3_slam_mapping]   Mapping … coverage 0.0% (target 95.0%), elapsed 235s / 900s
+[INFO] [exp3_slam_mapping]   Mapping … coverage 0.0% (target 95.0%), elapsed 254s / 900s
+[INFO] [exp3_slam_mapping]   Mapping … coverage 0.0% (target 95.0%), elapsed 272s / 900s
+[INFO] [exp3_slam_mapping]   Mapping … coverage 0.0% (target 95.0%), elapsed 290s / 900s
+[INFO] [exp3_slam_mapping]   Mapping … coverage 0.0% (target 95.0%), elapsed 308s / 900s
+[INFO] [exp3_slam_mapping]   Mapping … coverage 0.0% (target 95.0%), elapsed 326s / 900s
+[INFO] [exp3_slam_mapping]   Mapping … coverage 0.0% (target 95.0%), elapsed 344s / 900s
+[INFO] [exp3_slam_mapping]   Mapping … coverage 0.0% (target 95.0%), elapsed 362s / 900s
+[INFO] [exp3_slam_mapping]   Mapping … coverage 0.0% (target 95.0%), elapsed 381s / 900s
+[INFO] [exp3_slam_mapping]   Mapping … coverage 0.0% (target 95.0%), elapsed 399s / 900s
+[INFO] [exp3_slam_mapping]   Mapping … coverage 0.0% (target 95.0%), elapsed 417s / 900s
+[INFO] [exp3_slam_mapping]   Mapping … coverage 0.0% (target 95.0%), elapsed 435s / 900s
+[INFO] [exp3_slam_mapping]   Mapping … coverage 0.0% (target 95.0%), elapsed 453s / 900s
+[INFO] [exp3_slam_mapping]   Mapping … coverage 0.0% (target 95.0%), elapsed 471s / 900s
+[INFO] [exp3_slam_mapping]   Mapping … coverage 0.0% (target 95.0%), elapsed 489s / 900s
+[INFO] [exp3_slam_mapping]   Mapping … coverage 0.0% (target 95.0%), elapsed 508s / 900s
+[INFO] [exp3_slam_mapping]   Mapping … coverage 0.0% (target 95.0%), elapsed 526s / 900s
+[INFO] [exp3_slam_mapping]   Mapping … coverage 0.0% (target 95.0%), elapsed 544s / 900s
+[INFO] [exp3_slam_mapping]   Mapping … coverage 0.0% (target 95.0%), elapsed 562s / 900s
+[INFO] [exp3_slam_mapping]   Mapping … coverage 0.0% (target 95.0%), elapsed 580s / 900s
