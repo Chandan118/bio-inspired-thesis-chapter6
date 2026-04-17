@@ -1,0 +1,11 @@
+condition,trial,perturbation,inject_time_s,detect_latency_s,replan_count,outcome,recovery_time_s
+A_obstacle,1,inject,-,-,0,goal_rejected,-
+A_obstacle,2,inject,-,-,0,goal_rejected,-
+A_obstacle,3,inject,-,-,0,goal_rejected,-
+A_obstacle,4,inject,-,-,0,goal_rejected,-
+A_obstacle,5,inject,-,-,0,goal_rejected,-
+A_obstacle,6,inject,-,-,0,goal_rejected,-
+A_obstacle,7,inject,-,-,0,goal_rejected,-
+A_obstacle,8,inject,-,-,0,goal_rejected,-
+A_obstacle,9,inject,-,-,0,goal_rejected,-
+A_obstacle,10,inject,-,-,0,goal_rejected,-
