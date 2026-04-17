@@ -1,0 +1,4 @@
+trial,outcome,path_length_m,time_to_target_s,replan_events,failure_mode,efficiency_pct
+1,SUCCESS,4.1454,2.0,0,none,100.0
+2,SUCCESS,4.1454,2.0,0,none,100.0
+3,SUCCESS,4.1454,2.0,0,none,100.0
