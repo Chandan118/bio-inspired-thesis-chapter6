@@ -1,0 +1,11 @@
+[INFO] [1776187393.963027887] [exp1_sensor_calibration]: Starting Experiment 1 full calibration workflow.
+[DataLogger] Writing to /home/jetson/formica_experiments/data/exp1_calibration_20260414_172313.csv
+Traceback (most recent call last):
+  File "/home/jetson/ros2_ws/install/formica_experiments/lib/formica_experiments/exp1_calibration", line 33, in <module>
+    sys.exit(load_entry_point('formica-experiments', 'console_scripts', 'exp1_calibration')())
+  File "/home/jetson/ros2_ws/build/formica_experiments/formica_experiments/exp1_sensor_calibration.py", line 652, in main
+    node = SensorCalibrationNode()
+  File "/home/jetson/ros2_ws/build/formica_experiments/formica_experiments/exp1_sensor_calibration.py", line 155, in __init__
+    self._startup_timer = self.create_timer(1.0, self._start_sequence_thread)
+AttributeError: 'SensorCalibrationNode' object has no attribute '_start_sequence_thread'
+[ros2run]: Process exited with failure 1
