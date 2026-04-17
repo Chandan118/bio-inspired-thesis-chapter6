@@ -1,0 +1,11 @@
+[INFO] [launch]: All log files can be found below /home/jetson/.ros/log/2026-04-06-01-45-00-049580-chandan-37849
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [rplidar_node-1]: process started with pid [37851]
+[rplidar_node-1] [INFO] [1775411100.260399490] [rplidar_node]: RPLidar running on ROS2 package rplidar_ros. RPLIDAR SDK Version:2.1.0
+[rplidar_node-1] [INFO] [1775411100.377393954] [rplidar_node]: RPLidar S/N: B18EECF0C3E09ED2A0EA98F322564110
+[rplidar_node-1] [INFO] [1775411100.377524541] [rplidar_node]: Firmware Ver: 1.29
+[rplidar_node-1] [INFO] [1775411100.377542045] [rplidar_node]: Hardware Rev: 7
+[rplidar_node-1] [INFO] [1775411100.379011690] [rplidar_node]: RPLidar health status : 0
+[rplidar_node-1] [INFO] [1775411100.379067080] [rplidar_node]: RPLidar health status : OK.
+[rplidar_node-1] [INFO] [1775411100.382979809] [rplidar_node]: Start
+[rplidar_node-1] [INFO] [1775411100.623232105] [rplidar_node]: current scan mode: Sensitivity, sample rate: 8 Khz, max_distance: 12.0 m, scan frequency:10.0 Hz, 
