@@ -1,0 +1,23 @@
+[INFO] [exp1_sensor_calibration] Starting Experiment 1 full calibration workflow.
+[INFO] [exp1_sensor_calibration] Task 1: System bring-up verification.
+[INFO] [exp1_sensor_calibration] /scan rate: 7.50 Hz (target >= 8.0)
+[INFO] [exp1_sensor_calibration] /imu/data rate: 100.56 Hz (target >= 50.0)
+[INFO] [exp1_sensor_calibration] Task 2: LiDAR range calibration.
+[DataLogger] Writing to /home/jetson/formica_experiments/data/exp1_calibration_20260414_180754.csv
+
+Place robot exactly 0.50 m from wall, then press ENTER.
+[INFO] [exp1_sensor_calibration] LiDAR @ 0.50 m -> mean 0.5853 m | err 0.0853 m
+
+Place robot exactly 1.00 m from wall, then press ENTER.
+[INFO] [exp1_sensor_calibration] LiDAR @ 1.00 m -> mean 0.5840 m | err 0.4160 m
+
+Place robot exactly 1.50 m from wall, then press ENTER.
+[INFO] [exp1_sensor_calibration] LiDAR @ 1.50 m -> mean 0.5840 m | err 0.9160 m
+
+Place robot exactly 2.00 m from wall, then press ENTER.
+[INFO] [exp1_sensor_calibration] LiDAR @ 2.00 m -> mean 0.5840 m | err 1.4160 m
+[INFO] [exp1_sensor_calibration] LiDAR RMSE: 0.8695 m (target <= 0.02)
+[INFO] [exp1_sensor_calibration] Task 3: IMU angular drift calibration.
+Keep robot stationary on flat surface, then press ENTER.
+[INFO] [exp1_sensor_calibration] IMU drift: 0.0808 deg/min (target <= 0.50)
+[INFO] [exp1_sensor_calibration] Task 4: Wheel odometry calibration.
