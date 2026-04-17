@@ -1,0 +1,7 @@
+row,mean_W,sd_W,peak_W,min_W
+TRANSIT (this work),5.2161,0.3982,6.5737,4.7205
+DECISION (this work),5.852,0.5546,6.8938,4.8033
+STANDBY (this work),5.3019,0.3864,6.1189,4.8861
+OVERALL (this work),5.4116,0.528,6.8938,4.7205
+Kilobot (benchmark),N/A,N/A,N/A,N/A
+EPFL Tribots (benchmark),N/A,N/A,N/A,N/A
