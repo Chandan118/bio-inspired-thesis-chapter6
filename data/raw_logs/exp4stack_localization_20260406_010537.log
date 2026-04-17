@@ -1,0 +1,59 @@
+[INFO] [launch]: All log files can be found below /home/jetson/.ros/log/2026-04-06-01-06-05-887224-chandan-33376
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [map_server-1]: process started with pid [33378]
+[INFO] [amcl-2]: process started with pid [33380]
+[INFO] [lifecycle_manager-3]: process started with pid [33382]
+[lifecycle_manager-3] [INFO] [1775408766.637373470] [lifecycle_manager_localization]: Creating
+[lifecycle_manager-3] [INFO] [1775408766.753501564] [lifecycle_manager_localization]: [34m[1mCreating and initializing lifecycle service clients[0m[0m
+[amcl-2] [INFO] [1775408766.996792757] [amcl]: 
+[amcl-2] 	amcl lifecycle node launched. 
+[amcl-2] 	Waiting on external lifecycle transitions to activate
+[amcl-2] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[amcl-2] [INFO] [1775408767.010094019] [amcl]: Creating
+[map_server-1] [INFO] [1775408767.188516468] [map_server]: 
+[map_server-1] 	map_server lifecycle node launched. 
+[map_server-1] 	Waiting on external lifecycle transitions to activate
+[map_server-1] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[map_server-1] [INFO] [1775408767.203701097] [map_server]: Creating
+[lifecycle_manager-3] [INFO] [1775408767.988817050] [lifecycle_manager_localization]: [34m[1mStarting managed nodes bringup...[0m[0m
+[lifecycle_manager-3] [INFO] [1775408767.988942183] [lifecycle_manager_localization]: [34m[1mConfiguring map_server[0m[0m
+[map_server-1] [INFO] [1775408767.991660201] [map_server]: Configuring
+[map_server-1] [INFO] [1775408767.991827707] [map_io]: Loading yaml file: /home/jetson/formica_map.yaml
+[map_server-1] [INFO] [1775408767.992370325] [map_io]: resolution: 0.05
+[map_server-1] [INFO] [1775408767.992397208] [map_io]: origin[0]: -5.9
+[map_server-1] [INFO] [1775408767.992405561] [map_io]: origin[1]: -2.99
+[map_server-1] [INFO] [1775408767.992412186] [map_io]: origin[2]: 0
+[map_server-1] [INFO] [1775408767.992419066] [map_io]: free_thresh: 0.25
+[map_server-1] [INFO] [1775408767.992425755] [map_io]: occupied_thresh: 0.65
+[map_server-1] [INFO] [1775408767.992434204] [map_io]: mode: trinary
+[map_server-1] [INFO] [1775408767.992443101] [map_io]: negate: 0
+[map_server-1] [INFO] [1775408767.992785953] [map_io]: Loading image_file: /home/jetson/formica_map.pgm
+[map_server-1] [INFO] [1775408768.006955019] [map_io]: Read map /home/jetson/formica_map.pgm: 185 X 172 map @ 0.05 m/cell
+[lifecycle_manager-3] [INFO] [1775408768.065229045] [lifecycle_manager_localization]: [34m[1mConfiguring amcl[0m[0m
+[amcl-2] [INFO] [1775408768.066970671] [amcl]: Configuring
+[amcl-2] [INFO] [1775408768.067191943] [amcl]: initTransforms
+[amcl-2] [INFO] [1775408768.155844123] [amcl]: initPubSub
+[amcl-2] [INFO] [1775408768.176568926] [amcl]: Subscribed to map topic.
+[lifecycle_manager-3] [INFO] [1775408768.198729051] [lifecycle_manager_localization]: [34m[1mActivating map_server[0m[0m
+[map_server-1] [INFO] [1775408768.199372288] [map_server]: Activating
+[map_server-1] [INFO] [1775408768.199841970] [map_server]: Creating bond (map_server) to lifecycle manager.
+[amcl-2] [INFO] [1775408768.200044071] [amcl]: Received a 185 X 172 map @ 0.050 m/pix
+[lifecycle_manager-3] [INFO] [1775408768.334986951] [lifecycle_manager_localization]: Server map_server connected with bond.
+[lifecycle_manager-3] [INFO] [1775408768.335623819] [lifecycle_manager_localization]: [34m[1mActivating amcl[0m[0m
+[amcl-2] [INFO] [1775408768.349119787] [amcl]: Activating
+[amcl-2] [INFO] [1775408768.349244729] [amcl]: Creating bond (amcl) to lifecycle manager.
+[amcl-2] [INFO] [1775408768.380852581] [amcl]: createLaserObject
+[lifecycle_manager-3] [INFO] [1775408768.476467201] [lifecycle_manager_localization]: Server amcl connected with bond.
+[lifecycle_manager-3] [INFO] [1775408768.476611632] [lifecycle_manager_localization]: [34m[1mManaged nodes are active[0m[0m
+[lifecycle_manager-3] [INFO] [1775408768.476658773] [lifecycle_manager_localization]: [34m[1mCreating bond timer...[0m[0m
+[amcl-2] [WARN] [1775408770.149569357] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[amcl-2] [WARN] [1775408772.200855016] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[amcl-2] [WARN] [1775408774.239816658] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[amcl-2] [WARN] [1775408776.278802735] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[amcl-2] [WARN] [1775408778.330085076] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[amcl-2] [WARN] [1775408780.369016145] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[amcl-2] [WARN] [1775408782.408281608] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[amcl-2] [WARN] [1775408784.458590273] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[amcl-2] [INFO] [1775408786.191133082] [amcl]: initialPoseReceived
+[amcl-2] [WARN] [1775408786.191464925] [amcl]: Failed to transform initial pose in time (Lookup would require extrapolation into the future.  Requested time 1775408786.191258 but the latest data is at time 1775408786.139045, when looking up transform from frame [base_footprint] to frame [odom])
+[amcl-2] [INFO] [1775408786.191522019] [amcl]: Setting pose (1775408786.191519): 0.000 0.000 0.000
