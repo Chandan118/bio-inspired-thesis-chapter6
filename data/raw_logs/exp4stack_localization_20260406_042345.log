@@ -1,0 +1,86 @@
+[INFO] [launch]: All log files can be found below /home/jetson/.ros/log/2026-04-06-04-24-28-260508-chandan-25636
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [map_server-1]: process started with pid [25638]
+[INFO] [amcl-2]: process started with pid [25640]
+[INFO] [lifecycle_manager-3]: process started with pid [25642]
+[lifecycle_manager-3] [INFO] [1775420668.751115377] [lifecycle_manager_localization]: Creating
+[map_server-1] [INFO] [1775420668.765536622] [map_server]: 
+[map_server-1] 	map_server lifecycle node launched. 
+[map_server-1] 	Waiting on external lifecycle transitions to activate
+[map_server-1] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[map_server-1] [INFO] [1775420668.774705419] [map_server]: Creating
+[lifecycle_manager-3] [INFO] [1775420668.792041615] [lifecycle_manager_localization]: [34m[1mCreating and initializing lifecycle service clients[0m[0m
+[amcl-2] [INFO] [1775420669.227859673] [amcl]: 
+[amcl-2] 	amcl lifecycle node launched. 
+[amcl-2] 	Waiting on external lifecycle transitions to activate
+[amcl-2] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[amcl-2] [INFO] [1775420669.228961267] [amcl]: Creating
+[lifecycle_manager-3] [INFO] [1775420669.693269291] [lifecycle_manager_localization]: [34m[1mStarting managed nodes bringup...[0m[0m
+[lifecycle_manager-3] [INFO] [1775420669.693446799] [lifecycle_manager_localization]: [34m[1mConfiguring map_server[0m[0m
+[map_server-1] [INFO] [1775420669.847710336] [map_server]: Configuring
+[map_server-1] [INFO] [1775420669.847976647] [map_io]: Loading yaml file: /home/jetson/formica_map.yaml
+[map_server-1] [INFO] [1775420669.848709913] [map_io]: resolution: 0.05
+[map_server-1] [INFO] [1775420669.848742649] [map_io]: origin[0]: -5.9
+[map_server-1] [INFO] [1775420669.848757242] [map_io]: origin[1]: -2.99
+[map_server-1] [INFO] [1775420669.848768986] [map_io]: origin[2]: 0
+[map_server-1] [INFO] [1775420669.848780474] [map_io]: free_thresh: 0.25
+[map_server-1] [INFO] [1775420669.848791323] [map_io]: occupied_thresh: 0.65
+[map_server-1] [INFO] [1775420669.848803547] [map_io]: mode: trinary
+[map_server-1] [INFO] [1775420669.848817595] [map_io]: negate: 0
+[map_server-1] [INFO] [1775420669.849295367] [map_io]: Loading image_file: /home/jetson/formica_map.pgm
+[map_server-1] [INFO] [1775420669.861392331] [map_io]: Read map /home/jetson/formica_map.pgm: 185 X 172 map @ 0.05 m/cell
+[lifecycle_manager-3] [INFO] [1775420669.890804370] [lifecycle_manager_localization]: [34m[1mConfiguring amcl[0m[0m
+[amcl-2] [INFO] [1775420669.891616454] [amcl]: Configuring
+[amcl-2] [INFO] [1775420669.891875884] [amcl]: initTransforms
+[amcl-2] [INFO] [1775420669.938029320] [amcl]: initPubSub
+[amcl-2] [INFO] [1775420669.955253064] [amcl]: Subscribed to map topic.
+[lifecycle_manager-3] [INFO] [1775420669.971617620] [lifecycle_manager_localization]: [34m[1mActivating map_server[0m[0m
+[map_server-1] [INFO] [1775420669.972937012] [map_server]: Activating
+[map_server-1] [INFO] [1775420669.973448320] [map_server]: Creating bond (map_server) to lifecycle manager.
+[amcl-2] [INFO] [1775420669.976409831] [amcl]: Received a 185 X 172 map @ 0.050 m/pix
+[lifecycle_manager-3] [INFO] [1775420670.091106523] [lifecycle_manager_localization]: Server map_server connected with bond.
+[lifecycle_manager-3] [INFO] [1775420670.091272703] [lifecycle_manager_localization]: [34m[1mActivating amcl[0m[0m
+[amcl-2] [INFO] [1775420670.092141204] [amcl]: Activating
+[amcl-2] [INFO] [1775420670.092281815] [amcl]: Creating bond (amcl) to lifecycle manager.
+[amcl-2] [INFO] [1775420670.159093829] [amcl]: createLaserObject
+[lifecycle_manager-3] [INFO] [1775420670.212639443] [lifecycle_manager_localization]: Server amcl connected with bond.
+[lifecycle_manager-3] [INFO] [1775420670.212790231] [lifecycle_manager_localization]: [34m[1mManaged nodes are active[0m[0m
+[lifecycle_manager-3] [INFO] [1775420670.212841144] [lifecycle_manager_localization]: [34m[1mCreating bond timer...[0m[0m
+[amcl-2] [INFO] [1775420671.024085062] [amcl]: Message Filter dropping message: frame 'laser' at time 1775420669.889 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [WARN] [1775420671.940099019] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[amcl-2] [WARN] [1775420673.991425561] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[amcl-2] [WARN] [1775420676.054505862] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[amcl-2] [WARN] [1775420678.105735929] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[amcl-2] [WARN] [1775420680.156959666] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[amcl-2] [WARN] [1775420682.207918697] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[amcl-2] [WARN] [1775420684.259121932] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[amcl-2] [WARN] [1775420686.309538721] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[amcl-2] [WARN] [1775420688.361396223] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[amcl-2] [WARN] [1775420690.423653531] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[amcl-2] [WARN] [1775420692.475675528] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[amcl-2] [WARN] [1775420694.527025452] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[amcl-2] [WARN] [1775420696.577190459] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[amcl-2] [INFO] [1775420698.065797100] [amcl]: initialPoseReceived
+[amcl-2] [WARN] [1775420698.066063219] [amcl]: Failed to transform initial pose in time (Lookup would require extrapolation into the future.  Requested time 1775420698.065931 but the latest data is at time 1775420698.021832, when looking up transform from frame [base_footprint] to frame [odom])
+[amcl-2] [INFO] [1775420698.066105972] [amcl]: Setting pose (1775420698.066104): 0.000 0.000 0.000
+[map_server-1] [INFO] [1775421248.349838126] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[map_server-1] [INFO] [1775421248.350009937] [map_server]: Running Nav2 LifecycleNode rcl preshutdown (map_server)
+[map_server-1] [INFO] [1775421248.350138164] [map_server]: Deactivating
+[map_server-1] [INFO] [1775421248.350185909] [map_server]: Destroying bond (map_server) to lifecycle manager.
+[lifecycle_manager-3] [INFO] [1775421248.350156948] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[lifecycle_manager-3] [INFO] [1775421248.350331351] [lifecycle_manager_localization]: Running Nav2 LifecycleManager rcl preshutdown (lifecycle_manager_localization)
+[lifecycle_manager-3] [INFO] [1775421248.350423001] [lifecycle_manager_localization]: [34m[1mTerminating bond timer...[0m[0m
+[amcl-2] [INFO] [1775421248.357577795] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[amcl-2] [INFO] [1775421248.357806663] [amcl]: Running Nav2 LifecycleNode rcl preshutdown (amcl)
+[amcl-2] [INFO] [1775421248.357935914] [amcl]: Deactivating
+[amcl-2] [INFO] [1775421248.357986603] [amcl]: Destroying bond (amcl) to lifecycle manager.
+[map_server-1] [INFO] [1775421248.385632126] [map_server]: Cleaning up
+[map_server-1] [INFO] [1775421248.385768032] [map_server]: Destroying bond (map_server) to lifecycle manager.
+[amcl-2] [INFO] [1775421248.419103329] [amcl]: Cleaning up
+[amcl-2] [INFO] [1775421248.448724314] [amcl]: Destroying bond (amcl) to lifecycle manager.
+[lifecycle_manager-3] [INFO] [1775421248.527556262] [lifecycle_manager_localization]: Destroying lifecycle_manager_localization
+[map_server-1] [INFO] [1775421248.563683708] [map_server]: Destroying
+[amcl-2] [INFO] [1775421248.647046814] [amcl]: Destroying
+[INFO] [lifecycle_manager-3]: process has finished cleanly [pid 25642]
+[INFO] [amcl-2]: process has finished cleanly [pid 25640]
+[INFO] [map_server-1]: process has finished cleanly [pid 25638]
