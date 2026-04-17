@@ -1,0 +1,161 @@
+[INFO] [1775239587.836393883] [exp4_maze_navigation]: Experiment 4 — Maze Navigation starting ...
+[INFO] [1775239587.840475514] [exp4_maze_navigation]:   S=(0.0, 0.0)  T=(3.25, 2.5)  Euclidean=4.10 m  MaxPath=6.15 m
+[INFO] [1775239591.014161738] [exp4_maze_navigation]: 
+--- Trial 1/20 ---
+[INFO] [1775239591.016212378] [exp4_maze_navigation]: Return robot to S=(0.0, 0.0) and verify AMCL localisation. Auto-starting trial in 3 seconds ...
+[INFO] [1775239615.097025051] [exp4_maze_navigation]:   FAIL  Path=0.58 m  Time=21.1 s  Replans=0  Failure=nav2_status_6  Running efficiency=0.0 %
+[INFO] [1775239615.098428219] [exp4_maze_navigation]: 
+--- Trial 2/20 ---
+[INFO] [1775239615.100737712] [exp4_maze_navigation]: Return robot to S=(0.0, 0.0) and verify AMCL localisation. Auto-starting trial in 3 seconds ...
+[INFO] [1775239636.866920669] [exp4_maze_navigation]:   FAIL  Path=0.21 m  Time=18.8 s  Replans=1  Failure=obstacle_abort  Running efficiency=0.0 %
+[INFO] [1775239636.867814257] [exp4_maze_navigation]: 
+--- Trial 3/20 ---
+[INFO] [1775239636.868699813] [exp4_maze_navigation]: Return robot to S=(0.0, 0.0) and verify AMCL localisation. Auto-starting trial in 3 seconds ...
+[INFO] [1775239648.227720441] [exp4_maze_navigation]:   FAIL  Path=0.17 m  Time=8.4 s  Replans=9  Failure=obstacle_abort  Running efficiency=0.0 %
+[INFO] [1775239648.229200379] [exp4_maze_navigation]: 
+--- Trial 4/20 ---
+[INFO] [1775239648.230571994] [exp4_maze_navigation]: Return robot to S=(0.0, 0.0) and verify AMCL localisation. Auto-starting trial in 3 seconds ...
+[INFO] [1775239662.538283771] [exp4_maze_navigation]:   FAIL  Path=0.06 m  Time=11.3 s  Replans=0  Failure=obstacle_abort  Running efficiency=0.0 %
+[INFO] [1775239662.539794365] [exp4_maze_navigation]: 
+--- Trial 5/20 ---
+[INFO] [1775239662.541163420] [exp4_maze_navigation]: Return robot to S=(0.0, 0.0) and verify AMCL localisation. Auto-starting trial in 3 seconds ...
+[INFO] [1775239668.051722912] [exp4_maze_navigation]:   FAIL  Path=0.00 m  Time=2.5 s  Replans=0  Failure=obstacle_abort  Running efficiency=0.0 %
+[INFO] [1775239668.053404230] [exp4_maze_navigation]: 
+--- Trial 6/20 ---
+[INFO] [1775239668.054801446] [exp4_maze_navigation]: Return robot to S=(0.0, 0.0) and verify AMCL localisation. Auto-starting trial in 3 seconds ...
+[INFO] [1775239675.438139665] [exp4_maze_navigation]:   FAIL  Path=0.00 m  Time=4.4 s  Replans=0  Failure=obstacle_abort  Running efficiency=0.0 %
+[INFO] [1775239675.439696980] [exp4_maze_navigation]: 
+--- Trial 7/20 ---
+[INFO] [1775239675.441022066] [exp4_maze_navigation]: Return robot to S=(0.0, 0.0) and verify AMCL localisation. Auto-starting trial in 3 seconds ...
+[INFO] [1775239680.950974660] [exp4_maze_navigation]:   FAIL  Path=0.00 m  Time=2.5 s  Replans=0  Failure=obstacle_abort  Running efficiency=0.0 %
+[INFO] [1775239680.952383459] [exp4_maze_navigation]: 
+--- Trial 8/20 ---
+[INFO] [1775239680.954001480] [exp4_maze_navigation]: Return robot to S=(0.0, 0.0) and verify AMCL localisation. Auto-starting trial in 3 seconds ...
+[INFO] [1775239692.677677115] [exp4_maze_navigation]:   FAIL  Path=0.04 m  Time=8.7 s  Replans=1  Failure=obstacle_abort  Running efficiency=0.0 %
+[INFO] [1775239692.680105426] [exp4_maze_navigation]: 
+--- Trial 9/20 ---
+[INFO] [1775239692.681532658] [exp4_maze_navigation]: Return robot to S=(0.0, 0.0) and verify AMCL localisation. Auto-starting trial in 3 seconds ...
+[INFO] [1775239726.838550712] [exp4_maze_navigation]:   FAIL  Path=0.51 m  Time=31.2 s  Replans=5  Failure=obstacle_abort  Running efficiency=0.0 %
+[INFO] [1775239726.840194844] [exp4_maze_navigation]: 
+--- Trial 10/20 ---
+[INFO] [1775239726.841581467] [exp4_maze_navigation]: Return robot to S=(0.0, 0.0) and verify AMCL localisation. Auto-starting trial in 3 seconds ...
+[INFO] [1775239732.358904097] [exp4_maze_navigation]:   FAIL  Path=0.00 m  Time=2.5 s  Replans=0  Failure=obstacle_abort  Running efficiency=0.0 %
+[INFO] [1775239732.360364097] [exp4_maze_navigation]: 
+--- Trial 11/20 ---
+[INFO] [1775239732.361676063] [exp4_maze_navigation]: Return robot to S=(0.0, 0.0) and verify AMCL localisation. Auto-starting trial in 3 seconds ...
+[INFO] [1775239737.875161003] [exp4_maze_navigation]:   FAIL  Path=0.00 m  Time=2.5 s  Replans=0  Failure=obstacle_abort  Running efficiency=0.0 %
+[INFO] [1775239737.877317819] [exp4_maze_navigation]: 
+--- Trial 12/20 ---
+[INFO] [1775239737.879725776] [exp4_maze_navigation]: Return robot to S=(0.0, 0.0) and verify AMCL localisation. Auto-starting trial in 3 seconds ...
+[INFO] [1775239743.399556710] [exp4_maze_navigation]:   FAIL  Path=0.16 m  Time=2.5 s  Replans=0  Failure=obstacle_abort  Running efficiency=0.0 %
+[INFO] [1775239743.401010759] [exp4_maze_navigation]: 
+--- Trial 13/20 ---
+[INFO] [1775239743.402951442] [exp4_maze_navigation]: Return robot to S=(0.0, 0.0) and verify AMCL localisation. Auto-starting trial in 3 seconds ...
+[INFO] [1775239748.923604378] [exp4_maze_navigation]:   FAIL  Path=0.00 m  Time=2.5 s  Replans=0  Failure=obstacle_abort  Running efficiency=0.0 %
+[INFO] [1775239748.925083835] [exp4_maze_navigation]: 
+--- Trial 14/20 ---
+[INFO] [1775239748.926445369] [exp4_maze_navigation]: Return robot to S=(0.0, 0.0) and verify AMCL localisation. Auto-starting trial in 3 seconds ...
+[INFO] [1775239754.438644615] [exp4_maze_navigation]:   FAIL  Path=0.09 m  Time=2.5 s  Replans=0  Failure=obstacle_abort  Running efficiency=0.0 %
+[INFO] [1775239754.440419918] [exp4_maze_navigation]: 
+--- Trial 15/20 ---
+[INFO] [1775239754.441787340] [exp4_maze_navigation]: Return robot to S=(0.0, 0.0) and verify AMCL localisation. Auto-starting trial in 3 seconds ...
+[INFO] [1775239759.959648029] [exp4_maze_navigation]:   FAIL  Path=0.00 m  Time=2.5 s  Replans=0  Failure=obstacle_abort  Running efficiency=0.0 %
+[INFO] [1775239759.961105469] [exp4_maze_navigation]: 
+--- Trial 16/20 ---
+[INFO] [1775239759.962437562] [exp4_maze_navigation]: Return robot to S=(0.0, 0.0) and verify AMCL localisation. Auto-starting trial in 3 seconds ...
+[INFO] [1775239765.483597623] [exp4_maze_navigation]:   FAIL  Path=0.13 m  Time=2.5 s  Replans=0  Failure=obstacle_abort  Running efficiency=0.0 %
+[INFO] [1775239765.486011628] [exp4_maze_navigation]: 
+--- Trial 17/20 ---
+[INFO] [1775239765.488328063] [exp4_maze_navigation]: Return robot to S=(0.0, 0.0) and verify AMCL localisation. Auto-starting trial in 3 seconds ...
+[INFO] [1775239771.007027311] [exp4_maze_navigation]:   FAIL  Path=0.00 m  Time=2.5 s  Replans=0  Failure=obstacle_abort  Running efficiency=0.0 %
+[INFO] [1775239771.008472431] [exp4_maze_navigation]: 
+--- Trial 18/20 ---
+[INFO] [1775239771.009834605] [exp4_maze_navigation]: Return robot to S=(0.0, 0.0) and verify AMCL localisation. Auto-starting trial in 3 seconds ...
+[INFO] [1775239776.530551633] [exp4_maze_navigation]:   FAIL  Path=0.28 m  Time=2.5 s  Replans=0  Failure=obstacle_abort  Running efficiency=0.0 %
+[INFO] [1775239776.532894660] [exp4_maze_navigation]: 
+--- Trial 19/20 ---
+[INFO] [1775239776.534501064] [exp4_maze_navigation]: Return robot to S=(0.0, 0.0) and verify AMCL localisation. Auto-starting trial in 3 seconds ...
+[INFO] [1775239782.055254745] [exp4_maze_navigation]:   FAIL  Path=0.00 m  Time=2.5 s  Replans=0  Failure=obstacle_abort  Running efficiency=0.0 %
+[INFO] [1775239782.056680217] [exp4_maze_navigation]: 
+--- Trial 20/20 ---
+[INFO] [1775239782.058595555] [exp4_maze_navigation]: Return robot to S=(0.0, 0.0) and verify AMCL localisation. Auto-starting trial in 3 seconds ...
+[INFO] [1775239787.578705394] [exp4_maze_navigation]:   FAIL  Path=0.13 m  Time=2.5 s  Replans=0  Failure=obstacle_abort  Running efficiency=0.0 %
+[DataLogger] Writing to /home/jetson/formica_experiments/data/exp4_maze_20260403_180628.csv
+
+============================================================
+  Experiment 4 — Final Navigation Efficiency
+============================================================
+  Trials: 20  Successes: 0
+  Efficiency: 0.0 %  (target ≥ 89.0 %)  FAIL
+============================================================
+
+
+============================================================
+  EXPERIMENT SUMMARY — EXP 4 — Maze Navigation
+============================================================
+  Trial    Metric                         Value        Unit
+------------------------------------------------------------
+  1        path_length                    0.5816       m
+  1        time_to_target                 21.0763      s
+  1        replan_events                  0.0000       
+  2        path_length                    0.2057       m
+  2        time_to_target                 18.7611      s
+  2        replan_events                  1.0000       
+  3        path_length                    0.1700       m
+  3        time_to_target                 8.3537       s
+  3        replan_events                  9.0000       
+  4        path_length                    0.0592       m
+  4        time_to_target                 11.3024      s
+  4        replan_events                  0.0000       
+  5        path_length                    0.0000       m
+  5        time_to_target                 2.5054       s
+  5        replan_events                  0.0000       
+  6        path_length                    0.0000       m
+  6        time_to_target                 4.3783       s
+  6        replan_events                  0.0000       
+  7        path_length                    0.0000       m
+  7        time_to_target                 2.5065       s
+  7        replan_events                  0.0000       
+  8        path_length                    0.0351       m
+  8        time_to_target                 8.7212       s
+  8        replan_events                  1.0000       
+  9        path_length                    0.5144       m
+  9        time_to_target                 31.1539      s
+  9        replan_events                  5.0000       
+  10       path_length                    0.0000       m
+  10       time_to_target                 2.5152       s
+  10       replan_events                  0.0000       
+  11       path_length                    0.0000       m
+  11       time_to_target                 2.5098       s
+  11       replan_events                  0.0000       
+  12       path_length                    0.1567       m
+  12       time_to_target                 2.5168       s
+  12       replan_events                  0.0000       
+  13       path_length                    0.0000       m
+  13       time_to_target                 2.5155       s
+  13       replan_events                  0.0000       
+  14       path_length                    0.0863       m
+  14       time_to_target                 2.5071       s
+  14       replan_events                  0.0000       
+  15       path_length                    0.0000       m
+  15       time_to_target                 2.5156       s
+  15       replan_events                  0.0000       
+  16       path_length                    0.1330       m
+  16       time_to_target                 2.5161       s
+  16       replan_events                  0.0000       
+  17       path_length                    0.0000       m
+  17       time_to_target                 2.5149       s
+  17       replan_events                  0.0000       
+  18       path_length                    0.2781       m
+  18       time_to_target                 2.5157       s
+  18       replan_events                  0.0000       
+  19       path_length                    0.0000       m
+  19       time_to_target                 2.5156       s
+  19       replan_events                  0.0000       
+  20       path_length                    0.1283       m
+  20       time_to_target                 2.5146       s
+  20       replan_events                  0.0000       
+  0        Final efficiency               0.0000       %
+============================================================
+
+[DataLogger] Closed /home/jetson/formica_experiments/data/exp4_maze_20260403_180628.csv
