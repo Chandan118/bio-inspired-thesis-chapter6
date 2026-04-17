@@ -1,0 +1,187 @@
+[INFO] [launch]: All log files can be found below /home/jetson/.ros/log/2026-04-06-03-56-31-275760-chandan-15699
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [map_server-1]: process started with pid [15709]
+[INFO] [amcl-2]: process started with pid [15711]
+[INFO] [lifecycle_manager-3]: process started with pid [15713]
+[lifecycle_manager-3] [INFO] [1775418991.703058976] [lifecycle_manager_localization]: Creating
+[lifecycle_manager-3] [INFO] [1775418991.716919315] [lifecycle_manager_localization]: [34m[1mCreating and initializing lifecycle service clients[0m[0m
+[amcl-2] [INFO] [1775418991.769176760] [amcl]: 
+[amcl-2] 	amcl lifecycle node launched. 
+[amcl-2] 	Waiting on external lifecycle transitions to activate
+[amcl-2] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[amcl-2] [INFO] [1775418991.775591174] [amcl]: Creating
+[map_server-1] [INFO] [1775418991.913895965] [map_server]: 
+[map_server-1] 	map_server lifecycle node launched. 
+[map_server-1] 	Waiting on external lifecycle transitions to activate
+[map_server-1] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[map_server-1] [INFO] [1775418991.920307243] [map_server]: Creating
+[lifecycle_manager-3] [INFO] [1775418991.947416707] [lifecycle_manager_localization]: [34m[1mStarting managed nodes bringup...[0m[0m
+[lifecycle_manager-3] [INFO] [1775418991.947974383] [lifecycle_manager_localization]: [34m[1mConfiguring map_server[0m[0m
+[map_server-1] [INFO] [1775418993.886992681] [map_server]: Configuring
+[map_server-1] [INFO] [1775418993.887223023] [map_io]: Loading yaml file: /home/jetson/formica_map.yaml
+[map_server-1] [INFO] [1775418993.888253829] [map_io]: resolution: 0.05
+[map_server-1] [INFO] [1775418993.888305446] [map_io]: origin[0]: -5.9
+[map_server-1] [INFO] [1775418993.888328775] [map_io]: origin[1]: -2.99
+[map_server-1] [INFO] [1775418993.888348295] [map_io]: origin[2]: 0
+[map_server-1] [INFO] [1775418993.888366664] [map_io]: free_thresh: 0.25
+[map_server-1] [INFO] [1775418993.888381928] [map_io]: occupied_thresh: 0.65
+[map_server-1] [INFO] [1775418993.888397256] [map_io]: mode: trinary
+[map_server-1] [INFO] [1775418993.888411849] [map_io]: negate: 0
+[map_server-1] [INFO] [1775418993.888873939] [map_io]: Loading image_file: /home/jetson/formica_map.pgm
+[map_server-1] [INFO] [1775418993.902073846] [map_io]: Read map /home/jetson/formica_map.pgm: 185 X 172 map @ 0.05 m/cell
+[amcl-2] [INFO] [1775418993.941207221] [amcl]: Configuring
+[amcl-2] [INFO] [1775418993.941452506] [amcl]: initTransforms
+[map_server-1] [INFO] [1775418994.026523246] [map_server]: Activating
+[map_server-1] [INFO] [1775418994.026919894] [map_server]: Creating bond (map_server) to lifecycle manager.
+[amcl-2] [INFO] [1775418994.031715168] [amcl]: initPubSub
+[amcl-2] [INFO] [1775418994.051913852] [amcl]: Subscribed to map topic.
+[amcl-2] [INFO] [1775418994.074481421] [amcl]: Received a 185 X 172 map @ 0.050 m/pix
+[amcl-2] [INFO] [1775418994.160910779] [amcl]: Activating
+[amcl-2] [INFO] [1775418994.161633291] [amcl]: Creating bond (amcl) to lifecycle manager.
+[amcl-2] [INFO] [1775418994.167406826] [amcl]: createLaserObject
+[amcl-2] [INFO] [1775418995.074682760] [amcl]: Message Filter dropping message: frame 'laser' at time 1775418993.884 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [WARN] [1775418995.947629103] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[amcl-2] [WARN] [1775418997.998910256] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[amcl-2] [WARN] [1775419000.062518501] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[amcl-2] [WARN] [1775419002.113439186] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[amcl-2] [WARN] [1775419004.176754008] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[amcl-2] [WARN] [1775419006.228003017] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[amcl-2] [WARN] [1775419008.291465487] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[amcl-2] [WARN] [1775419010.341737484] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[amcl-2] [WARN] [1775419012.393141685] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[amcl-2] [WARN] [1775419014.456402926] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[amcl-2] [INFO] [1775419016.020259639] [amcl]: initialPoseReceived
+[amcl-2] [WARN] [1775419016.020475451] [amcl]: Failed to transform initial pose in time (Lookup would require extrapolation into the future.  Requested time 1775419016.020349 but the latest data is at time 1775419016.013765, when looking up transform from frame [base_footprint] to frame [odom])
+[amcl-2] [INFO] [1775419016.020515324] [amcl]: Setting pose (1775419016.020513): 0.000 0.000 0.000
+[amcl-2] [INFO] [1775419017.135391823] [amcl]: initialPoseReceived
+[amcl-2] [WARN] [1775419017.135599091] [amcl]: Failed to transform initial pose in time (Lookup would require extrapolation into the future.  Requested time 1775419017.135505 but the latest data is at time 1775419017.122861, when looking up transform from frame [base_footprint] to frame [odom])
+[amcl-2] [INFO] [1775419017.135645172] [amcl]: Setting pose (1775419017.135643): 0.000 0.000 0.000
+[amcl-2] [INFO] [1775419061.578138100] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419060.379 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419066.943449704] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419065.726 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419071.445198105] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419070.254 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419074.469866542] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419073.264 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419077.047765436] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419075.868 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419079.668800959] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419078.471 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419082.423192372] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419081.210 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419085.275027803] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419084.096 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419088.320021839] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419087.105 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419090.906139972] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419089.724 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419093.932450268] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419092.731 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419096.953743273] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419095.752 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419099.693735518] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419098.491 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419102.279089634] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419101.095 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419105.169336980] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419103.985 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419108.170070430] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419106.990 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419111.182630176] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419110.013 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419113.762549342] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419112.615 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419116.545257756] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419115.355 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419119.437677246] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419118.230 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419121.968539326] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419120.832 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419125.027874256] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419123.853 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419127.658589320] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419126.457 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419130.220788391] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419129.061 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419132.968269421] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419131.800 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419135.710070444] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419134.538 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419138.342785148] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419137.143 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419141.439831061] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419140.300 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419144.458384168] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419143.311 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419147.237250903] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419146.047 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419149.984311603] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419148.786 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419154.086219872] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419152.901 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419157.536320834] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419156.327 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419160.065958364] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419158.931 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419162.810254546] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419161.670 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419165.472688914] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419164.274 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419168.203888293] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419167.014 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419171.763364034] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419170.587 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419174.658497397] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419173.461 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419177.647297163] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419176.470 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419181.333269816] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419180.180 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419184.074837773] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419182.918 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419186.791823192] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419185.656 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419189.405185611] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419188.260 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419192.143117022] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419190.999 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419194.761029151] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419193.603 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419198.368575394] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419197.166 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419201.353436272] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419200.174 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419204.387367701] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419203.195 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419207.245258814] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419206.073 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419209.860164879] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419208.674 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419212.739711489] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419211.547 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419215.339231062] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419214.151 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419219.182281591] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419217.983 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419222.193585518] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419221.004 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419224.944650113] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419223.744 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419227.804517041] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419226.617 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419230.680552489] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419229.491 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419235.054647588] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419233.876 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419237.675074386] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419236.480 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419240.408863904] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419239.219 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419243.006660273] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419241.822 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419245.734051498] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419244.561 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419248.472233070] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419247.300 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419251.062455671] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419249.904 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419253.671313160] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419252.508 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419257.098771823] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419255.924 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419259.831133966] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419258.661 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419262.452194798] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419261.267 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419265.326277523] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419264.139 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419267.934240921] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419266.730 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419270.472866944] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419269.334 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419296.495147520] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419295.348 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419381.813085260] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419380.597 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419384.638187102] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419383.471 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419391.865371536] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419390.717 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419419.806833360] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419418.647 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419427.869047791] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419426.716 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419430.505876568] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419429.320 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419440.659293678] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419439.454 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419443.757451067] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419442.597 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419482.877568947] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419481.739 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419486.154130371] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419485.019 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419489.717124512] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419488.582 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419493.846577780] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419492.683 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419496.563568477] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419495.421 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419499.161119663] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419498.027 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419501.777435105] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419500.617 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419504.402019344] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419503.225 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419506.959850494] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419505.825 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419509.843226839] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419508.686 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419512.463712951] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419511.290 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419515.299389225] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419514.164 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419517.906029038] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419516.768 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419520.510407984] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419519.359 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419523.101491882] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419521.967 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419525.707330579] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419524.567 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419528.321191929] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419527.171 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419531.184759015] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419530.046 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419533.698964032] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419532.501 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419537.508832652] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419536.334 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419540.545244103] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419539.342 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419543.116660989] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419541.946 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419545.868376351] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419544.686 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419548.433925256] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419547.276 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419551.316011309] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419550.150 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419554.366704225] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419553.160 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419557.072612864] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419555.898 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419560.108739759] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419558.908 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419562.988583254] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419561.783 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419565.703282350] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419564.520 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419568.274408453] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419567.112 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419570.877219738] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419569.705 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419573.468513541] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419572.307 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419576.127984613] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419574.899 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419578.936920965] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419577.773 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419581.856110955] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419580.647 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419584.669216213] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419583.521 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419587.711875478] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419586.529 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419590.587264961] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419589.416 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419594.565535497] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419593.383 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419598.822009600] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419597.633 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419601.439659629] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419600.236 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419604.145324692] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419602.975 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419607.159472684] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419605.984 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419609.925195454] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419608.724 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419612.500188445] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419611.314 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419615.110947051] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419613.918 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1775419618.120738126] [amcl]: Message Filter dropping message: frame 'laser' at time 1775419616.927 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
