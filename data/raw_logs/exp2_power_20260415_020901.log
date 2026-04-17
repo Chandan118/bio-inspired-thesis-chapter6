@@ -1,0 +1,4 @@
+[INFO] [exp2_power_profiling] Exp2: mission 300.0s, cycle 17.0s (TRANSIT 10.2s, DECISION 5.1s, STANDBY 1.7s)
+[INFO] [exp2_power_profiling] Waiting for /power_monitor (10 Hz) …
+[ERROR] [exp2_power_profiling] No /power_monitor topic detected after 20 s startup. Connect INA219 hardware on I2C bus 1 and restart.
+[INFO] [exp2_power_profiling] First /power_monitor received — mission clock started.
