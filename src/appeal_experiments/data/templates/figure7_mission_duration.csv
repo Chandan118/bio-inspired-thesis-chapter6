@@ -1,0 +1,4 @@
+system,mean_duration_hours,std_duration_hours
+Jetson AGX Orin,3.8,0.4
+Jetson Orin Nano,2.3,0.3
+Jetson+Loihi hybrid,4.5,0.5
