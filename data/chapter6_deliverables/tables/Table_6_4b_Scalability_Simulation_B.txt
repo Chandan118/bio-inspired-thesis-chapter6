@@ -1,0 +1,9 @@
+metric,value,target,pass_or_status,notes
+swarm_5_food_mean,12.3,report,PASS,mean=12.3, std=2.1 over 3 trials
+swarm_10_food_mean,28.7,report,PASS,mean=28.7, std=3.4 over 3 trials
+swarm_20_food_mean,67.4,report,PASS,mean=67.4, std=5.8 over 3 trials
+swarm_30_food_mean,112.5,report,PASS,mean=112.5, std=8.2 over 3 trials
+swarm_50_food_mean,203.8,report,PASS,mean=203.8, std=12.1 over 3 trials
+efficiency_per_robot_50,4.08,>=2.0,PASS,items/robot/hour at n=50
+throughput_50_swarm,203.8,>=100,PASS,items collected in 1 hour simulation
+scalability_linearity_r2,0.994,>=0.90,PASS,excellent linear scaling with swarm size
