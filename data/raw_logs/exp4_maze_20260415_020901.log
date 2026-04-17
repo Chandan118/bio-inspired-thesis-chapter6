@@ -1,0 +1,4 @@
+[INFO] [exp4_maze_navigation] Experiment 4 — Maze Navigation starting ...
+[INFO] [exp4_maze_navigation]   S=(0.0, 0.0)  T=(2.525, 3.035)  Euclidean=3.95 m  MaxPath=5.92 m
+[ERROR] [exp4_maze_navigation] NavigateToPose server not available. Start nav2_bringup launch file before running this experiment.
+[DataLogger] Writing to /home/jetson/formica_experiments/data/exp4_maze_20260414_182923.csv
