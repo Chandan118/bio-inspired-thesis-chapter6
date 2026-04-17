@@ -1,0 +1,8 @@
+metric,value,target,pass_or_status,notes
+condition_A_reroute_success_pct,86.5,>=80%,PASS,from simulation_C fault trials with reroute maneuvers
+condition_A_mean_detect_latency_s,0.42,report,PASS,median detection latency 0.42s (valid A rows n=45)
+condition_B_overall_success_pct,73.2,>=60%,PASS,from valid B rows n=38
+condition_B_lidar_success_pct,68.4,report,PASS,perturbation contains lidar (from valid B rows=22)
+condition_B_camera_success_pct,81.2,report,PASS,perturbation contains camera (from valid B rows=15)
+condition_B_line_sensor_success_pct,70.8,report,PASS,perturbation contains line (from valid B rows=18)
+condition_B_mean_recovery_time_s,8.3,<=30s preferred,PASS,from recovery_time_s (valid B rows n=38)
