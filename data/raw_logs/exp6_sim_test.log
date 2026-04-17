@@ -1,0 +1,42 @@
+[INFO] [1776194042.687863549] [exp6_cnn_detection]: Experiment 6 — CNN Target Recognition starting ...
+[WARN] [1776194042.689632920] [exp6_cnn_detection]: TensorRT engine not found at /home/jetson/models/formica_target_det.trt. Using HSV colour-blob fallback.
+[INFO] [1776194045.698389269] [exp6_cnn_detection]: 
+  Condition: normal  Class: red_cube
+[INFO] [1776194045.699077996] [exp6_cnn_detection]:     Set up red_cube at 0.5 m under "normal" lighting. Press Enter ...
+[INFO] [1776194045.699645503] [exp6_cnn_detection]: [auto_run] Skipping input wait.
+[WARN] [1776194050.928361721] [exp6_cnn_detection]: Camera timeout.
+[WARN] [1776194055.956653560] [exp6_cnn_detection]: Camera timeout.
+[WARN] [1776194060.984238325] [exp6_cnn_detection]: Camera timeout.
+[DataLogger] Writing to /home/jetson/formica_experiments/data/exp6_cnn_20260414_191402.csv
+Traceback (most recent call last):
+  File "/home/jetson/ros2_ws/install/formica_experiments/lib/formica_experiments/exp6_cnn", line 33, in <module>
+    sys.exit(load_entry_point('formica-experiments==1.0.0', 'console_scripts', 'exp6_cnn')())
+  File "/home/jetson/ros2_ws/install/formica_experiments/lib/python3.10/site-packages/formica_experiments/exp6_cnn_detection.py", line 232, in main
+    rclpy.spin(node)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 229, in spin
+    executor.spin_once()
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 808, in spin_once
+    self._spin_once_impl(timeout_sec)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 805, in _spin_once_impl
+    raise handler.exception()
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/task.py", line 272, in _execute_coroutine_step
+    result = coro.send(None)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 488, in handler
+    await call_coroutine(entity, arg)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 396, in _execute_timer
+    await await_or_execute(tmr.callback)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 110, in await_or_execute
+    return callback(*args)
+  File "/home/jetson/ros2_ws/install/formica_experiments/lib/python3.10/site-packages/formica_experiments/exp6_cnn_detection.py", line 156, in _start_experiment
+    rclpy.spin_once(self, timeout_sec=0.1)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 208, in spin_once
+    executor.spin_once(timeout_sec=timeout_sec)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 808, in spin_once
+    self._spin_once_impl(timeout_sec)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 797, in _spin_once_impl
+    handler, entity, node = self.wait_for_ready_callbacks(timeout_sec=timeout_sec)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 780, in wait_for_ready_callbacks
+    return next(self._cb_iter)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 681, in _wait_for_ready_callbacks
+    raise ExternalShutdownException()
+rclpy.executors.ExternalShutdownException
