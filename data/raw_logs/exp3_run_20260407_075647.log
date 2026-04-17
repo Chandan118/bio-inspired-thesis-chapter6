@@ -1,0 +1,35 @@
+[INFO] [1775519849.851410514] [exp3_slam_mapping]: Experiment 3 — SLAM Mapping starting ...
+[DataLogger] Writing to /home/jetson/formica_experiments/data/exp3_slam_20260406_235730.csv
+[INFO] [1775519853.895594131] [exp3_slam_mapping]: EXP3_FORCE_CMDVEL_AUTONOMY=1 detected; using /cmd_vel autonomy mode.
+[INFO] [1775519853.906243589] [exp3_slam_mapping]: 
+--- Trial 1/10 ---
+[INFO] [1775519853.907092923] [exp3_slam_mapping]: Reset robot to (0,0) and reset map if required, then press ENTER in this terminal to start trial.
+[INFO] [1775519855.908368682] [exp3_slam_mapping]:   Mapping … coverage 0.0% (target 100.0%), elapsed 0s / 900s
+[INFO] [1775519873.967516417] [exp3_slam_mapping]:   Mapping … coverage 0.0% (target 100.0%), elapsed 18s / 900s
+[INFO] [1775519892.007712455] [exp3_slam_mapping]:   Mapping … coverage 0.0% (target 100.0%), elapsed 36s / 900s
+[INFO] [1775519910.095002092] [exp3_slam_mapping]:   Mapping … coverage 0.0% (target 100.0%), elapsed 54s / 900s
+[INFO] [1775519928.158920917] [exp3_slam_mapping]:   Mapping … coverage 0.0% (target 100.0%), elapsed 72s / 900s
+[INFO] [1775519946.232826793] [exp3_slam_mapping]:   Mapping … coverage 0.0% (target 100.0%), elapsed 90s / 900s
+[INFO] [1775519964.322117732] [exp3_slam_mapping]:   Mapping … coverage 0.0% (target 100.0%), elapsed 108s / 900s
+[INFO] [1775519982.422410916] [exp3_slam_mapping]:   Mapping … coverage 0.0% (target 100.0%), elapsed 127s / 900s
+[INFO] [1775520000.520193121] [exp3_slam_mapping]:   Mapping … coverage 0.0% (target 100.0%), elapsed 145s / 900s
+[INFO] [1775520018.591134945] [exp3_slam_mapping]:   Mapping … coverage 0.0% (target 100.0%), elapsed 163s / 900s
+[WARN] [1775520036.742671038] [exp3_slam_mapping]:   /scan temporarily lost; pausing movement until LiDAR recovers.
+[INFO] [1775520050.213753931] [exp3_slam_mapping]:   Mapping … coverage 0.0% (target 100.0%), elapsed 194s / 900s
+[INFO] [1775520068.351974297] [exp3_slam_mapping]:   Mapping … coverage 0.0% (target 100.0%), elapsed 212s / 900s
+[INFO] [1775520086.565576352] [exp3_slam_mapping]:   Mapping … coverage 0.0% (target 100.0%), elapsed 231s / 900s
+[INFO] [1775520104.674956865] [exp3_slam_mapping]:   Mapping … coverage 0.0% (target 100.0%), elapsed 249s / 900s
+[INFO] [1775520122.736320544] [exp3_slam_mapping]:   Mapping … coverage 0.0% (target 100.0%), elapsed 267s / 900s
+[INFO] [1775520140.813939492] [exp3_slam_mapping]:   Mapping … coverage 0.0% (target 100.0%), elapsed 285s / 900s
+[INFO] [1775520158.936792502] [exp3_slam_mapping]:   Mapping … coverage 0.0% (target 100.0%), elapsed 303s / 900s
+[INFO] [1775520177.038388079] [exp3_slam_mapping]:   Mapping … coverage 0.0% (target 100.0%), elapsed 321s / 900s
+[INFO] [1775520195.124985593] [exp3_slam_mapping]:   Mapping … coverage 0.0% (target 100.0%), elapsed 339s / 900s
+[INFO] [1775520213.195660009] [exp3_slam_mapping]:   Mapping … coverage 0.0% (target 100.0%), elapsed 357s / 900s
+[INFO] [1775520231.245809460] [exp3_slam_mapping]:   Mapping … coverage 0.0% (target 100.0%), elapsed 375s / 900s
+[INFO] [1775520249.307934521] [exp3_slam_mapping]:   Mapping … coverage 0.0% (target 100.0%), elapsed 393s / 900s
+[INFO] [1775520267.357840097] [exp3_slam_mapping]:   Mapping … coverage 0.0% (target 100.0%), elapsed 411s / 900s
+[INFO] [1775520285.490837299] [exp3_slam_mapping]:   Mapping … coverage 0.0% (target 100.0%), elapsed 430s / 900s
+[INFO] [1775520303.588170825] [exp3_slam_mapping]:   Mapping … coverage 0.0% (target 100.0%), elapsed 448s / 900s
+[INFO] [1775520321.866705564] [exp3_slam_mapping]:   Mapping … coverage 0.0% (target 100.0%), elapsed 466s / 900s
+[WARN] [1775520340.415690191] [exp3_slam_mapping]:   /scan temporarily lost; pausing movement until LiDAR recovers.
+The following exception was never retrieved: 
